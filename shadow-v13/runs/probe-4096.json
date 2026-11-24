@@ -1,0 +1,18 @@
+{
+  "worlds": 4096,
+  "steps": 200,
+  "retained": 4096,
+  "meanOpposition": 0.9999988079071045,
+  "maxSelfMM": 0.053087249398231506,
+  "maxObjectMM": 0.49700289964675903,
+  "seconds": 6.504031818003568,
+  "stepsPerSecond": 125952.64336382903,
+  "capacity": {
+    "contacts": 27690,
+    "contactCapacity": 524288,
+    "constraints": 58,
+    "constraintCapacity": 512,
+    "finite": true,
+    "freeGiB": 16.46087646484375
+  }
+}

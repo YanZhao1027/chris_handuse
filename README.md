@@ -35,3 +35,6 @@ See [opposition-v10](opposition-v10/README.md). The new thumb mount passed 32/32
 
 ## V12: established manipulation baseline
 [shadow-v12](shadow-v12/README.md) introduces the pinned Menagerie Shadow E3M5 assets and the original Adroit Pen task with Minari expert data. GPU BC attains 79/96 stable successes on its independent test; standard-physics PPO fine-tuning attains 81/96 versus 75/96 for BC on a separate paired test. Adroit's NoSlip solver is preserved on CPU; CUDA runs learning. These are Adroit results, not E3M5/long-shaft transfer results. Asset download and experiment reproduction scripts are included; raw third-party assets/data are not redistributed.
+
+## V13: Shadow E3M5 long-shaft curriculum
+[shadow-v13](shadow-v13/README.md) integrates the official E3M5 model with the 220 mm, 55 g shaft. 96/96 independent CPU opposed-grasp trials and 4096/4096 randomized GPU hold trials passed. The new GPU PPO run uses 8192 environments, 1024 physical variants, and a bounded 600-update curriculum (157.3M planned policy interactions). Rotation results remain pending. No Adroit weights are directly transferred.

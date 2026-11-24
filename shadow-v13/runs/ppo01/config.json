@@ -1,0 +1,117 @@
+{
+  "worlds": 8192,
+  "variants": 1024,
+  "rollout": 32,
+  "updates": 600,
+  "epochs": 3,
+  "minibatch": 8192,
+  "lr": 0.0001,
+  "eval_every": 25,
+  "seed": 2026112413,
+  "out": "runs/ppo01",
+  "warm": null,
+  "baseline": {
+    "n": 32,
+    "success": 0.0,
+    "retained": 1.0,
+    "meanError": 22.654391787358858,
+    "meanOpposition": 1.0,
+    "invalidInitial": 0,
+    "bad": 0,
+    "byAngle": {
+      "-30": {
+        "n": 8,
+        "success": 0.0,
+        "retained": 1.0,
+        "meanError": 24.94514393949514,
+        "meanOpposition": 1.0,
+        "invalidInitial": 0,
+        "bad": 0
+      },
+      "-15": {
+        "n": 8,
+        "success": 0.0,
+        "retained": 1.0,
+        "meanError": 10.397569960131698,
+        "meanOpposition": 1.0,
+        "invalidInitial": 0,
+        "bad": 0
+      },
+      "15": {
+        "n": 8,
+        "success": 0.0,
+        "retained": 1.0,
+        "meanError": 20.36633655293673,
+        "meanOpposition": 1.0,
+        "invalidInitial": 0,
+        "bad": 0
+      },
+      "30": {
+        "n": 8,
+        "success": 0.0,
+        "retained": 1.0,
+        "meanError": 34.908516696871864,
+        "meanOpposition": 1.0,
+        "invalidInitial": 0,
+        "bad": 0
+      }
+    },
+    "negative": 0.0,
+    "positive": 0.0
+  },
+  "initial": {
+    "n": 32,
+    "success": 0.0,
+    "retained": 1.0,
+    "meanError": 22.672614169943593,
+    "meanOpposition": 1.0,
+    "invalidInitial": 0,
+    "bad": 0,
+    "byAngle": {
+      "-30": {
+        "n": 8,
+        "success": 0.0,
+        "retained": 1.0,
+        "meanError": 24.967358900030355,
+        "meanOpposition": 1.0,
+        "invalidInitial": 0,
+        "bad": 0
+      },
+      "-15": {
+        "n": 8,
+        "success": 0.0,
+        "retained": 1.0,
+        "meanError": 10.41827208191792,
+        "meanOpposition": 1.0,
+        "invalidInitial": 0,
+        "bad": 0
+      },
+      "15": {
+        "n": 8,
+        "success": 0.0,
+        "retained": 1.0,
+        "meanError": 20.387381421337466,
+        "meanOpposition": 1.0,
+        "invalidInitial": 0,
+        "bad": 0
+      },
+      "30": {
+        "n": 8,
+        "success": 0.0,
+        "retained": 1.0,
+        "meanError": 34.917444276488624,
+        "meanOpposition": 1.0,
+        "invalidInitial": 0,
+        "bad": 0
+      }
+    },
+    "negative": 0.0,
+    "positive": 0.0
+  },
+  "physicsStepsPerControl": 10,
+  "dt": 0.002,
+  "horizon": 200,
+  "obs": 90,
+  "act": 18,
+  "goal": "directed long axis in palm frame, rotation about palm Y; wrist servos fixed; 5-degree final error for 20 steps, opposition >=75%, free retention and depth limits"
+}
