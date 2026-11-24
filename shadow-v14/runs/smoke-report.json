@@ -1,0 +1,17 @@
+{
+  "n": 256,
+  "retained": 256,
+  "success": 117,
+  "multiWorlds": 121,
+  "recontacts": 2,
+  "maxSelfMM": 0.15484309196472168,
+  "maxObjectMM": 0.7222529649734497,
+  "capacity": {
+    "contacts": 1776,
+    "contactCapacity": 32768,
+    "constraints": 63,
+    "constraintCapacity": 512,
+    "finite": true,
+    "freeGiB": 20.9283447265625
+  }
+}

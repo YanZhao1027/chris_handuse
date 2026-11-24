@@ -38,3 +38,9 @@ See [opposition-v10](opposition-v10/README.md). The new thumb mount passed 32/32
 
 ## V13: Shadow E3M5 long-shaft curriculum
 [shadow-v13](shadow-v13/README.md) integrates the official E3M5 model with the 220 mm, 55 g shaft. 96/96 independent CPU opposed-grasp trials and 4096/4096 randomized GPU hold trials passed. The new GPU PPO run uses 8192 environments, 1024 physical variants, and a bounded 600-update curriculum (157.3M planned policy interactions). Rotation results remain pending. No Adroit weights are directly transferred.
+
+### V13 completed
+Selected update 575: 96/96 +/-15 degree independent CPU success, 1.625 degree mean directed-axis error, 5/96 +/-30 degree success. All 288 blind scenes retained. 600 updates, 157,286,400 policy steps, 1,572,864,000 physical steps, no recorded nonfinite episode. Results and replay trajectories committed.
+
+## V14: larger angles, second rotation plane, measured recontacts
+[shadow-v14](shadow-v14/README.md) inherits V13 best, unlocks full legal servo ranges, uses a scheduled frontier up to +/-45 degrees with anchor episodes, introduces a second plane, and audits unloaded/reloaded digits. 8192 worlds, bounded 900 PPO updates; new rotation results pending.
