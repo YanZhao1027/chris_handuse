@@ -1,0 +1,196 @@
+{
+  "nq": 31,
+  "nv": 30,
+  "nu": 20,
+  "njnt": 25,
+  "ntendon": 4,
+  "ngeom": 64,
+  "nmesh": 13,
+  "dt": 0.002,
+  "noslip": 0,
+  "integratedSteps": 500,
+  "simTime": 1.0000000000000007,
+  "finite": true,
+  "actuators": [
+    {
+      "id": 0,
+      "name": "rh_A_WRJ2",
+      "target": "rh_WRJ2",
+      "ctrlrange": [
+        -0.523599,
+        0.174533
+      ]
+    },
+    {
+      "id": 1,
+      "name": "rh_A_WRJ1",
+      "target": "rh_WRJ1",
+      "ctrlrange": [
+        -0.698132,
+        0.488692
+      ]
+    },
+    {
+      "id": 2,
+      "name": "rh_A_THJ5",
+      "target": "rh_THJ5",
+      "ctrlrange": [
+        -1.0472,
+        1.0472
+      ]
+    },
+    {
+      "id": 3,
+      "name": "rh_A_THJ4",
+      "target": "rh_THJ4",
+      "ctrlrange": [
+        0.0,
+        1.22173
+      ]
+    },
+    {
+      "id": 4,
+      "name": "rh_A_THJ3",
+      "target": "rh_THJ3",
+      "ctrlrange": [
+        -0.20944,
+        0.20944
+      ]
+    },
+    {
+      "id": 5,
+      "name": "rh_A_THJ2",
+      "target": "rh_THJ2",
+      "ctrlrange": [
+        -0.698132,
+        0.698132
+      ]
+    },
+    {
+      "id": 6,
+      "name": "rh_A_THJ1",
+      "target": "rh_THJ1",
+      "ctrlrange": [
+        -0.261799,
+        1.5708
+      ]
+    },
+    {
+      "id": 7,
+      "name": "rh_A_FFJ4",
+      "target": "rh_FFJ4",
+      "ctrlrange": [
+        -0.349066,
+        0.349066
+      ]
+    },
+    {
+      "id": 8,
+      "name": "rh_A_FFJ3",
+      "target": "rh_FFJ3",
+      "ctrlrange": [
+        -0.261799,
+        1.5708
+      ]
+    },
+    {
+      "id": 9,
+      "name": "rh_A_FFJ0",
+      "target": "rh_FFJ0",
+      "ctrlrange": [
+        0.0,
+        3.1415
+      ]
+    },
+    {
+      "id": 10,
+      "name": "rh_A_MFJ4",
+      "target": "rh_MFJ4",
+      "ctrlrange": [
+        -0.349066,
+        0.349066
+      ]
+    },
+    {
+      "id": 11,
+      "name": "rh_A_MFJ3",
+      "target": "rh_MFJ3",
+      "ctrlrange": [
+        -0.261799,
+        1.5708
+      ]
+    },
+    {
+      "id": 12,
+      "name": "rh_A_MFJ0",
+      "target": "rh_MFJ0",
+      "ctrlrange": [
+        0.0,
+        3.1415
+      ]
+    },
+    {
+      "id": 13,
+      "name": "rh_A_RFJ4",
+      "target": "rh_RFJ4",
+      "ctrlrange": [
+        -0.349066,
+        0.349066
+      ]
+    },
+    {
+      "id": 14,
+      "name": "rh_A_RFJ3",
+      "target": "rh_RFJ3",
+      "ctrlrange": [
+        -0.261799,
+        1.5708
+      ]
+    },
+    {
+      "id": 15,
+      "name": "rh_A_RFJ0",
+      "target": "rh_RFJ0",
+      "ctrlrange": [
+        0.0,
+        3.1415
+      ]
+    },
+    {
+      "id": 16,
+      "name": "rh_A_LFJ5",
+      "target": "rh_LFJ5",
+      "ctrlrange": [
+        0.0,
+        0.785398
+      ]
+    },
+    {
+      "id": 17,
+      "name": "rh_A_LFJ4",
+      "target": "rh_LFJ4",
+      "ctrlrange": [
+        -0.349066,
+        0.349066
+      ]
+    },
+    {
+      "id": 18,
+      "name": "rh_A_LFJ3",
+      "target": "rh_LFJ3",
+      "ctrlrange": [
+        -0.261799,
+        1.5708
+      ]
+    },
+    {
+      "id": 19,
+      "name": "rh_A_LFJ0",
+      "target": "rh_LFJ0",
+      "ctrlrange": [
+        0.0,
+        3.1415
+      ]
+    }
+  ]
+}

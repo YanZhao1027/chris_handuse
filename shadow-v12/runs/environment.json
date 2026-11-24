@@ -1,0 +1,20 @@
+{
+  "gymnasium": "1.2.1",
+  "gymnasium-robotics": "1.4.1",
+  "minari": "0.5.3",
+  "pettingzoo": "1.27.0",
+  "typer": "0.29.2",
+  "rich": "15.0.0",
+  "click": "8.5.1",
+  "shellingham": "1.5.4",
+  "markdown-it-py": "4.3.0",
+  "mdurl": "0.1.2",
+  "mujoco": "3.8.1",
+  "mujoco-warp": "3.8.1",
+  "warp-lang": "1.13.0",
+  "numpy": "2.5.3",
+  "scipy": "1.18.1",
+  "torch": "2.10.0+cu128",
+  "h5py": "3.16.0",
+  "huggingface-hub": "0.36.2"
+}

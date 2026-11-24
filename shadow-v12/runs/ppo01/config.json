@@ -1,0 +1,22 @@
+{
+  "workers": 12,
+  "per": 8,
+  "rollout": 64,
+  "updates": 100,
+  "out": "runs/ppo01",
+  "baseline": {
+    "n": 32,
+    "horizon": 200,
+    "meanReturn": 7749.330075341335,
+    "success20": 0.78125,
+    "stable20": 0.78125,
+    "finalSuccess": 0.75,
+    "everSuccess": 0.8125,
+    "everBelowHeight": 0.0,
+    "meanSuccessSteps": 121.65625
+  },
+  "worlds": 96,
+  "physics": "original CPU MuJoCo 3.8.1 with NoSlip 20",
+  "bcEpoch": 25,
+  "rewardScale": 60.0
+}

@@ -1,0 +1,5 @@
+.deps/
+.assets/
+.datasets/
+**/preview.mp4
+runs/install*.log

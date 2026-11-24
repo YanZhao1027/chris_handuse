@@ -32,3 +32,6 @@ See [opposition-v10](opposition-v10/README.md). The new thumb mount passed 32/32
 
 ## V11: lightweight long shaft
 [longshaft-v11](longshaft-v11/README.md) doubles nominal shaft length to 220 mm at unchanged 26 mm diameter and 55 g mass. An optimized thumb mount gives 127/128 independent opposed-grasp successes and 128/128 retained free-body trials. V11 is a grasp-validation milestone, not yet a learned rotation policy.
+
+## V12: established manipulation baseline
+[shadow-v12](shadow-v12/README.md) introduces the pinned Menagerie Shadow E3M5 assets and the original Adroit Pen task with Minari expert data. GPU BC attains 79/96 stable successes on its independent test; standard-physics PPO fine-tuning attains 81/96 versus 75/96 for BC on a separate paired test. Adroit's NoSlip solver is preserved on CPU; CUDA runs learning. These are Adroit results, not E3M5/long-shaft transfer results. Asset download and experiment reproduction scripts are included; raw third-party assets/data are not redistributed.

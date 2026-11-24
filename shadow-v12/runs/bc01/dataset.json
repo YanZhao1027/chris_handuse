@@ -1,0 +1,13 @@
+{
+  "dataset": "D4RL/pen/expert-v2",
+  "totalEpisodes": 4958,
+  "totalSteps": 499206,
+  "trainEpisodes": 4462,
+  "validationEpisodes": 496,
+  "trainSteps": 449371,
+  "validationSteps": 49835,
+  "splitSeed": 12012,
+  "expertMeanRecordedReturn": 3293.3390236440077,
+  "expertSuccess20FromStoredObservations": 0.7888261395724082,
+  "expertMeanSuccessSteps": 51.95724082291247
+}

@@ -1,0 +1,259 @@
+[
+  {
+    "epoch": 1,
+    "trainMSE": 0.1253962367773056,
+    "validationMSE": 0.10193150490522385,
+    "seconds": 0.268189791997429,
+    "onlineValidation": {
+      "n": 32,
+      "horizon": 200,
+      "meanReturn": 5759.385904920586,
+      "success20": 0.59375,
+      "stable20": 0.59375,
+      "finalSuccess": 0.5625,
+      "everSuccess": 0.59375,
+      "everBelowHeight": 0.0,
+      "meanSuccessSteps": 87.71875
+    }
+  },
+  {
+    "epoch": 2,
+    "trainMSE": 0.10042790323495865,
+    "validationMSE": 0.09837961941957474,
+    "seconds": 2.93438715999946
+  },
+  {
+    "epoch": 3,
+    "trainMSE": 0.09832523763179779,
+    "validationMSE": 0.09722764790058136,
+    "seconds": 3.0683480509978835
+  },
+  {
+    "epoch": 4,
+    "trainMSE": 0.09741632640361786,
+    "validationMSE": 0.09654227644205093,
+    "seconds": 3.1984130229975563
+  },
+  {
+    "epoch": 5,
+    "trainMSE": 0.09686318784952164,
+    "validationMSE": 0.09616570174694061,
+    "seconds": 3.3320053729985375,
+    "onlineValidation": {
+      "n": 32,
+      "horizon": 200,
+      "meanReturn": 7219.088505477657,
+      "success20": 0.65625,
+      "stable20": 0.65625,
+      "finalSuccess": 0.625,
+      "everSuccess": 0.65625,
+      "everBelowHeight": 0.0,
+      "meanSuccessSteps": 109.59375
+    }
+  },
+  {
+    "epoch": 6,
+    "trainMSE": 0.09648388624191284,
+    "validationMSE": 0.09582974761724472,
+    "seconds": 6.029926177994639
+  },
+  {
+    "epoch": 7,
+    "trainMSE": 0.0962318405508995,
+    "validationMSE": 0.09559379518032074,
+    "seconds": 6.163272838995908
+  },
+  {
+    "epoch": 8,
+    "trainMSE": 0.09603169560432434,
+    "validationMSE": 0.09552854299545288,
+    "seconds": 6.281010611994134
+  },
+  {
+    "epoch": 9,
+    "trainMSE": 0.09586739540100098,
+    "validationMSE": 0.09535131603479385,
+    "seconds": 6.403868884997792
+  },
+  {
+    "epoch": 10,
+    "trainMSE": 0.09573742002248764,
+    "validationMSE": 0.09522290527820587,
+    "seconds": 6.537312704997021,
+    "onlineValidation": {
+      "n": 32,
+      "horizon": 200,
+      "meanReturn": 7544.644927826281,
+      "success20": 0.71875,
+      "stable20": 0.71875,
+      "finalSuccess": 0.71875,
+      "everSuccess": 0.71875,
+      "everBelowHeight": 0.03125,
+      "meanSuccessSteps": 118.40625
+    }
+  },
+  {
+    "epoch": 11,
+    "trainMSE": 0.0956311821937561,
+    "validationMSE": 0.09523450583219528,
+    "seconds": 9.247437029996945
+  },
+  {
+    "epoch": 12,
+    "trainMSE": 0.09553517401218414,
+    "validationMSE": 0.09505308419466019,
+    "seconds": 9.359940523994737
+  },
+  {
+    "epoch": 13,
+    "trainMSE": 0.09546232223510742,
+    "validationMSE": 0.09502854943275452,
+    "seconds": 9.472323568996217
+  },
+  {
+    "epoch": 14,
+    "trainMSE": 0.09540283679962158,
+    "validationMSE": 0.09501729160547256,
+    "seconds": 9.583850643997721
+  },
+  {
+    "epoch": 15,
+    "trainMSE": 0.09533397853374481,
+    "validationMSE": 0.09490426629781723,
+    "seconds": 9.697322478998103,
+    "onlineValidation": {
+      "n": 32,
+      "horizon": 200,
+      "meanReturn": 7461.001002522824,
+      "success20": 0.75,
+      "stable20": 0.75,
+      "finalSuccess": 0.6875,
+      "everSuccess": 0.75,
+      "everBelowHeight": 0.03125,
+      "meanSuccessSteps": 114.53125
+    }
+  },
+  {
+    "epoch": 16,
+    "trainMSE": 0.09528488665819168,
+    "validationMSE": 0.09490781277418137,
+    "seconds": 12.463955431994691
+  },
+  {
+    "epoch": 17,
+    "trainMSE": 0.0952407643198967,
+    "validationMSE": 0.09480322897434235,
+    "seconds": 12.597398691999842
+  },
+  {
+    "epoch": 18,
+    "trainMSE": 0.09519301354885101,
+    "validationMSE": 0.09487009048461914,
+    "seconds": 12.71971121399838
+  },
+  {
+    "epoch": 19,
+    "trainMSE": 0.09515770524740219,
+    "validationMSE": 0.09478605538606644,
+    "seconds": 12.837845807996928
+  },
+  {
+    "epoch": 20,
+    "trainMSE": 0.0950956642627716,
+    "validationMSE": 0.0948091372847557,
+    "seconds": 12.971308026993938,
+    "onlineValidation": {
+      "n": 32,
+      "horizon": 200,
+      "meanReturn": 7404.151839287406,
+      "success20": 0.75,
+      "stable20": 0.75,
+      "finalSuccess": 0.6875,
+      "everSuccess": 0.75,
+      "everBelowHeight": 0.0,
+      "meanSuccessSteps": 113.3125
+    }
+  },
+  {
+    "epoch": 21,
+    "trainMSE": 0.09508021920919418,
+    "validationMSE": 0.09469569474458694,
+    "seconds": 15.789691950994893
+  },
+  {
+    "epoch": 22,
+    "trainMSE": 0.09503976255655289,
+    "validationMSE": 0.09472504258155823,
+    "seconds": 15.92325017999974
+  },
+  {
+    "epoch": 23,
+    "trainMSE": 0.0950186550617218,
+    "validationMSE": 0.09469815343618393,
+    "seconds": 16.05327610999666
+  },
+  {
+    "epoch": 24,
+    "trainMSE": 0.0949864462018013,
+    "validationMSE": 0.09461933374404907,
+    "seconds": 16.186883699992904
+  },
+  {
+    "epoch": 25,
+    "trainMSE": 0.09496837854385376,
+    "validationMSE": 0.09467311948537827,
+    "seconds": 16.320002958993427,
+    "onlineValidation": {
+      "n": 32,
+      "horizon": 200,
+      "meanReturn": 8593.729254069556,
+      "success20": 0.8125,
+      "stable20": 0.8125,
+      "finalSuccess": 0.8125,
+      "everSuccess": 0.8125,
+      "everBelowHeight": 0.03125,
+      "meanSuccessSteps": 135.25
+    }
+  },
+  {
+    "epoch": 26,
+    "trainMSE": 0.0949225053191185,
+    "validationMSE": 0.09464139491319656,
+    "seconds": 19.03663316899474
+  },
+  {
+    "epoch": 27,
+    "trainMSE": 0.09489990025758743,
+    "validationMSE": 0.0946318656206131,
+    "seconds": 19.149747082999966
+  },
+  {
+    "epoch": 28,
+    "trainMSE": 0.0948801189661026,
+    "validationMSE": 0.09464096277952194,
+    "seconds": 19.279465101993992
+  },
+  {
+    "epoch": 29,
+    "trainMSE": 0.09485241770744324,
+    "validationMSE": 0.09458713233470917,
+    "seconds": 19.412259180993715
+  },
+  {
+    "epoch": 30,
+    "trainMSE": 0.09484366327524185,
+    "validationMSE": 0.09451504051685333,
+    "seconds": 19.545349269996223,
+    "onlineValidation": {
+      "n": 32,
+      "horizon": 200,
+      "meanReturn": 8476.812870694277,
+      "success20": 0.8125,
+      "stable20": 0.8125,
+      "finalSuccess": 0.8125,
+      "everSuccess": 0.8125,
+      "everBelowHeight": 0.0,
+      "meanSuccessSteps": 134.0625
+    }
+  }
+]

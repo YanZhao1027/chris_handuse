@@ -1,0 +1,144 @@
+{
+  "repo": "google-deepmind/mujoco_menagerie",
+  "commit": "eea4c7431b63da8278b0ff31638e0b0e941cec0e",
+  "files": [
+    {
+      "path": "shadow_hand/CHANGELOG.md",
+      "size": 149,
+      "sha": "8208521e065746d634030781e73e98bae22bc2f1",
+      "sha256": "05e6df12323c6975d6f069b609e78eeb330ae36914abdecfef51e4e71ad936f3"
+    },
+    {
+      "path": "shadow_hand/LICENSE",
+      "size": 11355,
+      "sha": "34e408254ab138d12c7b224dc263df8792225304",
+      "sha256": "d42cae9a0f292b7a713597ba26e1e1e23d50df906c488f0d36fd3538af200bc1"
+    },
+    {
+      "path": "shadow_hand/README.md",
+      "size": 1850,
+      "sha": "fb2262904c3c17b40cb703f328d156ae6af60323",
+      "sha256": "451943a22b2312a3152a55e9ec47fd449e89e3c674ccd8c763364e61cfe3f137"
+    },
+    {
+      "path": "shadow_hand/assets/f_distal_pst.obj",
+      "size": 341254,
+      "sha": "ab556802561e2d09b91c8a48e4f2edc2300b762e",
+      "sha256": "350fcd33bc8ead915c0f646c8303d6b7554ad50ce546a128671d8d1fc75d5807"
+    },
+    {
+      "path": "shadow_hand/assets/f_knuckle.obj",
+      "size": 34351,
+      "sha": "70d01bd89ec3cb4d0ad0045db3a4a05b7bcd52dc",
+      "sha256": "e997543c6c635fa80d152655869fe1d5bc1000a55f7fb648544a8755f068a075"
+    },
+    {
+      "path": "shadow_hand/assets/f_middle.obj",
+      "size": 25738,
+      "sha": "2d9332e2a75bfb22c0faf4157c8ba3e891ea31e5",
+      "sha256": "8e78001a2ff735088cd71e009498ac73e4f966a6055d3bc864db049eacdbda11"
+    },
+    {
+      "path": "shadow_hand/assets/f_proximal.obj",
+      "size": 64846,
+      "sha": "98a4dbaab0b4c5e69f57b63780bad35c681ffa15",
+      "sha256": "ec7741fb5a9ee379faec68091de1086ade627b46a73f0a32b3cc09fec72524e3"
+    },
+    {
+      "path": "shadow_hand/assets/forearm_0.obj",
+      "size": 80439,
+      "sha": "c60d78e64509224e2accb0a02d151a68d251a52d",
+      "sha256": "4d175854bbd3c93627eb6b9f09296efd4e133cd72885b9bc57c82f902c8c94c4"
+    },
+    {
+      "path": "shadow_hand/assets/forearm_1.obj",
+      "size": 1433615,
+      "sha": "3791270923ad6ac7c0b04fd454699937328c92b7",
+      "sha256": "6ada902a47f61f000fb14cbb8245e2093ff32e3e6b43deea790fe5d034864774"
+    },
+    {
+      "path": "shadow_hand/assets/forearm_collision.obj",
+      "size": 26812,
+      "sha": "7281bdbdb8f3a28cbe90f842685a7f28a2c9e9d6",
+      "sha256": "38328466d52194888812a15da0dd3d5a1ef786a005121338f6a5a8ce3057602d"
+    },
+    {
+      "path": "shadow_hand/assets/lf_metacarpal.obj",
+      "size": 88696,
+      "sha": "a34f617285afa466b01dfa6a28a5f4b4685d4587",
+      "sha256": "71d5317a6c0a5dcf6070791981f2a4720919d0419d0c17b400aef91343ce6baa"
+    },
+    {
+      "path": "shadow_hand/assets/mounting_plate.obj",
+      "size": 118690,
+      "sha": "6cb2644f60ad304daf12d353c3db940a0194f322",
+      "sha256": "32897f8d46e463657a822943c31f440dc6bbac87b5c7939d10cdbf971291e8d9"
+    },
+    {
+      "path": "shadow_hand/assets/palm.obj",
+      "size": 775747,
+      "sha": "1237d1c4cf28f04e699a0a433ae4f20865cc291d",
+      "sha256": "614cf65374fafaceb713f4ee711692be6a3a0a7851ff2e720925f3a858cb3882"
+    },
+    {
+      "path": "shadow_hand/assets/th_distal_pst.obj",
+      "size": 300842,
+      "sha": "3611a875048605f2528ddafc3f84b1302e10cda9",
+      "sha256": "ca87b937114face76a91810f2ee60ea4fc217b57ffa9a7a7f166169a3ebf7da1"
+    },
+    {
+      "path": "shadow_hand/assets/th_middle.obj",
+      "size": 75080,
+      "sha": "39305053aac9512f87ef3f718907fbe3104bccf6",
+      "sha256": "a83bd4451f98d88c6c43ca0bbba30b6fd95b205da13adf9aff5a56c5aff3b4a8"
+    },
+    {
+      "path": "shadow_hand/assets/th_proximal.obj",
+      "size": 23772,
+      "sha": "9002b2468aa45865f077aca56b0e98eab5477dff",
+      "sha256": "71ffd5329c80a0cef890da0ff490b8e04200ff53154e5b416ce0be24a6a1b256"
+    },
+    {
+      "path": "shadow_hand/assets/wrist.obj",
+      "size": 110838,
+      "sha": "5d510cdf5ab17bdc271fbff06a6e88cd8d09841f",
+      "sha256": "fc5620e4d9ea46d9526f0b40f8586bb5607e8ca763e5e23dab907a1baaf4890d"
+    },
+    {
+      "path": "shadow_hand/keyframes.xml",
+      "size": 2427,
+      "sha": "98f2d0739d4ddf60823641d5438247895486b584",
+      "sha256": "041e25d45c9e5258df06634aa5b4f7979bbb4262edd38657425fda73fec84ab2"
+    },
+    {
+      "path": "shadow_hand/left_hand.xml",
+      "size": 17474,
+      "sha": "4f31659e37beaf40dae179b8ace677b1012faaae",
+      "sha256": "f095444438615241361bcac3495f797cda81fdd30cab18dd3de905ef1ac28cf4"
+    },
+    {
+      "path": "shadow_hand/right_hand.xml",
+      "size": 17406,
+      "sha": "bc8c7e1013dea8e257b2ba18a6cd6387cdf312b3",
+      "sha256": "ac14d09dd12b62c3ca62233d0ac646101cc718146dda76e26d0b993a91abf399"
+    },
+    {
+      "path": "shadow_hand/scene_left.xml",
+      "size": 1064,
+      "sha": "86195a212289590f8242f8fb64001c1675a07e1a",
+      "sha256": "ac1fd503010770dc6748ad102244209ca547385a2a715798858492c1d5a67722"
+    },
+    {
+      "path": "shadow_hand/scene_right.xml",
+      "size": 1066,
+      "sha": "103f0b7db262f73cf354ee033b8f518a76e1a5b5",
+      "sha256": "182a2b704ab70c91e665864ef58396e5f7cd14fd85a6f32a9cf0ba171adb08a9"
+    },
+    {
+      "path": "shadow_hand/shadow_hand.png",
+      "size": 1216467,
+      "sha": "369b4a1de77521cab2e1bc5f1cf090a661f58bd7",
+      "sha256": "0cc1703b54308c4fb04b4ec0b777397a370f9a3d652f15c63bce69cebe11d836"
+    }
+  ]
+}
