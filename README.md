@@ -29,3 +29,6 @@ Redesign the thumb as a physically opposing digit, verify opposing contact norma
 
 ## V10 snapshot: opposed thumb
 See [opposition-v10](opposition-v10/README.md). The new thumb mount passed 32/32 independent CPU opposed-grasp trials and the 64-world GPU hold probe. Rotation search found no successful demonstrations under the new criterion; the bounded PPO run has been launched with a searched-action prior. No claim of learned rotation yet. Exact collision-geometry replay is included.
+
+## V11: lightweight long shaft
+[longshaft-v11](longshaft-v11/README.md) doubles nominal shaft length to 220 mm at unchanged 26 mm diameter and 55 g mass. An optimized thumb mount gives 127/128 independent opposed-grasp successes and 128/128 retained free-body trials. V11 is a grasp-validation milestone, not yet a learned rotation policy.
