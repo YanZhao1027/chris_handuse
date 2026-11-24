@@ -1,0 +1,27 @@
+{
+  "gpuSuccess": 57,
+  "gpuRetained": 64,
+  "gpuMeanOpposition": 1.0,
+  "gpuMaxSelfMM": 0.0,
+  "gpuMaxObjectMM": 0.977212330326438,
+  "cpu": {
+    "n": 64,
+    "grasped": 0.921875,
+    "retained": 0.921875,
+    "success": 0.921875,
+    "meanErrorRetained": 3.9610867367423714,
+    "meanCappedError": 17.71412683543437,
+    "bad": 0,
+    "meanOppositionFraction": 0.99859375,
+    "maxSelfPenetrationMM": 0.0,
+    "maxObjectPenetrationMM": 0.8838213599540716
+  },
+  "capacity": {
+    "contacts": 570,
+    "contactCapacity": 6144,
+    "maxConstraints": 42,
+    "constraintCapacity": 384,
+    "finite": true
+  },
+  "n": 64
+}

@@ -1,0 +1,18 @@
+{
+  "seed": 1003000,
+  "success": true,
+  "retained": true,
+  "opposedFraction": 1.0,
+  "maxSelfMM": 0.0,
+  "maxObjectMM": 0.8670227655271576,
+  "driftMM": 13.850868827983293,
+  "meanCos": -0.9848965856527849,
+  "thumbForce": 0.5957110702538335,
+  "fingerForce": 6.167158950301221,
+  "initialMM": 2.5974131582970994,
+  "score": 7.274367826329541,
+  "geometryAudit": {
+    "maxSelfPenetrationMM": 0.0,
+    "maxRodPenetrationMM": 0.7499143419876682
+  }
+}

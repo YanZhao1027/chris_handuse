@@ -26,3 +26,6 @@ Key files: physics-v2/model.py; rl-v3/env.py; gpu-v4/gpu_env.py; rod-v8/runs/ass
 
 ## Next stage
 Redesign the thumb as a physically opposing digit, verify opposing contact normals and nonpenetration after fixture removal, then train a new grasp/rotation policy. Do not treat a four-finger hook grasp as an opposed grasp.
+
+## V10 snapshot: opposed thumb
+See [opposition-v10](opposition-v10/README.md). The new thumb mount passed 32/32 independent CPU opposed-grasp trials and the 64-world GPU hold probe. Rotation search found no successful demonstrations under the new criterion; the bounded PPO run has been launched with a searched-action prior. No claim of learned rotation yet. Exact collision-geometry replay is included.

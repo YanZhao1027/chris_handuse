@@ -1,0 +1,13 @@
+:root{--ink:#263d44;--muted:#60787c;--accent:#267d87;--paper:#f7f9f8;--edge:#c9d6d5}
+#lab{position:absolute;inset:0;display:grid;grid-template-rows:86px minmax(0,1fr) 96px;background:var(--paper);color:var(--ink);font:14px Arial,sans-serif}
+header{padding:15px 24px;border-bottom:1px solid var(--edge);display:flex;align-items:center;justify-content:space-between;gap:18px}
+header>div:first-child{border-left:6px solid var(--accent);padding-left:14px}h1{font-size:34px;letter-spacing:-.06em;margin:4px 0 0}h1 em{font-style:normal;color:var(--accent)}
+small,.meta,.footnote{font:600 11px/1.5 monospace;letter-spacing:.04em;color:var(--accent)}.meta{text-align:right;color:var(--muted)}
+main{min-height:0;display:grid;grid-template-columns:245px minmax(0,1fr) 265px}aside{padding:20px 15px;overflow:auto}aside:first-child{border-right:1px solid var(--edge)}aside:last-child{border-left:1px solid var(--edge)}
+h2{font-size:24px;letter-spacing:-.04em;margin:7px 0 12px}p{color:var(--muted);line-height:1.6;font-size:12px}
+.metric{padding:10px 0;display:flex;flex-direction:column;gap:5px;border-bottom:1px solid var(--edge)}.metric span{font:12px monospace;color:var(--muted)}.metric strong{font:700 20px monospace}hr{border:0;border-top:1px solid var(--edge);margin:16px 0}
+button{padding:8px 10px;margin:4px 3px 0 0;border-radius:5px;border:1px solid var(--edge);background:white;color:var(--ink);cursor:pointer;font:600 12px Arial,sans-serif}button:hover{border-color:var(--accent);color:var(--accent)}
+#view{position:relative;min-width:0;overflow:hidden;background:#e8efee}#sim{width:100%;height:100%;display:block;cursor:grab;touch-action:none}.overlay{position:absolute;top:18px;left:18px;display:flex;flex-direction:column;gap:8px;pointer-events:none}.overlay strong{font:700 13px monospace}
+.legend{position:absolute;bottom:16px;left:18px;font:11px monospace;color:var(--muted);display:flex;align-items:center;gap:6px}.legend i{display:inline-block;width:10px;height:10px;border-radius:50%;background:#397f88}.legend i:nth-child(2){background:#f0aa37}
+footer{padding:9px 23px;border-top:1px solid var(--edge);display:grid;gap:5px;background:white}.transport{display:flex;align-items:center}.transport b{margin-left:auto;font:700 13px monospace}.footnote{display:flex;justify-content:space-between;font-size:10px;color:var(--muted)}
+@media(max-width:1050px){main{grid-template-columns:200px minmax(0,1fr) 210px}aside{padding:12px}h1{font-size:28px}}
