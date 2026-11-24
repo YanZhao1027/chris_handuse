@@ -1,0 +1,3181 @@
+{
+  "summary": {
+    "n": 96,
+    "grasped": 1.0,
+    "retained": 0.6041666666666666,
+    "success": 0.0,
+    "meanErrorRetained": 16.458359731041668,
+    "meanCappedError": 81.19359233750434,
+    "bad": 0
+  },
+  "trials": [
+    {
+      "seed": 880000,
+      "params": {
+        "center": [
+          -0.010328600904254958,
+          0.011261342824831912,
+          0.03728409240358597
+        ],
+        "radius": 0.017943270731279846,
+        "mass": 0.05075158435067804,
+        "friction": 1.0427138890402066,
+        "half_length": 0.040135187928621044,
+        "axes": [
+          0.040135187928621044,
+          0.017943270731279846,
+          0.017943270731279846
+        ]
+      },
+      "targetDegrees": 10.0,
+      "success": false,
+      "retained": true,
+      "grasped": true,
+      "bad": false,
+      "dropped": false,
+      "errorDegrees": 19.614057595917604,
+      "bestErrorDegrees": 10.279807444628858,
+      "angularSpeed": 0.009055677509099701,
+      "streak": 0,
+      "finalHeight": 0.28355369012148585,
+      "maxHoldDrift": 0.024233752475012634,
+      "fixture": false,
+      "steps": 150
+    },
+    {
+      "seed": 880001,
+      "params": {
+        "center": [
+          -0.01102047069945185,
+          0.011419935599327597,
+          0.037459735720344466
+        ],
+        "radius": 0.018127342575563317,
+        "mass": 0.05638070091412236,
+        "friction": 1.019565093793627,
+        "half_length": 0.039425823425605286,
+        "axes": [
+          0.039425823425605286,
+          0.018127342575563317,
+          0.018127342575563317
+        ]
+      },
+      "targetDegrees": -10.0,
+      "success": false,
+      "retained": false,
+      "grasped": true,
+      "bad": false,
+      "dropped": false,
+      "errorDegrees": 15.583322491710597,
+      "bestErrorDegrees": 9.519161913329816,
+      "angularSpeed": 0.018301240669454787,
+      "streak": 0,
+      "finalHeight": 0.2825197319074301,
+      "maxHoldDrift": 0.025856124104865253,
+      "fixture": false,
+      "steps": 150
+    },
+    {
+      "seed": 880002,
+      "params": {
+        "center": [
+          -0.009874733942801453,
+          0.01056291238025756,
+          0.03757562491266101
+        ],
+        "radius": 0.017661255155056683,
+        "mass": 0.052060895613300844,
+        "friction": 1.0718278417980047,
+        "half_length": 0.039404562624011076,
+        "axes": [
+          0.039404562624011076,
+          0.017661255155056683,
+          0.017661255155056683
+        ]
+      },
+      "targetDegrees": 10.0,
+      "success": false,
+      "retained": true,
+      "grasped": true,
+      "bad": false,
+      "dropped": false,
+      "errorDegrees": 19.165014840631272,
+      "bestErrorDegrees": 10.266522665392902,
+      "angularSpeed": 0.009242654958744004,
+      "streak": 0,
+      "finalHeight": 0.28318364093508963,
+      "maxHoldDrift": 0.02395543964813307,
+      "fixture": false,
+      "steps": 150
+    },
+    {
+      "seed": 880003,
+      "params": {
+        "center": [
+          -0.010951590383754702,
+          0.01159276946480273,
+          0.03575793867799645
+        ],
+        "radius": 0.018284043403785886,
+        "mass": 0.0537964902449677,
+        "friction": 0.9726877595078081,
+        "half_length": 0.039923659842145715,
+        "axes": [
+          0.039923659842145715,
+          0.018284043403785886,
+          0.018284043403785886
+        ]
+      },
+      "targetDegrees": -10.0,
+      "success": false,
+      "retained": false,
+      "grasped": true,
+      "bad": false,
+      "dropped": false,
+      "errorDegrees": 17.264018867713595,
+      "bestErrorDegrees": 9.742975077212828,
+      "angularSpeed": 0.024166203666802905,
+      "streak": 0,
+      "finalHeight": 0.282776384481404,
+      "maxHoldDrift": 0.028146525178784694,
+      "fixture": false,
+      "steps": 150
+    },
+    {
+      "seed": 880004,
+      "params": {
+        "center": [
+          -0.011710071404707447,
+          0.009990094278086142,
+          0.03576703993307623
+        ],
+        "radius": 0.017730137276774006,
+        "mass": 0.05045799250942115,
+        "friction": 0.9439624125303125,
+        "half_length": 0.040983413934842165,
+        "axes": [
+          0.040983413934842165,
+          0.017730137276774006,
+          0.017730137276774006
+        ]
+      },
+      "targetDegrees": 10.0,
+      "success": false,
+      "retained": true,
+      "grasped": true,
+      "bad": false,
+      "dropped": false,
+      "errorDegrees": 19.10467743677162,
+      "bestErrorDegrees": 10.199847118988462,
+      "angularSpeed": 0.009048458063639436,
+      "streak": 0,
+      "finalHeight": 0.2835892358929479,
+      "maxHoldDrift": 0.023954282897295186,
+      "fixture": false,
+      "steps": 150
+    },
+    {
+      "seed": 880005,
+      "params": {
+        "center": [
+          -0.009822782935505283,
+          0.009701675152823289,
+          0.03752278791808656
+        ],
+        "radius": 0.01792747234211081,
+        "mass": 0.05372496530427904,
+        "friction": 0.9966881927673495,
+        "half_length": 0.04051699203864836,
+        "axes": [
+          0.04051699203864836,
+          0.01792747234211081,
+          0.01792747234211081
+        ]
+      },
+      "targetDegrees": -10.0,
+      "success": false,
+      "retained": false,
+      "grasped": true,
+      "bad": false,
+      "dropped": false,
+      "errorDegrees": 15.356022609140059,
+      "bestErrorDegrees": 9.669564586360947,
+      "angularSpeed": 0.010641538505613585,
+      "streak": 0,
+      "finalHeight": 0.28299775702385177,
+      "maxHoldDrift": 0.025201809294190136,
+      "fixture": false,
+      "steps": 150
+    },
+    {
+      "seed": 880006,
+      "params": {
+        "center": [
+          -0.010937576900651719,
+          0.01045633362647019,
+          0.03708053909491891
+        ],
+        "radius": 0.018245253372901216,
+        "mass": 0.050985141531221585,
+        "friction": 1.0808690818310553,
+        "half_length": 0.040884331414738254,
+        "axes": [
+          0.040884331414738254,
+          0.018245253372901216,
+          0.018245253372901216
+        ]
+      },
+      "targetDegrees": 10.0,
+      "success": false,
+      "retained": false,
+      "grasped": true,
+      "bad": false,
+      "dropped": false,
+      "errorDegrees": 19.832153207568833,
+      "bestErrorDegrees": 10.215162918244603,
+      "angularSpeed": 0.010887292715029263,
+      "streak": 0,
+      "finalHeight": 0.2836042255248125,
+      "maxHoldDrift": 0.02512545154310259,
+      "fixture": false,
+      "steps": 150
+    },
+    {
+      "seed": 880007,
+      "params": {
+        "center": [
+          -0.011721247620792977,
+          0.011661091331033258,
+          0.03687187020105958
+        ],
+        "radius": 0.018138020808212255,
+        "mass": 0.05810185356524584,
+        "friction": 1.0454935413669606,
+        "half_length": 0.040236310538190045,
+        "axes": [
+          0.040236310538190045,
+          0.018138020808212255,
+          0.018138020808212255
+        ]
+      },
+      "targetDegrees": -10.0,
+      "success": false,
+      "retained": true,
+      "grasped": true,
+      "bad": false,
+      "dropped": false,
+      "errorDegrees": 14.872222336489939,
+      "bestErrorDegrees": 9.331958571324222,
+      "angularSpeed": 0.018513389681001295,
+      "streak": 0,
+      "finalHeight": 0.2823259994729854,
+      "maxHoldDrift": 0.024991101197804788,
+      "fixture": false,
+      "steps": 150
+    },
+    {
+      "seed": 880008,
+      "params": {
+        "center": [
+          -0.011716680517461735,
+          0.009726878904265985,
+          0.03583401398269609
+        ],
+        "radius": 0.017954253836202368,
+        "mass": 0.05747866668505901,
+        "friction": 0.9594232287282781,
+        "half_length": 0.03947817574550323,
+        "axes": [
+          0.03947817574550323,
+          0.017954253836202368,
+          0.017954253836202368
+        ]
+      },
+      "targetDegrees": 10.0,
+      "success": false,
+      "retained": true,
+      "grasped": true,
+      "bad": false,
+      "dropped": false,
+      "errorDegrees": 17.402846389640295,
+      "bestErrorDegrees": 10.181512833731855,
+      "angularSpeed": 0.014886178602794106,
+      "streak": 0,
+      "finalHeight": 0.28245017264572264,
+      "maxHoldDrift": 0.02426150748160776,
+      "fixture": false,
+      "steps": 150
+    },
+    {
+      "seed": 880009,
+      "params": {
+        "center": [
+          -0.010201097839053352,
+          0.010259704072790473,
+          0.03623504259325159
+        ],
+        "radius": 0.01771981132033542,
+        "mass": 0.05259494378964948,
+        "friction": 1.0370876406933616,
+        "half_length": 0.03947284211610378,
+        "axes": [
+          0.03947284211610378,
+          0.01771981132033542,
+          0.01771981132033542
+        ]
+      },
+      "targetDegrees": -10.0,
+      "success": false,
+      "retained": true,
+      "grasped": true,
+      "bad": false,
+      "dropped": false,
+      "errorDegrees": 14.698364864950147,
+      "bestErrorDegrees": 9.374606873186655,
+      "angularSpeed": 0.009193088233199146,
+      "streak": 0,
+      "finalHeight": 0.2831846785409343,
+      "maxHoldDrift": 0.024400854667931605,
+      "fixture": false,
+      "steps": 150
+    },
+    {
+      "seed": 880010,
+      "params": {
+        "center": [
+          -0.010136613683440467,
+          0.011729746396056881,
+          0.036728278866615095
+        ],
+        "radius": 0.017934021117461833,
+        "mass": 0.052583656829512854,
+        "friction": 1.0519701812968145,
+        "half_length": 0.040657169637332305,
+        "axes": [
+          0.040657169637332305,
+          0.017934021117461833,
+          0.017934021117461833
+        ]
+      },
+      "targetDegrees": 10.0,
+      "success": false,
+      "retained": true,
+      "grasped": true,
+      "bad": false,
+      "dropped": false,
+      "errorDegrees": 18.66197067905754,
+      "bestErrorDegrees": 10.234918753200386,
+      "angularSpeed": 0.009165168860416661,
+      "streak": 0,
+      "finalHeight": 0.2832768999293076,
+      "maxHoldDrift": 0.024693290537009686,
+      "fixture": false,
+      "steps": 150
+    },
+    {
+      "seed": 880011,
+      "params": {
+        "center": [
+          -0.010013725065769105,
+          0.010972346531787415,
+          0.036859185146188495
+        ],
+        "radius": 0.01765348217418954,
+        "mass": 0.0566007856911368,
+        "friction": 1.090611108263228,
+        "half_length": 0.04000818657020175,
+        "axes": [
+          0.04000818657020175,
+          0.01765348217418954,
+          0.01765348217418954
+        ]
+      },
+      "targetDegrees": -10.0,
+      "success": false,
+      "retained": true,
+      "grasped": true,
+      "bad": false,
+      "dropped": false,
+      "errorDegrees": 13.750230401141279,
+      "bestErrorDegrees": 9.086355893712083,
+      "angularSpeed": 0.009036798792884146,
+      "streak": 0,
+      "finalHeight": 0.2825583425850439,
+      "maxHoldDrift": 0.024142208490938327,
+      "fixture": false,
+      "steps": 150
+    },
+    {
+      "seed": 880012,
+      "params": {
+        "center": [
+          -0.009688876360676146,
+          0.011125852746594767,
+          0.036080263324797045
+        ],
+        "radius": 0.01783956977959358,
+        "mass": 0.05057364058054149,
+        "friction": 1.0422644864344104,
+        "half_length": 0.0399605487402725,
+        "axes": [
+          0.0399605487402725,
+          0.01783956977959358,
+          0.01783956977959358
+        ]
+      },
+      "targetDegrees": 10.0,
+      "success": false,
+      "retained": true,
+      "grasped": true,
+      "bad": false,
+      "dropped": false,
+      "errorDegrees": 19.612352154701288,
+      "bestErrorDegrees": 10.189235623950246,
+      "angularSpeed": 0.009637628454125274,
+      "streak": 0,
+      "finalHeight": 0.2835535706291289,
+      "maxHoldDrift": 0.02420954432695555,
+      "fixture": false,
+      "steps": 150
+    },
+    {
+      "seed": 880013,
+      "params": {
+        "center": [
+          -0.010789972350802165,
+          0.010499149719947453,
+          0.037217670734870936
+        ],
+        "radius": 0.01816381114898404,
+        "mass": 0.05142093086751919,
+        "friction": 1.0470065120059855,
+        "half_length": 0.03960327531714038,
+        "axes": [
+          0.03960327531714038,
+          0.01816381114898404,
+          0.01816381114898404
+        ]
+      },
+      "targetDegrees": -10.0,
+      "success": false,
+      "retained": false,
+      "grasped": true,
+      "bad": false,
+      "dropped": false,
+      "errorDegrees": 15.710708958421286,
+      "bestErrorDegrees": 9.644127483663675,
+      "angularSpeed": 0.011882630909852204,
+      "streak": 0,
+      "finalHeight": 0.28345678977954164,
+      "maxHoldDrift": 0.025071203569668635,
+      "fixture": false,
+      "steps": 150
+    },
+    {
+      "seed": 880014,
+      "params": {
+        "center": [
+          -0.011976892131133636,
+          0.011775929856125144,
+          0.03576710744590558
+        ],
+        "radius": 0.017764517121373904,
+        "mass": 0.05533987757706212,
+        "friction": 1.0785793537642885,
+        "half_length": 0.04100928814922892,
+        "axes": [
+          0.04100928814922892,
+          0.017764517121373904,
+          0.017764517121373904
+        ]
+      },
+      "targetDegrees": 10.0,
+      "success": false,
+      "retained": true,
+      "grasped": true,
+      "bad": false,
+      "dropped": false,
+      "errorDegrees": 17.308918512811044,
+      "bestErrorDegrees": 10.225354398813431,
+      "angularSpeed": 0.014535819170953939,
+      "streak": 0,
+      "finalHeight": 0.28269449872538926,
+      "maxHoldDrift": 0.024606562553015417,
+      "fixture": false,
+      "steps": 150
+    },
+    {
+      "seed": 880015,
+      "params": {
+        "center": [
+          -0.010463372169433365,
+          0.010872120375247355,
+          0.036373053945924744
+        ],
+        "radius": 0.018187249588679868,
+        "mass": 0.05390540325169345,
+        "friction": 1.0216015938156082,
+        "half_length": 0.04035464308771851,
+        "axes": [
+          0.04035464308771851,
+          0.018187249588679868,
+          0.018187249588679868
+        ]
+      },
+      "targetDegrees": -10.0,
+      "success": false,
+      "retained": true,
+      "grasped": true,
+      "bad": false,
+      "dropped": false,
+      "errorDegrees": 15.061921907517373,
+      "bestErrorDegrees": 9.605442435181523,
+      "angularSpeed": 0.011517136490207518,
+      "streak": 0,
+      "finalHeight": 0.28313196070036134,
+      "maxHoldDrift": 0.02466617638583483,
+      "fixture": false,
+      "steps": 150
+    },
+    {
+      "seed": 880016,
+      "params": {
+        "center": [
+          -0.01163046628395503,
+          0.011193207400618698,
+          0.037681094988249675
+        ],
+        "radius": 0.017992341139987853,
+        "mass": 0.05272613140779178,
+        "friction": 0.9281138068752225,
+        "half_length": 0.03973330377225039,
+        "axes": [
+          0.03973330377225039,
+          0.017992341139987853,
+          0.017992341139987853
+        ]
+      },
+      "targetDegrees": 10.0,
+      "success": false,
+      "retained": true,
+      "grasped": true,
+      "bad": false,
+      "dropped": false,
+      "errorDegrees": 18.111632585580132,
+      "bestErrorDegrees": 10.205563922844432,
+      "angularSpeed": 0.008997739182601647,
+      "streak": 0,
+      "finalHeight": 0.28327719435074594,
+      "maxHoldDrift": 0.02352057335176583,
+      "fixture": false,
+      "steps": 150
+    },
+    {
+      "seed": 880017,
+      "params": {
+        "center": [
+          -0.011341982272983789,
+          0.011495111638681185,
+          0.036999178833089875
+        ],
+        "radius": 0.017815049826878575,
+        "mass": 0.05324778514475703,
+        "friction": 0.9346983471429773,
+        "half_length": 0.04052527615783829,
+        "axes": [
+          0.04052527615783829,
+          0.017815049826878575,
+          0.017815049826878575
+        ]
+      },
+      "targetDegrees": -10.0,
+      "success": false,
+      "retained": true,
+      "grasped": true,
+      "bad": false,
+      "dropped": false,
+      "errorDegrees": 14.495044349224841,
+      "bestErrorDegrees": 9.264603661545085,
+      "angularSpeed": 0.00908026544241996,
+      "streak": 0,
+      "finalHeight": 0.28313971778122793,
+      "maxHoldDrift": 0.023892010599569833,
+      "fixture": false,
+      "steps": 150
+    },
+    {
+      "seed": 880018,
+      "params": {
+        "center": [
+          -0.00972443212069195,
+          0.00971039308057272,
+          0.03734300708932402
+        ],
+        "radius": 0.018309464669117027,
+        "mass": 0.056287039842778,
+        "friction": 1.0666892236853156,
+        "half_length": 0.04024694354370304,
+        "axes": [
+          0.04024694354370304,
+          0.018309464669117027,
+          0.018309464669117027
+        ]
+      },
+      "targetDegrees": 10.0,
+      "success": false,
+      "retained": false,
+      "grasped": true,
+      "bad": false,
+      "dropped": false,
+      "errorDegrees": 17.82740108185939,
+      "bestErrorDegrees": 10.097101501900884,
+      "angularSpeed": 0.014863064691639609,
+      "streak": 0,
+      "finalHeight": 0.28269835198567717,
+      "maxHoldDrift": 0.02593490493374366,
+      "fixture": false,
+      "steps": 150
+    },
+    {
+      "seed": 880019,
+      "params": {
+        "center": [
+          -0.010543332664798207,
+          0.010081089043486249,
+          0.03742491268925403
+        ],
+        "radius": 0.01810843395593963,
+        "mass": 0.052790555716213994,
+        "friction": 1.0358634548746175,
+        "half_length": 0.04013994297244285,
+        "axes": [
+          0.04013994297244285,
+          0.01810843395593963,
+          0.01810843395593963
+        ]
+      },
+      "targetDegrees": -10.0,
+      "success": false,
+      "retained": true,
+      "grasped": true,
+      "bad": false,
+      "dropped": false,
+      "errorDegrees": 14.846154963335506,
+      "bestErrorDegrees": 9.459122898111003,
+      "angularSpeed": 0.010115396141175556,
+      "streak": 0,
+      "finalHeight": 0.28325604063229226,
+      "maxHoldDrift": 0.02433027085937236,
+      "fixture": false,
+      "steps": 150
+    },
+    {
+      "seed": 880020,
+      "params": {
+        "center": [
+          -0.011049459846663627,
+          0.011151712454059942,
+          0.036740799915651316
+        ],
+        "radius": 0.017702384596943864,
+        "mass": 0.054205703063851945,
+        "friction": 0.9984320262228252,
+        "half_length": 0.04010315186799094,
+        "axes": [
+          0.04010315186799094,
+          0.017702384596943864,
+          0.017702384596943864
+        ]
+      },
+      "targetDegrees": 10.0,
+      "success": false,
+      "retained": true,
+      "grasped": true,
+      "bad": false,
+      "dropped": false,
+      "errorDegrees": 17.813961777561982,
+      "bestErrorDegrees": 10.196604908988848,
+      "angularSpeed": 0.009275415343484519,
+      "streak": 0,
+      "finalHeight": 0.2829364187472742,
+      "maxHoldDrift": 0.023768630772028065,
+      "fixture": false,
+      "steps": 150
+    },
+    {
+      "seed": 880021,
+      "params": {
+        "center": [
+          -0.009950696386349652,
+          0.011739215560220263,
+          0.03769329149535768
+        ],
+        "radius": 0.017693772854454778,
+        "mass": 0.055787445466684134,
+        "friction": 0.9361922953829358,
+        "half_length": 0.040462207309783754,
+        "axes": [
+          0.040462207309783754,
+          0.017693772854454778,
+          0.017693772854454778
+        ]
+      },
+      "targetDegrees": -10.0,
+      "success": false,
+      "retained": true,
+      "grasped": true,
+      "bad": false,
+      "dropped": false,
+      "errorDegrees": 14.515073650256069,
+      "bestErrorDegrees": 9.214581185220705,
+      "angularSpeed": 0.00989812474038357,
+      "streak": 0,
+      "finalHeight": 0.28262035810778086,
+      "maxHoldDrift": 0.024962895354408425,
+      "fixture": false,
+      "steps": 150
+    },
+    {
+      "seed": 880022,
+      "params": {
+        "center": [
+          -0.009968927147479297,
+          0.011148833427404001,
+          0.03738701676344834
+        ],
+        "radius": 0.01830282023908983,
+        "mass": 0.05810147167556722,
+        "friction": 0.9883038167589069,
+        "half_length": 0.03930832292824894,
+        "axes": [
+          0.03930832292824894,
+          0.01830282023908983,
+          0.01830282023908983
+        ]
+      },
+      "targetDegrees": 10.0,
+      "success": false,
+      "retained": false,
+      "grasped": true,
+      "bad": false,
+      "dropped": false,
+      "errorDegrees": 17.58934370057436,
+      "bestErrorDegrees": 10.135091460859183,
+      "angularSpeed": 0.019768678707240396,
+      "streak": 0,
+      "finalHeight": 0.28232015463193777,
+      "maxHoldDrift": 0.026618261920003425,
+      "fixture": false,
+      "steps": 150
+    },
+    {
+      "seed": 880023,
+      "params": {
+        "center": [
+          -0.011562873416012587,
+          0.009989959647589782,
+          0.03659395824907615
+        ],
+        "radius": 0.018047421839301494,
+        "mass": 0.05717746972100403,
+        "friction": 1.067526442020305,
+        "half_length": 0.040398355946155776,
+        "axes": [
+          0.040398355946155776,
+          0.018047421839301494,
+          0.018047421839301494
+        ]
+      },
+      "targetDegrees": -10.0,
+      "success": false,
+      "retained": true,
+      "grasped": true,
+      "bad": false,
+      "dropped": false,
+      "errorDegrees": 15.212160662830604,
+      "bestErrorDegrees": 9.480916079646738,
+      "angularSpeed": 0.016091609116571634,
+      "streak": 0,
+      "finalHeight": 0.282483664762507,
+      "maxHoldDrift": 0.02492557383447281,
+      "fixture": false,
+      "steps": 150
+    },
+    {
+      "seed": 880024,
+      "params": {
+        "center": [
+          -0.011584293021113424,
+          0.0116580809750695,
+          0.03659205233740926
+        ],
+        "radius": 0.01804009621402743,
+        "mass": 0.05624355528151638,
+        "friction": 1.0808152873756072,
+        "half_length": 0.039088203858257495,
+        "axes": [
+          0.039088203858257495,
+          0.01804009621402743,
+          0.01804009621402743
+        ]
+      },
+      "targetDegrees": 10.0,
+      "success": false,
+      "retained": false,
+      "grasped": true,
+      "bad": false,
+      "dropped": false,
+      "errorDegrees": 17.954101485628147,
+      "bestErrorDegrees": 10.230021239386016,
+      "angularSpeed": 0.017543039024227988,
+      "streak": 0,
+      "finalHeight": 0.2825905993910231,
+      "maxHoldDrift": 0.02501414047498077,
+      "fixture": false,
+      "steps": 150
+    },
+    {
+      "seed": 880025,
+      "params": {
+        "center": [
+          -0.0118899658556629,
+          0.011409998217829306,
+          0.03688528920534655
+        ],
+        "radius": 0.018320115660123728,
+        "mass": 0.06086926192828975,
+        "friction": 0.9422786802264347,
+        "half_length": 0.04025333204854285,
+        "axes": [
+          0.04025333204854285,
+          0.018320115660123728,
+          0.018320115660123728
+        ]
+      },
+      "targetDegrees": -10.0,
+      "success": false,
+      "retained": false,
+      "grasped": true,
+      "bad": false,
+      "dropped": false,
+      "errorDegrees": 17.702330588986335,
+      "bestErrorDegrees": 9.766338473844215,
+      "angularSpeed": 0.04660887010197516,
+      "streak": 0,
+      "finalHeight": 0.28099954170425423,
+      "maxHoldDrift": 0.029491644321164245,
+      "fixture": false,
+      "steps": 150
+    },
+    {
+      "seed": 880026,
+      "params": {
+        "center": [
+          -0.010659981397151085,
+          0.01178082618720803,
+          0.03741149239786842
+        ],
+        "radius": 0.017847881264624006,
+        "mass": 0.05328518599666883,
+        "friction": 0.9500231438345005,
+        "half_length": 0.039241944599513835,
+        "axes": [
+          0.039241944599513835,
+          0.017847881264624006,
+          0.017847881264624006
+        ]
+      },
+      "targetDegrees": 10.0,
+      "success": false,
+      "retained": true,
+      "grasped": true,
+      "bad": false,
+      "dropped": false,
+      "errorDegrees": 18.531400478926013,
+      "bestErrorDegrees": 10.15388376641647,
+      "angularSpeed": 0.012160058804754828,
+      "streak": 0,
+      "finalHeight": 0.28299672181269314,
+      "maxHoldDrift": 0.024967348496793697,
+      "fixture": false,
+      "steps": 150
+    },
+    {
+      "seed": 880027,
+      "params": {
+        "center": [
+          -0.010958971403403123,
+          0.01191432099021409,
+          0.0364227678638661
+        ],
+        "radius": 0.01776409413626685,
+        "mass": 0.05453184195040497,
+        "friction": 1.0860100165440485,
+        "half_length": 0.040523643700693314,
+        "axes": [
+          0.040523643700693314,
+          0.01776409413626685,
+          0.01776409413626685
+        ]
+      },
+      "targetDegrees": -10.0,
+      "success": false,
+      "retained": true,
+      "grasped": true,
+      "bad": false,
+      "dropped": false,
+      "errorDegrees": 13.750346729403637,
+      "bestErrorDegrees": 8.999972479080734,
+      "angularSpeed": 0.009045629916279094,
+      "streak": 0,
+      "finalHeight": 0.282952262980863,
+      "maxHoldDrift": 0.023697238799227152,
+      "fixture": false,
+      "steps": 150
+    },
+    {
+      "seed": 880028,
+      "params": {
+        "center": [
+          -0.010385387096074433,
+          0.010442588726185807,
+          0.03582836625085572
+        ],
+        "radius": 0.017841035084699416,
+        "mass": 0.05943675799707479,
+        "friction": 0.9970192789264162,
+        "half_length": 0.03978659374786945,
+        "axes": [
+          0.03978659374786945,
+          0.017841035084699416,
+          0.017841035084699416
+        ]
+      },
+      "targetDegrees": 10.0,
+      "success": false,
+      "retained": true,
+      "grasped": true,
+      "bad": false,
+      "dropped": false,
+      "errorDegrees": 16.717406041345175,
+      "bestErrorDegrees": 10.210436114769369,
+      "angularSpeed": 0.014559443952949143,
+      "streak": 0,
+      "finalHeight": 0.2821250552266256,
+      "maxHoldDrift": 0.02496597658167087,
+      "fixture": false,
+      "steps": 150
+    },
+    {
+      "seed": 880029,
+      "params": {
+        "center": [
+          -0.01155900025658937,
+          0.010917256927941885,
+          0.03623303341885869
+        ],
+        "radius": 0.018344407621032788,
+        "mass": 0.056755443868159686,
+        "friction": 1.0826316425427152,
+        "half_length": 0.04044769249560125,
+        "axes": [
+          0.04044769249560125,
+          0.018344407621032788,
+          0.018344407621032788
+        ]
+      },
+      "targetDegrees": -10.0,
+      "success": false,
+      "retained": false,
+      "grasped": true,
+      "bad": false,
+      "dropped": false,
+      "errorDegrees": 15.831442220362531,
+      "bestErrorDegrees": 9.480488722625878,
+      "angularSpeed": 0.022614097257918072,
+      "streak": 0,
+      "finalHeight": 0.28248903898347516,
+      "maxHoldDrift": 0.026375368735510264,
+      "fixture": false,
+      "steps": 150
+    },
+    {
+      "seed": 880030,
+      "params": {
+        "center": [
+          -0.011522335867639923,
+          0.010583746440216247,
+          0.03768948699760926
+        ],
+        "radius": 0.01766265948175208,
+        "mass": 0.058502346725991264,
+        "friction": 1.0012049644527439,
+        "half_length": 0.04075202350126408,
+        "axes": [
+          0.04075202350126408,
+          0.01766265948175208,
+          0.01766265948175208
+        ]
+      },
+      "targetDegrees": 10.0,
+      "success": false,
+      "retained": false,
+      "grasped": true,
+      "bad": false,
+      "dropped": false,
+      "errorDegrees": 16.056568780416,
+      "bestErrorDegrees": 10.163462569406096,
+      "angularSpeed": 0.017757653657288507,
+      "streak": 0,
+      "finalHeight": 0.2819967867684088,
+      "maxHoldDrift": 0.025625987753853077,
+      "fixture": false,
+      "steps": 150
+    },
+    {
+      "seed": 880031,
+      "params": {
+        "center": [
+          -0.010807138271083263,
+          0.00993251829784058,
+          0.03714716127821816
+        ],
+        "radius": 0.018263777148364222,
+        "mass": 0.0554200068660272,
+        "friction": 1.0950033042267584,
+        "half_length": 0.039369307107247495,
+        "axes": [
+          0.039369307107247495,
+          0.018263777148364222,
+          0.018263777148364222
+        ]
+      },
+      "targetDegrees": -10.0,
+      "success": false,
+      "retained": true,
+      "grasped": true,
+      "bad": false,
+      "dropped": false,
+      "errorDegrees": 15.037028233532151,
+      "bestErrorDegrees": 9.385256926620617,
+      "angularSpeed": 0.0142123597239169,
+      "streak": 0,
+      "finalHeight": 0.28286857591313186,
+      "maxHoldDrift": 0.02498926640480872,
+      "fixture": false,
+      "steps": 150
+    },
+    {
+      "seed": 880032,
+      "params": {
+        "center": [
+          -0.009828726486462418,
+          0.009941506088151851,
+          0.037349635276795155
+        ],
+        "radius": 0.017819066008785193,
+        "mass": 0.05107020307356002,
+        "friction": 0.949837202778633,
+        "half_length": 0.04084552737121172,
+        "axes": [
+          0.04084552737121172,
+          0.017819066008785193,
+          0.017819066008785193
+        ]
+      },
+      "targetDegrees": 10.0,
+      "success": false,
+      "retained": false,
+      "grasped": true,
+      "bad": false,
+      "dropped": false,
+      "errorDegrees": 18.73595283296747,
+      "bestErrorDegrees": 10.11804836759418,
+      "angularSpeed": 0.010225886543395953,
+      "streak": 0,
+      "finalHeight": 0.28338571393820744,
+      "maxHoldDrift": 0.025179805587690514,
+      "fixture": false,
+      "steps": 150
+    },
+    {
+      "seed": 880033,
+      "params": {
+        "center": [
+          -0.010699730216011978,
+          0.010434696971972536,
+          0.03570258603836691
+        ],
+        "radius": 0.017698507444072708,
+        "mass": 0.05465950911750722,
+        "friction": 1.0287210017524764,
+        "half_length": 0.038984302185105346,
+        "axes": [
+          0.038984302185105346,
+          0.017698507444072708,
+          0.017698507444072708
+        ]
+      },
+      "targetDegrees": -10.0,
+      "success": false,
+      "retained": true,
+      "grasped": true,
+      "bad": false,
+      "dropped": false,
+      "errorDegrees": 13.474678221100287,
+      "bestErrorDegrees": 9.009781592742218,
+      "angularSpeed": 0.007711413885305991,
+      "streak": 0,
+      "finalHeight": 0.2829370811937942,
+      "maxHoldDrift": 0.02281475098345349,
+      "fixture": false,
+      "steps": 150
+    },
+    {
+      "seed": 880034,
+      "params": {
+        "center": [
+          -0.01111129009274388,
+          0.009579168513590041,
+          0.03606969222913593
+        ],
+        "radius": 0.017830988333321116,
+        "mass": 0.05679980146311892,
+        "friction": 1.074519510159886,
+        "half_length": 0.039498791355870824,
+        "axes": [
+          0.039498791355870824,
+          0.017830988333321116,
+          0.017830988333321116
+        ]
+      },
+      "targetDegrees": 10.0,
+      "success": false,
+      "retained": true,
+      "grasped": true,
+      "bad": false,
+      "dropped": false,
+      "errorDegrees": 17.558077578973865,
+      "bestErrorDegrees": 10.243489370334103,
+      "angularSpeed": 0.009560727506583296,
+      "streak": 0,
+      "finalHeight": 0.28262424859004837,
+      "maxHoldDrift": 0.022978441822355016,
+      "fixture": false,
+      "steps": 150
+    },
+    {
+      "seed": 880035,
+      "params": {
+        "center": [
+          -0.010661128035400095,
+          0.01118181868457827,
+          0.0365879624587833
+        ],
+        "radius": 0.01831902249102244,
+        "mass": 0.053040862389934884,
+        "friction": 0.9683358027099378,
+        "half_length": 0.04049374888416734,
+        "axes": [
+          0.04049374888416734,
+          0.01831902249102244,
+          0.01831902249102244
+        ]
+      },
+      "targetDegrees": -10.0,
+      "success": false,
+      "retained": false,
+      "grasped": true,
+      "bad": false,
+      "dropped": false,
+      "errorDegrees": 15.551200400250666,
+      "bestErrorDegrees": 9.406441879099477,
+      "angularSpeed": 0.013020148208187787,
+      "streak": 0,
+      "finalHeight": 0.28326911218026446,
+      "maxHoldDrift": 0.025653195114055123,
+      "fixture": false,
+      "steps": 150
+    },
+    {
+      "seed": 880036,
+      "params": {
+        "center": [
+          -0.01051035328384023,
+          0.01105745421135878,
+          0.03583380479627494
+        ],
+        "radius": 0.017902757669647867,
+        "mass": 0.05469646312307613,
+        "friction": 0.9922088141210716,
+        "half_length": 0.04020085689054236,
+        "axes": [
+          0.04020085689054236,
+          0.017902757669647867,
+          0.017902757669647867
+        ]
+      },
+      "targetDegrees": 10.0,
+      "success": false,
+      "retained": false,
+      "grasped": true,
+      "bad": false,
+      "dropped": false,
+      "errorDegrees": 18.264057545181988,
+      "bestErrorDegrees": 10.140864115247572,
+      "angularSpeed": 0.014732257498059143,
+      "streak": 0,
+      "finalHeight": 0.2827933630392166,
+      "maxHoldDrift": 0.025806935141728927,
+      "fixture": false,
+      "steps": 150
+    },
+    {
+      "seed": 880037,
+      "params": {
+        "center": [
+          -0.011746326413047398,
+          0.010642913171956984,
+          0.03656817187492106
+        ],
+        "radius": 0.01789314736222622,
+        "mass": 0.05111657420408441,
+        "friction": 1.0547068751375923,
+        "half_length": 0.04016226084356915,
+        "axes": [
+          0.04016226084356915,
+          0.01789314736222622,
+          0.01789314736222622
+        ]
+      },
+      "targetDegrees": -10.0,
+      "success": false,
+      "retained": true,
+      "grasped": true,
+      "bad": false,
+      "dropped": false,
+      "errorDegrees": 15.046421741649,
+      "bestErrorDegrees": 9.417320542824962,
+      "angularSpeed": 0.010878228014158565,
+      "streak": 0,
+      "finalHeight": 0.2834699715352265,
+      "maxHoldDrift": 0.02447848577559108,
+      "fixture": false,
+      "steps": 150
+    },
+    {
+      "seed": 880038,
+      "params": {
+        "center": [
+          -0.011381738891065763,
+          0.009506043736188841,
+          0.0376768284508619
+        ],
+        "radius": 0.01791134105296636,
+        "mass": 0.05856513749987167,
+        "friction": 1.102813069679383,
+        "half_length": 0.039834327233330497,
+        "axes": [
+          0.039834327233330497,
+          0.01791134105296636,
+          0.01791134105296636
+        ]
+      },
+      "targetDegrees": 10.0,
+      "success": false,
+      "retained": true,
+      "grasped": true,
+      "bad": false,
+      "dropped": false,
+      "errorDegrees": 16.60870002302096,
+      "bestErrorDegrees": 10.204236157506475,
+      "angularSpeed": 0.01266768305118925,
+      "streak": 0,
+      "finalHeight": 0.28231710719706177,
+      "maxHoldDrift": 0.023854008386048193,
+      "fixture": false,
+      "steps": 150
+    },
+    {
+      "seed": 880039,
+      "params": {
+        "center": [
+          -0.010411088979876493,
+          0.009582637358974577,
+          0.03723463385077874
+        ],
+        "radius": 0.017675412026984857,
+        "mass": 0.0518561872735651,
+        "friction": 1.0485767291414723,
+        "half_length": 0.039948030554344705,
+        "axes": [
+          0.039948030554344705,
+          0.017675412026984857,
+          0.017675412026984857
+        ]
+      },
+      "targetDegrees": -10.0,
+      "success": false,
+      "retained": true,
+      "grasped": true,
+      "bad": false,
+      "dropped": false,
+      "errorDegrees": 15.153881548242008,
+      "bestErrorDegrees": 9.70668568123836,
+      "angularSpeed": 0.009936242377530477,
+      "streak": 0,
+      "finalHeight": 0.28321291228190393,
+      "maxHoldDrift": 0.02428975933428584,
+      "fixture": false,
+      "steps": 150
+    },
+    {
+      "seed": 880040,
+      "params": {
+        "center": [
+          -0.011559256760875514,
+          0.011084979438678566,
+          0.03702569755002193
+        ],
+        "radius": 0.017690744074334644,
+        "mass": 0.059450089055006296,
+        "friction": 0.9837313602495941,
+        "half_length": 0.03911932345021118,
+        "axes": [
+          0.03911932345021118,
+          0.017690744074334644,
+          0.017690744074334644
+        ]
+      },
+      "targetDegrees": 10.0,
+      "success": false,
+      "retained": true,
+      "grasped": true,
+      "bad": false,
+      "dropped": false,
+      "errorDegrees": 15.936681658162737,
+      "bestErrorDegrees": 10.169259725378955,
+      "angularSpeed": 0.015791180770428903,
+      "streak": 0,
+      "finalHeight": 0.28200981934485775,
+      "maxHoldDrift": 0.02424879321873273,
+      "fixture": false,
+      "steps": 150
+    },
+    {
+      "seed": 880041,
+      "params": {
+        "center": [
+          -0.01189634617797325,
+          0.011390594776945217,
+          0.0374256569697683
+        ],
+        "radius": 0.018204260069111206,
+        "mass": 0.051964502455496685,
+        "friction": 0.928288944066673,
+        "half_length": 0.04053428656279755,
+        "axes": [
+          0.04053428656279755,
+          0.018204260069111206,
+          0.018204260069111206
+        ]
+      },
+      "targetDegrees": -10.0,
+      "success": false,
+      "retained": true,
+      "grasped": true,
+      "bad": false,
+      "dropped": false,
+      "errorDegrees": 15.166195143567437,
+      "bestErrorDegrees": 9.377854196586181,
+      "angularSpeed": 0.011877669403748226,
+      "streak": 0,
+      "finalHeight": 0.2834234742688776,
+      "maxHoldDrift": 0.02476635845026426,
+      "fixture": false,
+      "steps": 150
+    },
+    {
+      "seed": 880042,
+      "params": {
+        "center": [
+          -0.01003145657029677,
+          0.011028707027808577,
+          0.03712449173411378
+        ],
+        "radius": 0.017901373939529924,
+        "mass": 0.060059564432091754,
+        "friction": 0.9280972907260587,
+        "half_length": 0.039566356922282914,
+        "axes": [
+          0.039566356922282914,
+          0.017901373939529924,
+          0.017901373939529924
+        ]
+      },
+      "targetDegrees": 10.0,
+      "success": false,
+      "retained": false,
+      "grasped": true,
+      "bad": false,
+      "dropped": false,
+      "errorDegrees": 16.285280631829025,
+      "bestErrorDegrees": 10.15570732381528,
+      "angularSpeed": 0.016551532568618885,
+      "streak": 0,
+      "finalHeight": 0.28193702781327085,
+      "maxHoldDrift": 0.025691951418171995,
+      "fixture": false,
+      "steps": 150
+    },
+    {
+      "seed": 880043,
+      "params": {
+        "center": [
+          -0.011569678574696506,
+          0.010841034438649883,
+          0.037602570396292445
+        ],
+        "radius": 0.01805967978743106,
+        "mass": 0.05988376421924579,
+        "friction": 1.1034106812452849,
+        "half_length": 0.03903619211127371,
+        "axes": [
+          0.03903619211127371,
+          0.01805967978743106,
+          0.01805967978743106
+        ]
+      },
+      "targetDegrees": -10.0,
+      "success": false,
+      "retained": true,
+      "grasped": true,
+      "bad": false,
+      "dropped": false,
+      "errorDegrees": 14.601784047769133,
+      "bestErrorDegrees": 9.371482477528632,
+      "angularSpeed": 0.019990843564033287,
+      "streak": 0,
+      "finalHeight": 0.2820170780366174,
+      "maxHoldDrift": 0.02485547190084644,
+      "fixture": false,
+      "steps": 150
+    },
+    {
+      "seed": 880044,
+      "params": {
+        "center": [
+          -0.00976620514084494,
+          0.010840352481975254,
+          0.03743343974103033
+        ],
+        "radius": 0.01767781669215055,
+        "mass": 0.050699174942479795,
+        "friction": 1.0967983969755397,
+        "half_length": 0.03925146324018515,
+        "axes": [
+          0.03925146324018515,
+          0.01767781669215055,
+          0.01767781669215055
+        ]
+      },
+      "targetDegrees": 10.0,
+      "success": false,
+      "retained": true,
+      "grasped": true,
+      "bad": false,
+      "dropped": false,
+      "errorDegrees": 19.419921840508128,
+      "bestErrorDegrees": 10.198364913963172,
+      "angularSpeed": 0.009622074227243064,
+      "streak": 0,
+      "finalHeight": 0.2834164001290047,
+      "maxHoldDrift": 0.023870396535680922,
+      "fixture": false,
+      "steps": 150
+    },
+    {
+      "seed": 880045,
+      "params": {
+        "center": [
+          -0.010886308183997821,
+          0.010320195037949263,
+          0.03688038897866746
+        ],
+        "radius": 0.01799152400619448,
+        "mass": 0.0510317507595203,
+        "friction": 1.076105334015368,
+        "half_length": 0.04067738616430859,
+        "axes": [
+          0.04067738616430859,
+          0.01799152400619448,
+          0.01799152400619448
+        ]
+      },
+      "targetDegrees": -10.0,
+      "success": false,
+      "retained": true,
+      "grasped": true,
+      "bad": false,
+      "dropped": false,
+      "errorDegrees": 14.65078169177504,
+      "bestErrorDegrees": 9.31448851416704,
+      "angularSpeed": 0.00865402660324593,
+      "streak": 0,
+      "finalHeight": 0.2835846701407774,
+      "maxHoldDrift": 0.02427846446212877,
+      "fixture": false,
+      "steps": 150
+    },
+    {
+      "seed": 880046,
+      "params": {
+        "center": [
+          -0.011357662325111791,
+          0.010900300764788673,
+          0.036137513205558955
+        ],
+        "radius": 0.01833926206613274,
+        "mass": 0.05214053501308272,
+        "friction": 1.0329480691002104,
+        "half_length": 0.03927996914608031,
+        "axes": [
+          0.03927996914608031,
+          0.01833926206613274,
+          0.01833926206613274
+        ]
+      },
+      "targetDegrees": 10.0,
+      "success": false,
+      "retained": true,
+      "grasped": true,
+      "bad": false,
+      "dropped": false,
+      "errorDegrees": 19.475293615878954,
+      "bestErrorDegrees": 10.222881377682507,
+      "angularSpeed": 0.01112719285636998,
+      "streak": 0,
+      "finalHeight": 0.28351973276025016,
+      "maxHoldDrift": 0.024104314202865875,
+      "fixture": false,
+      "steps": 150
+    },
+    {
+      "seed": 880047,
+      "params": {
+        "center": [
+          -0.011332127376739713,
+          0.009537186000442033,
+          0.036232465171469656
+        ],
+        "radius": 0.01818087991543703,
+        "mass": 0.05983929187738471,
+        "friction": 1.0561980388880603,
+        "half_length": 0.03955035940146217,
+        "axes": [
+          0.03955035940146217,
+          0.01818087991543703,
+          0.01818087991543703
+        ]
+      },
+      "targetDegrees": -10.0,
+      "success": false,
+      "retained": true,
+      "grasped": true,
+      "bad": false,
+      "dropped": false,
+      "errorDegrees": 14.808588301233609,
+      "bestErrorDegrees": 9.408477011184635,
+      "angularSpeed": 0.0183392742538256,
+      "streak": 0,
+      "finalHeight": 0.2821533366387518,
+      "maxHoldDrift": 0.02484863691778504,
+      "fixture": false,
+      "steps": 150
+    },
+    {
+      "seed": 880048,
+      "params": {
+        "center": [
+          -0.01137695697020757,
+          0.010220764825710415,
+          0.03693203138215699
+        ],
+        "radius": 0.017993836502363185,
+        "mass": 0.05735511348346899,
+        "friction": 1.056124359636744,
+        "half_length": 0.03896767211515689,
+        "axes": [
+          0.03896767211515689,
+          0.017993836502363185,
+          0.017993836502363185
+        ]
+      },
+      "targetDegrees": 10.0,
+      "success": false,
+      "retained": true,
+      "grasped": true,
+      "bad": false,
+      "dropped": false,
+      "errorDegrees": 17.428811738430934,
+      "bestErrorDegrees": 10.21853052601534,
+      "angularSpeed": 0.01217340266869396,
+      "streak": 0,
+      "finalHeight": 0.28254148483506325,
+      "maxHoldDrift": 0.02350227854277822,
+      "fixture": false,
+      "steps": 150
+    },
+    {
+      "seed": 880049,
+      "params": {
+        "center": [
+          -0.009963156056482536,
+          0.011536264791704115,
+          0.03566013691396253
+        ],
+        "radius": 0.018242551558303354,
+        "mass": 0.055639802616416385,
+        "friction": 1.0765701191122503,
+        "half_length": 0.03963229198136811,
+        "axes": [
+          0.03963229198136811,
+          0.018242551558303354,
+          0.018242551558303354
+        ]
+      },
+      "targetDegrees": -10.0,
+      "success": false,
+      "retained": true,
+      "grasped": true,
+      "bad": false,
+      "dropped": false,
+      "errorDegrees": 14.714229953161203,
+      "bestErrorDegrees": 9.355005713252202,
+      "angularSpeed": 0.012256781209606167,
+      "streak": 0,
+      "finalHeight": 0.2829033889814182,
+      "maxHoldDrift": 0.02481196805954309,
+      "fixture": false,
+      "steps": 150
+    },
+    {
+      "seed": 880050,
+      "params": {
+        "center": [
+          -0.01030826564847316,
+          0.010481590080495306,
+          0.03608713372812896
+        ],
+        "radius": 0.018243273290374604,
+        "mass": 0.05826266248165653,
+        "friction": 0.9914001560068838,
+        "half_length": 0.039500861178573356,
+        "axes": [
+          0.039500861178573356,
+          0.018243273290374604,
+          0.018243273290374604
+        ]
+      },
+      "targetDegrees": 10.0,
+      "success": false,
+      "retained": false,
+      "grasped": true,
+      "bad": false,
+      "dropped": false,
+      "errorDegrees": 17.472782700191555,
+      "bestErrorDegrees": 10.141175436297646,
+      "angularSpeed": 0.02060885514095053,
+      "streak": 0,
+      "finalHeight": 0.28226631708269445,
+      "maxHoldDrift": 0.026683878280383825,
+      "fixture": false,
+      "steps": 150
+    },
+    {
+      "seed": 880051,
+      "params": {
+        "center": [
+          -0.011143754826946801,
+          0.01141293309859571,
+          0.03633282350403489
+        ],
+        "radius": 0.01779581295554562,
+        "mass": 0.0576884274139589,
+        "friction": 0.9551506095603678,
+        "half_length": 0.040369083085790194,
+        "axes": [
+          0.040369083085790194,
+          0.01779581295554562,
+          0.01779581295554562
+        ]
+      },
+      "targetDegrees": -10.0,
+      "success": false,
+      "retained": true,
+      "grasped": true,
+      "bad": false,
+      "dropped": false,
+      "errorDegrees": 14.946292464951561,
+      "bestErrorDegrees": 9.507153889623135,
+      "angularSpeed": 0.013713753985258023,
+      "streak": 0,
+      "finalHeight": 0.2823552652303078,
+      "maxHoldDrift": 0.024565633185410093,
+      "fixture": false,
+      "steps": 150
+    },
+    {
+      "seed": 880052,
+      "params": {
+        "center": [
+          -0.011242341245334684,
+          0.009709117637477765,
+          0.03720365479549672
+        ],
+        "radius": 0.018150183174674903,
+        "mass": 0.05628532231362381,
+        "friction": 0.925339568278235,
+        "half_length": 0.03957056555848028,
+        "axes": [
+          0.03957056555848028,
+          0.018150183174674903,
+          0.018150183174674903
+        ]
+      },
+      "targetDegrees": 10.0,
+      "success": false,
+      "retained": false,
+      "grasped": true,
+      "bad": false,
+      "dropped": false,
+      "errorDegrees": 17.62890123450829,
+      "bestErrorDegrees": 10.099184519122762,
+      "angularSpeed": 0.01895385133534231,
+      "streak": 0,
+      "finalHeight": 0.2825220818542837,
+      "maxHoldDrift": 0.026238983829079392,
+      "fixture": false,
+      "steps": 150
+    },
+    {
+      "seed": 880053,
+      "params": {
+        "center": [
+          -0.010924105756850652,
+          0.011586969429851268,
+          0.0363281452471154
+        ],
+        "radius": 0.01821093392081511,
+        "mass": 0.054302079949406425,
+        "friction": 1.0261299763607137,
+        "half_length": 0.039204926994285946,
+        "axes": [
+          0.039204926994285946,
+          0.01821093392081511,
+          0.01821093392081511
+        ]
+      },
+      "targetDegrees": -10.0,
+      "success": false,
+      "retained": true,
+      "grasped": true,
+      "bad": false,
+      "dropped": false,
+      "errorDegrees": 14.679326572608957,
+      "bestErrorDegrees": 9.295284679492969,
+      "angularSpeed": 0.012029363608465479,
+      "streak": 0,
+      "finalHeight": 0.2830880703205102,
+      "maxHoldDrift": 0.024269377608212708,
+      "fixture": false,
+      "steps": 150
+    },
+    {
+      "seed": 880054,
+      "params": {
+        "center": [
+          -0.009735934068812324,
+          0.011085511266672307,
+          0.035775907815702536
+        ],
+        "radius": 0.01829150843857241,
+        "mass": 0.055439073101165776,
+        "friction": 1.1042468119776536,
+        "half_length": 0.04003843093518857,
+        "axes": [
+          0.04003843093518857,
+          0.01829150843857241,
+          0.01829150843857241
+        ]
+      },
+      "targetDegrees": 10.0,
+      "success": false,
+      "retained": true,
+      "grasped": true,
+      "bad": false,
+      "dropped": false,
+      "errorDegrees": 18.784264006400843,
+      "bestErrorDegrees": 10.234499363300602,
+      "angularSpeed": 0.011820463688121174,
+      "streak": 0,
+      "finalHeight": 0.2829499411807512,
+      "maxHoldDrift": 0.024765734979516327,
+      "fixture": false,
+      "steps": 150
+    },
+    {
+      "seed": 880055,
+      "params": {
+        "center": [
+          -0.009582611923233963,
+          0.011523366188750026,
+          0.037464195568914414
+        ],
+        "radius": 0.0179456836116581,
+        "mass": 0.057655895350646656,
+        "friction": 0.9978166882409019,
+        "half_length": 0.040508098071247424,
+        "axes": [
+          0.040508098071247424,
+          0.0179456836116581,
+          0.0179456836116581
+        ]
+      },
+      "targetDegrees": -10.0,
+      "success": false,
+      "retained": false,
+      "grasped": true,
+      "bad": false,
+      "dropped": false,
+      "errorDegrees": 15.999823992319756,
+      "bestErrorDegrees": 9.768142222550802,
+      "angularSpeed": 0.017229259280647554,
+      "streak": 0,
+      "finalHeight": 0.2822322341405592,
+      "maxHoldDrift": 0.026793567940602458,
+      "fixture": false,
+      "steps": 150
+    },
+    {
+      "seed": 880056,
+      "params": {
+        "center": [
+          -0.011022787768075684,
+          0.011164147888063209,
+          0.03625462848904437
+        ],
+        "radius": 0.01787586003737688,
+        "mass": 0.05183931950239249,
+        "friction": 1.0573907294950389,
+        "half_length": 0.040262152544952225,
+        "axes": [
+          0.040262152544952225,
+          0.01787586003737688,
+          0.01787586003737688
+        ]
+      },
+      "targetDegrees": 10.0,
+      "success": false,
+      "retained": true,
+      "grasped": true,
+      "bad": false,
+      "dropped": false,
+      "errorDegrees": 18.96903535774744,
+      "bestErrorDegrees": 10.268044494161021,
+      "angularSpeed": 0.008166468388536515,
+      "streak": 0,
+      "finalHeight": 0.2834424543028004,
+      "maxHoldDrift": 0.023549488337641686,
+      "fixture": false,
+      "steps": 150
+    },
+    {
+      "seed": 880057,
+      "params": {
+        "center": [
+          -0.011295710397118545,
+          0.010559468960295741,
+          0.035678743981391745
+        ],
+        "radius": 0.018269302539743047,
+        "mass": 0.05936731309142156,
+        "friction": 0.9402337736315028,
+        "half_length": 0.039739781512068834,
+        "axes": [
+          0.039739781512068834,
+          0.018269302539743047,
+          0.018269302539743047
+        ]
+      },
+      "targetDegrees": -10.0,
+      "success": false,
+      "retained": false,
+      "grasped": true,
+      "bad": false,
+      "dropped": false,
+      "errorDegrees": 17.502220882888043,
+      "bestErrorDegrees": 9.87359894604729,
+      "angularSpeed": 0.03091634092405973,
+      "streak": 0,
+      "finalHeight": 0.2816717340918628,
+      "maxHoldDrift": 0.028497587027676213,
+      "fixture": false,
+      "steps": 150
+    },
+    {
+      "seed": 880058,
+      "params": {
+        "center": [
+          -0.0103132655754214,
+          0.010272080176526045,
+          0.03652831689485768
+        ],
+        "radius": 0.018033156296619834,
+        "mass": 0.054984039011249236,
+        "friction": 1.1044197665667586,
+        "half_length": 0.04041934239419253,
+        "axes": [
+          0.04041934239419253,
+          0.018033156296619834,
+          0.018033156296619834
+        ]
+      },
+      "targetDegrees": 10.0,
+      "success": false,
+      "retained": true,
+      "grasped": true,
+      "bad": false,
+      "dropped": false,
+      "errorDegrees": 18.325190892550513,
+      "bestErrorDegrees": 10.231327078891622,
+      "angularSpeed": 0.010907850658274836,
+      "streak": 0,
+      "finalHeight": 0.28292089562113265,
+      "maxHoldDrift": 0.024748493981901078,
+      "fixture": false,
+      "steps": 150
+    },
+    {
+      "seed": 880059,
+      "params": {
+        "center": [
+          -0.011920411893154296,
+          0.01101443306315274,
+          0.0375060641479027
+        ],
+        "radius": 0.01783115120413513,
+        "mass": 0.06160959129015979,
+        "friction": 1.0513966791933866,
+        "half_length": 0.04046518337595411,
+        "axes": [
+          0.04046518337595411,
+          0.01783115120413513,
+          0.01783115120413513
+        ]
+      },
+      "targetDegrees": -10.0,
+      "success": false,
+      "retained": true,
+      "grasped": true,
+      "bad": false,
+      "dropped": false,
+      "errorDegrees": 14.541839086519868,
+      "bestErrorDegrees": 9.325904028109337,
+      "angularSpeed": 0.01885790396665326,
+      "streak": 0,
+      "finalHeight": 0.28170937954009106,
+      "maxHoldDrift": 0.024470258912424117,
+      "fixture": false,
+      "steps": 150
+    },
+    {
+      "seed": 880060,
+      "params": {
+        "center": [
+          -0.010350571074434375,
+          0.010685103014993097,
+          0.03618500914782369
+        ],
+        "radius": 0.017853940762970033,
+        "mass": 0.05876622511302284,
+        "friction": 0.981724247051845,
+        "half_length": 0.040748312323463015,
+        "axes": [
+          0.040748312323463015,
+          0.017853940762970033,
+          0.017853940762970033
+        ]
+      },
+      "targetDegrees": 10.0,
+      "success": false,
+      "retained": false,
+      "grasped": true,
+      "bad": false,
+      "dropped": false,
+      "errorDegrees": 16.595699049069534,
+      "bestErrorDegrees": 10.142386029032785,
+      "angularSpeed": 0.01603947359921143,
+      "streak": 0,
+      "finalHeight": 0.28213718658303777,
+      "maxHoldDrift": 0.025711628627628547,
+      "fixture": false,
+      "steps": 150
+    },
+    {
+      "seed": 880061,
+      "params": {
+        "center": [
+          -0.01130194294287688,
+          0.011695781873956125,
+          0.0358451962721873
+        ],
+        "radius": 0.018273101925724216,
+        "mass": 0.05618073562968465,
+        "friction": 0.9484375452439487,
+        "half_length": 0.040952028769998684,
+        "axes": [
+          0.040952028769998684,
+          0.018273101925724216,
+          0.018273101925724216
+        ]
+      },
+      "targetDegrees": -10.0,
+      "success": false,
+      "retained": false,
+      "grasped": true,
+      "bad": false,
+      "dropped": false,
+      "errorDegrees": 16.193118771030495,
+      "bestErrorDegrees": 9.591004282238657,
+      "angularSpeed": 0.02091143625463383,
+      "streak": 0,
+      "finalHeight": 0.28251997485634356,
+      "maxHoldDrift": 0.026751324888442587,
+      "fixture": false,
+      "steps": 150
+    },
+    {
+      "seed": 880062,
+      "params": {
+        "center": [
+          -0.009613848039085085,
+          0.01023969720449184,
+          0.03686180577991125
+        ],
+        "radius": 0.017877959100841275,
+        "mass": 0.0537517945603224,
+        "friction": 1.011207702930804,
+        "half_length": 0.03959673614792078,
+        "axes": [
+          0.03959673614792078,
+          0.017877959100841275,
+          0.017877959100841275
+        ]
+      },
+      "targetDegrees": 10.0,
+      "success": false,
+      "retained": true,
+      "grasped": true,
+      "bad": false,
+      "dropped": false,
+      "errorDegrees": 18.21746952373215,
+      "bestErrorDegrees": 10.1923304873028,
+      "angularSpeed": 0.00942603354349009,
+      "streak": 0,
+      "finalHeight": 0.28302621515702225,
+      "maxHoldDrift": 0.02438104839304487,
+      "fixture": false,
+      "steps": 150
+    },
+    {
+      "seed": 880063,
+      "params": {
+        "center": [
+          -0.009943219018059037,
+          0.011873580969706182,
+          0.036007698595478144
+        ],
+        "radius": 0.01767367249018898,
+        "mass": 0.058553929652583936,
+        "friction": 1.0735530457528466,
+        "half_length": 0.03962263747567751,
+        "axes": [
+          0.03962263747567751,
+          0.01767367249018898,
+          0.01767367249018898
+        ]
+      },
+      "targetDegrees": -10.0,
+      "success": false,
+      "retained": true,
+      "grasped": true,
+      "bad": false,
+      "dropped": false,
+      "errorDegrees": 13.543838213344186,
+      "bestErrorDegrees": 8.97315750734341,
+      "angularSpeed": 0.010206991467418557,
+      "streak": 0,
+      "finalHeight": 0.2823179263911941,
+      "maxHoldDrift": 0.024114658734325816,
+      "fixture": false,
+      "steps": 150
+    },
+    {
+      "seed": 880064,
+      "params": {
+        "center": [
+          -0.010102987891773775,
+          0.009611463143232631,
+          0.03711704077287275
+        ],
+        "radius": 0.017690172800796523,
+        "mass": 0.05111442791119713,
+        "friction": 1.0411226140218086,
+        "half_length": 0.03979082704863151,
+        "axes": [
+          0.03979082704863151,
+          0.017690172800796523,
+          0.017690172800796523
+        ]
+      },
+      "targetDegrees": 10.0,
+      "success": false,
+      "retained": true,
+      "grasped": true,
+      "bad": false,
+      "dropped": false,
+      "errorDegrees": 18.80643534098913,
+      "bestErrorDegrees": 10.194495768131029,
+      "angularSpeed": 0.009772549504640593,
+      "streak": 0,
+      "finalHeight": 0.2833773029532835,
+      "maxHoldDrift": 0.023706172399779717,
+      "fixture": false,
+      "steps": 150
+    },
+    {
+      "seed": 880065,
+      "params": {
+        "center": [
+          -0.009851485631835733,
+          0.011806459763000298,
+          0.037110216620708535
+        ],
+        "radius": 0.0183135162178448,
+        "mass": 0.05350464060577408,
+        "friction": 0.9914813685333544,
+        "half_length": 0.03941279075449247,
+        "axes": [
+          0.03941279075449247,
+          0.0183135162178448,
+          0.0183135162178448
+        ]
+      },
+      "targetDegrees": -10.0,
+      "success": false,
+      "retained": false,
+      "grasped": true,
+      "bad": false,
+      "dropped": false,
+      "errorDegrees": 15.913983066050609,
+      "bestErrorDegrees": 9.5925691954398,
+      "angularSpeed": 0.014205775883044964,
+      "streak": 0,
+      "finalHeight": 0.28311454236161604,
+      "maxHoldDrift": 0.025958697879348548,
+      "fixture": false,
+      "steps": 150
+    },
+    {
+      "seed": 880066,
+      "params": {
+        "center": [
+          -0.011890866159815806,
+          0.01186949604144687,
+          0.03569288594762075
+        ],
+        "radius": 0.017703377589371638,
+        "mass": 0.059253794534676926,
+        "friction": 0.9395739352826004,
+        "half_length": 0.03999912426917794,
+        "axes": [
+          0.03999912426917794,
+          0.017703377589371638,
+          0.017703377589371638
+        ]
+      },
+      "targetDegrees": 10.0,
+      "success": false,
+      "retained": true,
+      "grasped": true,
+      "bad": false,
+      "dropped": false,
+      "errorDegrees": 15.670368118077734,
+      "bestErrorDegrees": 10.186196962736394,
+      "angularSpeed": 0.014978980410576145,
+      "streak": 0,
+      "finalHeight": 0.28212590174332763,
+      "maxHoldDrift": 0.023827696545895023,
+      "fixture": false,
+      "steps": 150
+    },
+    {
+      "seed": 880067,
+      "params": {
+        "center": [
+          -0.01003899141007837,
+          0.00990170967740568,
+          0.03755537123578924
+        ],
+        "radius": 0.018287946224396712,
+        "mass": 0.052749447948716464,
+        "friction": 1.0723203113845319,
+        "half_length": 0.039803668303148354,
+        "axes": [
+          0.039803668303148354,
+          0.018287946224396712,
+          0.018287946224396712
+        ]
+      },
+      "targetDegrees": -10.0,
+      "success": false,
+      "retained": false,
+      "grasped": true,
+      "bad": false,
+      "dropped": false,
+      "errorDegrees": 15.567762078166616,
+      "bestErrorDegrees": 9.616263952698086,
+      "angularSpeed": 0.012058058242844331,
+      "streak": 0,
+      "finalHeight": 0.2832796048942784,
+      "maxHoldDrift": 0.02553814527292116,
+      "fixture": false,
+      "steps": 150
+    },
+    {
+      "seed": 880068,
+      "params": {
+        "center": [
+          -0.010631240011205287,
+          0.01157906673332793,
+          0.037285628094458574
+        ],
+        "radius": 0.0182056046478086,
+        "mass": 0.054715344461217286,
+        "friction": 0.9421179767604979,
+        "half_length": 0.04076209785150062,
+        "axes": [
+          0.04076209785150062,
+          0.0182056046478086,
+          0.0182056046478086
+        ]
+      },
+      "targetDegrees": 10.0,
+      "success": false,
+      "retained": false,
+      "grasped": true,
+      "bad": false,
+      "dropped": false,
+      "errorDegrees": 18.24700516257854,
+      "bestErrorDegrees": 10.122075106117602,
+      "angularSpeed": 0.018204728399517138,
+      "streak": 0,
+      "finalHeight": 0.2827403751998199,
+      "maxHoldDrift": 0.02697026135270824,
+      "fixture": false,
+      "steps": 150
+    },
+    {
+      "seed": 880069,
+      "params": {
+        "center": [
+          -0.011135516666213149,
+          0.010325800975083886,
+          0.036473241388032394
+        ],
+        "radius": 0.017820207082604542,
+        "mass": 0.05431305161113339,
+        "friction": 1.0781929884923152,
+        "half_length": 0.03981023250448392,
+        "axes": [
+          0.03981023250448392,
+          0.017820207082604542,
+          0.017820207082604542
+        ]
+      },
+      "targetDegrees": -10.0,
+      "success": false,
+      "retained": true,
+      "grasped": true,
+      "bad": false,
+      "dropped": false,
+      "errorDegrees": 14.168861880992061,
+      "bestErrorDegrees": 9.197294801082979,
+      "angularSpeed": 0.009217140573288901,
+      "streak": 0,
+      "finalHeight": 0.2829930144268671,
+      "maxHoldDrift": 0.023635626640222805,
+      "fixture": false,
+      "steps": 150
+    },
+    {
+      "seed": 880070,
+      "params": {
+        "center": [
+          -0.00992981162087101,
+          0.009523725450836563,
+          0.03754890401533665
+        ],
+        "radius": 0.017930572540830008,
+        "mass": 0.05289044677907919,
+        "friction": 0.9729962832229193,
+        "half_length": 0.040736670710421634,
+        "axes": [
+          0.040736670710421634,
+          0.017930572540830008,
+          0.017930572540830008
+        ]
+      },
+      "targetDegrees": 10.0,
+      "success": false,
+      "retained": false,
+      "grasped": true,
+      "bad": false,
+      "dropped": false,
+      "errorDegrees": 18.495634232552366,
+      "bestErrorDegrees": 10.158755018598209,
+      "angularSpeed": 0.010428187624951513,
+      "streak": 0,
+      "finalHeight": 0.28313477373326174,
+      "maxHoldDrift": 0.025174450671672417,
+      "fixture": false,
+      "steps": 150
+    },
+    {
+      "seed": 880071,
+      "params": {
+        "center": [
+          -0.011502484968670118,
+          0.010349523076508568,
+          0.03569624406829949
+        ],
+        "radius": 0.017792323087287742,
+        "mass": 0.057564383122040194,
+        "friction": 1.05058161991922,
+        "half_length": 0.03991838890831905,
+        "axes": [
+          0.03991838890831905,
+          0.017792323087287742,
+          0.017792323087287742
+        ]
+      },
+      "targetDegrees": -10.0,
+      "success": false,
+      "retained": true,
+      "grasped": true,
+      "bad": false,
+      "dropped": false,
+      "errorDegrees": 14.583410533664065,
+      "bestErrorDegrees": 9.430432784118198,
+      "angularSpeed": 0.014485686066924176,
+      "streak": 0,
+      "finalHeight": 0.2824011566060475,
+      "maxHoldDrift": 0.02433616637892836,
+      "fixture": false,
+      "steps": 150
+    },
+    {
+      "seed": 880072,
+      "params": {
+        "center": [
+          -0.0117460853419212,
+          0.01189064936106791,
+          0.03626826415349854
+        ],
+        "radius": 0.018077717772752737,
+        "mass": 0.05120901657397168,
+        "friction": 1.066136303754506,
+        "half_length": 0.04041749078906913,
+        "axes": [
+          0.04041749078906913,
+          0.018077717772752737,
+          0.018077717772752737
+        ]
+      },
+      "targetDegrees": 10.0,
+      "success": false,
+      "retained": true,
+      "grasped": true,
+      "bad": false,
+      "dropped": false,
+      "errorDegrees": 19.597914380815677,
+      "bestErrorDegrees": 10.225949849699079,
+      "angularSpeed": 0.012799568128070996,
+      "streak": 0,
+      "finalHeight": 0.28349273342662884,
+      "maxHoldDrift": 0.02499752950652546,
+      "fixture": false,
+      "steps": 150
+    },
+    {
+      "seed": 880073,
+      "params": {
+        "center": [
+          -0.01091642497092294,
+          0.01165210424224505,
+          0.03713910318650092
+        ],
+        "radius": 0.01816854858508959,
+        "mass": 0.06000835019246702,
+        "friction": 1.08448293760352,
+        "half_length": 0.039642533254111496,
+        "axes": [
+          0.039642533254111496,
+          0.01816854858508959,
+          0.01816854858508959
+        ]
+      },
+      "targetDegrees": -10.0,
+      "success": false,
+      "retained": false,
+      "grasped": true,
+      "bad": false,
+      "dropped": false,
+      "errorDegrees": 15.121316154728143,
+      "bestErrorDegrees": 9.376837445532107,
+      "angularSpeed": 0.022320158261194142,
+      "streak": 0,
+      "finalHeight": 0.2819428574844378,
+      "maxHoldDrift": 0.026071066351743114,
+      "fixture": false,
+      "steps": 150
+    },
+    {
+      "seed": 880074,
+      "params": {
+        "center": [
+          -0.010866558403726601,
+          0.011702944377856394,
+          0.0359715529335091
+        ],
+        "radius": 0.018016725573972436,
+        "mass": 0.056088338204142975,
+        "friction": 0.9941646955887781,
+        "half_length": 0.03969434493274897,
+        "axes": [
+          0.03969434493274897,
+          0.018016725573972436,
+          0.018016725573972436
+        ]
+      },
+      "targetDegrees": 10.0,
+      "success": false,
+      "retained": false,
+      "grasped": true,
+      "bad": false,
+      "dropped": false,
+      "errorDegrees": 17.953305586213883,
+      "bestErrorDegrees": 10.14311884498688,
+      "angularSpeed": 0.020750465027135144,
+      "streak": 0,
+      "finalHeight": 0.2824452155588815,
+      "maxHoldDrift": 0.02677901218767864,
+      "fixture": false,
+      "steps": 150
+    },
+    {
+      "seed": 880075,
+      "params": {
+        "center": [
+          -0.011287243824664204,
+          0.01027993487847763,
+          0.0361288501861978
+        ],
+        "radius": 0.018179991925671834,
+        "mass": 0.05963182493271091,
+        "friction": 0.9434945342873643,
+        "half_length": 0.04062764460059758,
+        "axes": [
+          0.04062764460059758,
+          0.018179991925671834,
+          0.018179991925671834
+        ]
+      },
+      "targetDegrees": -10.0,
+      "success": false,
+      "retained": false,
+      "grasped": true,
+      "bad": false,
+      "dropped": false,
+      "errorDegrees": 15.923814623945649,
+      "bestErrorDegrees": 9.625378264836074,
+      "angularSpeed": 0.02196156409312059,
+      "streak": 0,
+      "finalHeight": 0.2819685508920267,
+      "maxHoldDrift": 0.026469445126659143,
+      "fixture": false,
+      "steps": 150
+    },
+    {
+      "seed": 880076,
+      "params": {
+        "center": [
+          -0.009706276168340862,
+          0.010992430654278684,
+          0.03701260138287068
+        ],
+        "radius": 0.017682937425177576,
+        "mass": 0.061047445434365556,
+        "friction": 1.0169177080799947,
+        "half_length": 0.039313880972980816,
+        "axes": [
+          0.039313880972980816,
+          0.017682937425177576,
+          0.017682937425177576
+        ]
+      },
+      "targetDegrees": 10.0,
+      "success": false,
+      "retained": false,
+      "grasped": true,
+      "bad": false,
+      "dropped": false,
+      "errorDegrees": 15.646483980199612,
+      "bestErrorDegrees": 10.16040269498524,
+      "angularSpeed": 0.015925366138500555,
+      "streak": 0,
+      "finalHeight": 0.281753466995873,
+      "maxHoldDrift": 0.025594847947693376,
+      "fixture": false,
+      "steps": 150
+    },
+    {
+      "seed": 880077,
+      "params": {
+        "center": [
+          -0.010186167052777468,
+          0.010202308013187394,
+          0.03752339661052096
+        ],
+        "radius": 0.0177811744219399,
+        "mass": 0.060961789431014914,
+        "friction": 1.0934939206949683,
+        "half_length": 0.04050487521301404,
+        "axes": [
+          0.04050487521301404,
+          0.0177811744219399,
+          0.0177811744219399
+        ]
+      },
+      "targetDegrees": -10.0,
+      "success": false,
+      "retained": false,
+      "grasped": true,
+      "bad": false,
+      "dropped": false,
+      "errorDegrees": 14.44020747885299,
+      "bestErrorDegrees": 9.40119798819191,
+      "angularSpeed": 0.01487573160326771,
+      "streak": 0,
+      "finalHeight": 0.2818620645860506,
+      "maxHoldDrift": 0.02507158964171203,
+      "fixture": false,
+      "steps": 150
+    },
+    {
+      "seed": 880078,
+      "params": {
+        "center": [
+          -0.010642871116377541,
+          0.011126416518036572,
+          0.03772565066301666
+        ],
+        "radius": 0.01786788694917993,
+        "mass": 0.05285312367787775,
+        "friction": 1.0432230701939915,
+        "half_length": 0.04053735862084947,
+        "axes": [
+          0.04053735862084947,
+          0.01786788694917993,
+          0.01786788694917993
+        ]
+      },
+      "targetDegrees": 10.0,
+      "success": false,
+      "retained": true,
+      "grasped": true,
+      "bad": false,
+      "dropped": false,
+      "errorDegrees": 18.521453204263434,
+      "bestErrorDegrees": 10.191341333070795,
+      "angularSpeed": 0.009651591104506573,
+      "streak": 0,
+      "finalHeight": 0.28315045939921774,
+      "maxHoldDrift": 0.024460262804594436,
+      "fixture": false,
+      "steps": 150
+    },
+    {
+      "seed": 880079,
+      "params": {
+        "center": [
+          -0.010054913457450621,
+          0.011593984637355847,
+          0.036470824360335836
+        ],
+        "radius": 0.017872420895178535,
+        "mass": 0.055321604454731305,
+        "friction": 0.9658214166048557,
+        "half_length": 0.039622564633907106,
+        "axes": [
+          0.039622564633907106,
+          0.017872420895178535,
+          0.017872420895178535
+        ]
+      },
+      "targetDegrees": -10.0,
+      "success": false,
+      "retained": true,
+      "grasped": true,
+      "bad": false,
+      "dropped": false,
+      "errorDegrees": 14.718990903081371,
+      "bestErrorDegrees": 9.439808683048286,
+      "angularSpeed": 0.010710609212612028,
+      "streak": 0,
+      "finalHeight": 0.2827837370089418,
+      "maxHoldDrift": 0.0246314660673328,
+      "fixture": false,
+      "steps": 150
+    },
+    {
+      "seed": 880080,
+      "params": {
+        "center": [
+          -0.01191919193199028,
+          0.011466281269275742,
+          0.036273528782452706
+        ],
+        "radius": 0.017788795446460517,
+        "mass": 0.050335088045937865,
+        "friction": 0.9573516839010773,
+        "half_length": 0.039944976573732034,
+        "axes": [
+          0.039944976573732034,
+          0.017788795446460517,
+          0.017788795446460517
+        ]
+      },
+      "targetDegrees": 10.0,
+      "success": false,
+      "retained": true,
+      "grasped": true,
+      "bad": false,
+      "dropped": false,
+      "errorDegrees": 19.13319835850981,
+      "bestErrorDegrees": 10.253816842515242,
+      "angularSpeed": 0.007688614594330959,
+      "streak": 0,
+      "finalHeight": 0.28368911961974674,
+      "maxHoldDrift": 0.022968297036850573,
+      "fixture": false,
+      "steps": 150
+    },
+    {
+      "seed": 880081,
+      "params": {
+        "center": [
+          -0.010033901088148021,
+          0.010757237194369168,
+          0.03681016034389823
+        ],
+        "radius": 0.01788084639176059,
+        "mass": 0.05858800844938505,
+        "friction": 0.9489807165020161,
+        "half_length": 0.0398537777702976,
+        "axes": [
+          0.0398537777702976,
+          0.01788084639176059,
+          0.01788084639176059
+        ]
+      },
+      "targetDegrees": -10.0,
+      "success": false,
+      "retained": false,
+      "grasped": true,
+      "bad": false,
+      "dropped": false,
+      "errorDegrees": 15.556148725618007,
+      "bestErrorDegrees": 9.744368955511764,
+      "angularSpeed": 0.015916502621452593,
+      "streak": 0,
+      "finalHeight": 0.2821508503287417,
+      "maxHoldDrift": 0.02573933844883883,
+      "fixture": false,
+      "steps": 150
+    },
+    {
+      "seed": 880082,
+      "params": {
+        "center": [
+          -0.009801836693091247,
+          0.011534356734505355,
+          0.03660126314348867
+        ],
+        "radius": 0.017889669678000413,
+        "mass": 0.05992759081644453,
+        "friction": 1.0006590906460928,
+        "half_length": 0.03965101335648819,
+        "axes": [
+          0.03965101335648819,
+          0.017889669678000413,
+          0.017889669678000413
+        ]
+      },
+      "targetDegrees": 10.0,
+      "success": false,
+      "retained": false,
+      "grasped": true,
+      "bad": false,
+      "dropped": false,
+      "errorDegrees": 16.478145437169562,
+      "bestErrorDegrees": 10.192868925372235,
+      "angularSpeed": 0.01752176218483743,
+      "streak": 0,
+      "finalHeight": 0.2819453074118232,
+      "maxHoldDrift": 0.02613427547539223,
+      "fixture": false,
+      "steps": 150
+    },
+    {
+      "seed": 880083,
+      "params": {
+        "center": [
+          -0.012009321964738038,
+          0.010851925953263336,
+          0.03571726486763196
+        ],
+        "radius": 0.018319937255628197,
+        "mass": 0.05939292458820414,
+        "friction": 0.9522100138935572,
+        "half_length": 0.0402108729183344,
+        "axes": [
+          0.0402108729183344,
+          0.018319937255628197,
+          0.018319937255628197
+        ]
+      },
+      "targetDegrees": -10.0,
+      "success": false,
+      "retained": false,
+      "grasped": true,
+      "bad": false,
+      "dropped": false,
+      "errorDegrees": 16.30072302228297,
+      "bestErrorDegrees": 9.573518715284598,
+      "angularSpeed": 0.027938309656525884,
+      "streak": 0,
+      "finalHeight": 0.28183512267982846,
+      "maxHoldDrift": 0.027099413926360387,
+      "fixture": false,
+      "steps": 150
+    },
+    {
+      "seed": 880084,
+      "params": {
+        "center": [
+          -0.010353404471875164,
+          0.010474842723959368,
+          0.03660889504999835
+        ],
+        "radius": 0.01782884841675519,
+        "mass": 0.053540878866511835,
+        "friction": 0.9428531966567574,
+        "half_length": 0.03980668639326303,
+        "axes": [
+          0.03980668639326303,
+          0.01782884841675519,
+          0.01782884841675519
+        ]
+      },
+      "targetDegrees": 10.0,
+      "success": false,
+      "retained": true,
+      "grasped": true,
+      "bad": false,
+      "dropped": false,
+      "errorDegrees": 17.796768900469715,
+      "bestErrorDegrees": 10.146676842717977,
+      "angularSpeed": 0.009378656391383388,
+      "streak": 0,
+      "finalHeight": 0.283065793978486,
+      "maxHoldDrift": 0.02399157431620829,
+      "fixture": false,
+      "steps": 150
+    },
+    {
+      "seed": 880085,
+      "params": {
+        "center": [
+          -0.011355196272118114,
+          0.010660127787650613,
+          0.036786561001204254
+        ],
+        "radius": 0.017774653075677212,
+        "mass": 0.056117723518246225,
+        "friction": 0.9290400939908672,
+        "half_length": 0.039039978517994255,
+        "axes": [
+          0.039039978517994255,
+          0.017774653075677212,
+          0.017774653075677212
+        ]
+      },
+      "targetDegrees": -10.0,
+      "success": false,
+      "retained": true,
+      "grasped": true,
+      "bad": false,
+      "dropped": false,
+      "errorDegrees": 14.298383417335424,
+      "bestErrorDegrees": 9.42664219029778,
+      "angularSpeed": 0.01084119817742937,
+      "streak": 0,
+      "finalHeight": 0.28263153087404236,
+      "maxHoldDrift": 0.023393328686510336,
+      "fixture": false,
+      "steps": 150
+    },
+    {
+      "seed": 880086,
+      "params": {
+        "center": [
+          -0.01181824200871386,
+          0.011144182421886598,
+          0.03734240626857014
+        ],
+        "radius": 0.018157600433626624,
+        "mass": 0.057170998758077504,
+        "friction": 1.0089482909661498,
+        "half_length": 0.04010683506906938,
+        "axes": [
+          0.04010683506906938,
+          0.018157600433626624,
+          0.018157600433626624
+        ]
+      },
+      "targetDegrees": 10.0,
+      "success": false,
+      "retained": false,
+      "grasped": true,
+      "bad": false,
+      "dropped": false,
+      "errorDegrees": 17.397495530929103,
+      "bestErrorDegrees": 10.143847870763137,
+      "angularSpeed": 0.02358009179462789,
+      "streak": 0,
+      "finalHeight": 0.28224846260538794,
+      "maxHoldDrift": 0.026558132370017338,
+      "fixture": false,
+      "steps": 150
+    },
+    {
+      "seed": 880087,
+      "params": {
+        "center": [
+          -0.010810149103823137,
+          0.01020854834034194,
+          0.0364750355570355
+        ],
+        "radius": 0.018282353273554514,
+        "mass": 0.05026339383030644,
+        "friction": 1.0406202512965663,
+        "half_length": 0.039000097834691105,
+        "axes": [
+          0.039000097834691105,
+          0.018282353273554514,
+          0.018282353273554514
+        ]
+      },
+      "targetDegrees": -10.0,
+      "success": false,
+      "retained": true,
+      "grasped": true,
+      "bad": false,
+      "dropped": false,
+      "errorDegrees": 15.367795591657227,
+      "bestErrorDegrees": 9.478179011596824,
+      "angularSpeed": 0.010184239453848621,
+      "streak": 0,
+      "finalHeight": 0.28374963127009784,
+      "maxHoldDrift": 0.023929905340724405,
+      "fixture": false,
+      "steps": 150
+    },
+    {
+      "seed": 880088,
+      "params": {
+        "center": [
+          -0.01044496144842753,
+          0.010199992005212861,
+          0.03591400060266374
+        ],
+        "radius": 0.018218268539490316,
+        "mass": 0.06090120479449534,
+        "friction": 1.0260439002674615,
+        "half_length": 0.0396826414046154,
+        "axes": [
+          0.0396826414046154,
+          0.018218268539490316,
+          0.018218268539490316
+        ]
+      },
+      "targetDegrees": 10.0,
+      "success": false,
+      "retained": false,
+      "grasped": true,
+      "bad": false,
+      "dropped": false,
+      "errorDegrees": 16.860871833194086,
+      "bestErrorDegrees": 10.147570494406644,
+      "angularSpeed": 0.02393914804526856,
+      "streak": 0,
+      "finalHeight": 0.2817905437637004,
+      "maxHoldDrift": 0.02691147058827939,
+      "fixture": false,
+      "steps": 150
+    },
+    {
+      "seed": 880089,
+      "params": {
+        "center": [
+          -0.010852283765782608,
+          0.011729626135411205,
+          0.03741501595522924
+        ],
+        "radius": 0.01831043416079625,
+        "mass": 0.05998689458784085,
+        "friction": 0.9740337522768449,
+        "half_length": 0.041023769523533815,
+        "axes": [
+          0.041023769523533815,
+          0.01831043416079625,
+          0.01831043416079625
+        ]
+      },
+      "targetDegrees": -10.0,
+      "success": false,
+      "retained": false,
+      "grasped": true,
+      "bad": false,
+      "dropped": false,
+      "errorDegrees": 15.738182101534088,
+      "bestErrorDegrees": 9.629266881698543,
+      "angularSpeed": 0.021781276115072558,
+      "streak": 0,
+      "finalHeight": 0.2819668805496488,
+      "maxHoldDrift": 0.026485612722029112,
+      "fixture": false,
+      "steps": 150
+    },
+    {
+      "seed": 880090,
+      "params": {
+        "center": [
+          -0.011908222033783715,
+          0.010106260038970749,
+          0.036893467173989385
+        ],
+        "radius": 0.01787963702749727,
+        "mass": 0.05562268553574009,
+        "friction": 0.9890616759834807,
+        "half_length": 0.04013915185161799,
+        "axes": [
+          0.04013915185161799,
+          0.01787963702749727,
+          0.01787963702749727
+        ]
+      },
+      "targetDegrees": 10.0,
+      "success": false,
+      "retained": true,
+      "grasped": true,
+      "bad": false,
+      "dropped": false,
+      "errorDegrees": 17.7821781414587,
+      "bestErrorDegrees": 10.153261196165825,
+      "angularSpeed": 0.015121052946363683,
+      "streak": 0,
+      "finalHeight": 0.2826194414067402,
+      "maxHoldDrift": 0.024739667465112716,
+      "fixture": false,
+      "steps": 150
+    },
+    {
+      "seed": 880091,
+      "params": {
+        "center": [
+          -0.009774738672778335,
+          0.011740930364932919,
+          0.03658486821628024
+        ],
+        "radius": 0.017886783071633428,
+        "mass": 0.06151959774901853,
+        "friction": 1.0915706591381003,
+        "half_length": 0.04050841488636681,
+        "axes": [
+          0.04050841488636681,
+          0.017886783071633428,
+          0.017886783071633428
+        ]
+      },
+      "targetDegrees": -10.0,
+      "success": false,
+      "retained": false,
+      "grasped": true,
+      "bad": false,
+      "dropped": false,
+      "errorDegrees": 14.469762626704503,
+      "bestErrorDegrees": 9.503191975116229,
+      "angularSpeed": 0.016379470455331367,
+      "streak": 0,
+      "finalHeight": 0.281828066977548,
+      "maxHoldDrift": 0.025338734864427444,
+      "fixture": false,
+      "steps": 150
+    },
+    {
+      "seed": 880092,
+      "params": {
+        "center": [
+          -0.011379680627211411,
+          0.011812621582786325,
+          0.03766684791646553
+        ],
+        "radius": 0.017836130470396293,
+        "mass": 0.053637869573727175,
+        "friction": 1.0740729701681087,
+        "half_length": 0.039842964295031286,
+        "axes": [
+          0.039842964295031286,
+          0.017836130470396293,
+          0.017836130470396293
+        ]
+      },
+      "targetDegrees": 10.0,
+      "success": false,
+      "retained": true,
+      "grasped": true,
+      "bad": false,
+      "dropped": false,
+      "errorDegrees": 17.966867572046073,
+      "bestErrorDegrees": 10.21955606760436,
+      "angularSpeed": 0.00880483278112579,
+      "streak": 0,
+      "finalHeight": 0.2830747479512935,
+      "maxHoldDrift": 0.023334806833908123,
+      "fixture": false,
+      "steps": 150
+    },
+    {
+      "seed": 880093,
+      "params": {
+        "center": [
+          -0.010864525030124356,
+          0.011572326120770525,
+          0.03726614193738745
+        ],
+        "radius": 0.01794588972129261,
+        "mass": 0.057266718022004566,
+        "friction": 1.0991508926978144,
+        "half_length": 0.03895169291096599,
+        "axes": [
+          0.03895169291096599,
+          0.01794588972129261,
+          0.01794588972129261
+        ]
+      },
+      "targetDegrees": -10.0,
+      "success": false,
+      "retained": true,
+      "grasped": true,
+      "bad": false,
+      "dropped": false,
+      "errorDegrees": 13.645928394643443,
+      "bestErrorDegrees": 9.246037448139878,
+      "angularSpeed": 0.01092434820962235,
+      "streak": 0,
+      "finalHeight": 0.28254799211576526,
+      "maxHoldDrift": 0.02338085473095139,
+      "fixture": false,
+      "steps": 150
+    },
+    {
+      "seed": 880094,
+      "params": {
+        "center": [
+          -0.009707170800002576,
+          0.010895811167627209,
+          0.036547062395263494
+        ],
+        "radius": 0.017933878704907757,
+        "mass": 0.05398197545977973,
+        "friction": 1.0148808961593487,
+        "half_length": 0.04018580610667434,
+        "axes": [
+          0.04018580610667434,
+          0.017933878704907757,
+          0.017933878704907757
+        ]
+      },
+      "targetDegrees": 10.0,
+      "success": false,
+      "retained": true,
+      "grasped": true,
+      "bad": false,
+      "dropped": false,
+      "errorDegrees": 18.1922198494586,
+      "bestErrorDegrees": 10.158970193694676,
+      "angularSpeed": 0.009941981256335164,
+      "streak": 0,
+      "finalHeight": 0.283016757483702,
+      "maxHoldDrift": 0.024570688481795167,
+      "fixture": false,
+      "steps": 150
+    },
+    {
+      "seed": 880095,
+      "params": {
+        "center": [
+          -0.01017864050815527,
+          0.011842668518183342,
+          0.036999936794454714
+        ],
+        "radius": 0.018149927448663984,
+        "mass": 0.053349994612280474,
+        "friction": 0.9357120826627261,
+        "half_length": 0.03971971710400571,
+        "axes": [
+          0.03971971710400571,
+          0.018149927448663984,
+          0.018149927448663984
+        ]
+      },
+      "targetDegrees": -10.0,
+      "success": false,
+      "retained": false,
+      "grasped": true,
+      "bad": false,
+      "dropped": false,
+      "errorDegrees": 15.737983837742336,
+      "bestErrorDegrees": 9.548469393455136,
+      "angularSpeed": 0.013347125587949892,
+      "streak": 0,
+      "finalHeight": 0.28309150073340855,
+      "maxHoldDrift": 0.025791831662137235,
+      "fixture": false,
+      "steps": 150
+    }
+  ]
+}

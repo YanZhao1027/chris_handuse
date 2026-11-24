@@ -1,0 +1,30 @@
+import {createRequire} from 'node:module';
+import assert from 'node:assert/strict';
+import {pathToFileURL} from 'node:url';
+import path from 'node:path';
+const require=createRequire(process.env.HOME+'/.agents/skills/teardown/package.json');const {chromium}=require('playwright');
+const browser=await chromium.launch({args:['--no-proxy-server','--enable-webgl','--ignore-gpu-blocklist']});
+try{
+const errors=[],external=[];
+let page=await browser.newPage({viewport:{width:1600,height:900},deviceScaleFactor:1});
+page.on('pageerror',e=>errors.push(e.message));page.on('request',r=>{if(/^https?:/.test(r.url())&&!r.url().startsWith('http://127.0.0.1:18765/'))external.push(r.url());});
+await page.goto(pathToFileURL(path.resolve('teardown-out/dist/tendonhand-physics.html')).href);
+await page.waitForFunction(()=>window.PHYSICS?.ready);assert.equal(await page.evaluate(()=>window.PHYSICS.server),false);
+await page.locator('#timeline').fill('5.9');await page.waitForFunction(()=>window.PHYSICS.frame.t>5.8);
+assert.equal(await page.evaluate(()=>window.PHYSICS.frame.fixture),false);assert.ok(await page.evaluate(()=>window.PHYSICS.frame.object[2]>.26));
+await page.screenshot({path:'results/browser-grasp.png'});
+await page.locator('[data-case=zero]').click();await page.locator('#timeline').fill('5.9');await page.waitForFunction(()=>window.PHYSICS.scenario==='zero'&&window.PHYSICS.frame.t>5.8);
+assert.ok(await page.evaluate(()=>window.PHYSICS.frame.object[2]<.04));await page.screenshot({path:'results/browser-zero.png'});
+await page.locator('[data-case=release]').click();await page.locator('#timeline').fill('5.9');await page.waitForFunction(()=>window.PHYSICS.scenario==='release'&&window.PHYSICS.frame.t>5.8);
+assert.ok((await page.locator('#verdict').innerText()).includes('RELEASED AS COMMANDED'));
+console.log('PASS offline three real trajectories, seeking, weld display, release verdict');
+await page.close();page=await browser.newPage({viewport:{width:1600,height:900},deviceScaleFactor:1});page.on('pageerror',e=>errors.push(e.message));page.on('request',r=>{if(/^https?:/.test(r.url())&&!r.url().startsWith('http://127.0.0.1:18765/'))external.push(r.url());});await page.goto('http://127.0.0.1:18765/');await page.waitForFunction(()=>window.PHYSICS?.server,{}, {timeout:8000});
+await page.locator('#pull').fill('0');await page.locator('#thumb').fill('0');await page.locator('#solve').click();
+await page.waitForFunction(()=>window.PHYSICS.scenario==='custom',{},{timeout:15000});
+assert.equal(await page.evaluate(()=>window.PHYSICS.summary.pull),0);assert.equal(await page.evaluate(()=>window.PHYSICS.summary.success),false);
+await page.locator('#timeline').fill('5.9');await page.waitForFunction(()=>window.PHYSICS.frame.t>5.8);
+assert.ok(await page.evaluate(()=>window.PHYSICS.frame.object[2]<.04));await page.screenshot({path:'results/browser-custom.png'});
+console.log('PASS browser -> local MuJoCo API -> new computed trial');
+const invalid=await page.request.post('http://127.0.0.1:18765/api/run',{data:{pull:1000000}});assert.equal(invalid.status(),400);
+assert.deepEqual(errors,[]);assert.deepEqual(external,[]);console.log('PASS input rejection, no JS errors, no external requests');
+}finally{await browser.close();}

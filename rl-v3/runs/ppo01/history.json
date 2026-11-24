@@ -1,0 +1,1447 @@
+[
+  {
+    "update": 1,
+    "steps": 3072,
+    "difficulty": 0.2,
+    "episodes": 5,
+    "trainSuccess": 0.0,
+    "trainReturn": 17.29904955904276,
+    "loss": 22.923412879308064,
+    "approxKL": 0.008469932009271966,
+    "seconds": 0.5175596939989191,
+    "validation": {
+      "success": 0.28125,
+      "meanReturn": 37.597011886585214,
+      "n": 32
+    }
+  },
+  {
+    "update": 2,
+    "steps": 6144,
+    "difficulty": 0.2,
+    "episodes": 43,
+    "trainSuccess": 0.9302325581395349,
+    "trainReturn": 79.09956783508427,
+    "loss": 25.14403287569682,
+    "approxKL": 0.0030629066216836995,
+    "seconds": 2.360568713998873
+  },
+  {
+    "update": 3,
+    "steps": 9216,
+    "difficulty": 0.2,
+    "episodes": 14,
+    "trainSuccess": 0.5714285714285714,
+    "trainReturn": 58.67047714180599,
+    "loss": 32.705905755360924,
+    "approxKL": 0.005452581513964105,
+    "seconds": 2.842970373998469
+  },
+  {
+    "update": 4,
+    "steps": 12288,
+    "difficulty": 0.2,
+    "episodes": 49,
+    "trainSuccess": 0.7551020408163265,
+    "trainReturn": 68.56127347576236,
+    "loss": 21.62511920928955,
+    "approxKL": 0.0042700268944220925,
+    "seconds": 3.411781170998438
+  },
+  {
+    "update": 5,
+    "steps": 15360,
+    "difficulty": 0.2,
+    "episodes": 38,
+    "trainSuccess": 0.8947368421052632,
+    "trainReturn": 76.38827763271611,
+    "loss": 25.873135248819988,
+    "approxKL": 0.004717761524564897,
+    "seconds": 3.8969033180001134,
+    "validation": {
+      "success": 0.28125,
+      "meanReturn": 37.64556467785234,
+      "n": 32
+    }
+  },
+  {
+    "update": 6,
+    "steps": 18432,
+    "difficulty": 0.41000000000000003,
+    "episodes": 17,
+    "trainSuccess": 0.8823529411764706,
+    "trainReturn": 74.74482987786392,
+    "loss": 31.218491713205974,
+    "approxKL": 0.0057517406748957,
+    "seconds": 5.77776560699931
+  },
+  {
+    "update": 7,
+    "steps": 21504,
+    "difficulty": 0.44500000000000006,
+    "episodes": 45,
+    "trainSuccess": 0.7333333333333333,
+    "trainReturn": 64.73991871172149,
+    "loss": 18.85172128677368,
+    "approxKL": 0.0035721572833911828,
+    "seconds": 6.262527973000033
+  },
+  {
+    "update": 8,
+    "steps": 24576,
+    "difficulty": 0.48000000000000004,
+    "episodes": 46,
+    "trainSuccess": 0.5652173913043478,
+    "trainReturn": 56.2866229962294,
+    "loss": 20.86515776316325,
+    "approxKL": 0.0050197908470484736,
+    "seconds": 6.718991207999352
+  },
+  {
+    "update": 9,
+    "steps": 27648,
+    "difficulty": 0.5150000000000001,
+    "episodes": 36,
+    "trainSuccess": 0.4722222222222222,
+    "trainReturn": 48.00685829182263,
+    "loss": 18.414245049158733,
+    "approxKL": 0.0036604668227179595,
+    "seconds": 7.201922797999941
+  },
+  {
+    "update": 10,
+    "steps": 30720,
+    "difficulty": 0.55,
+    "episodes": 34,
+    "trainSuccess": 0.5294117647058824,
+    "trainReturn": 50.648216089111166,
+    "loss": 19.81260919570923,
+    "approxKL": 0.0029725899827705384,
+    "seconds": 7.670433281999067,
+    "validation": {
+      "success": 0.28125,
+      "meanReturn": 37.543695058355326,
+      "n": 32
+    }
+  },
+  {
+    "update": 11,
+    "steps": 33792,
+    "difficulty": 0.585,
+    "episodes": 51,
+    "trainSuccess": 0.5098039215686274,
+    "trainReturn": 51.71772259147029,
+    "loss": 18.301730155944824,
+    "approxKL": 0.005993477049438904,
+    "seconds": 9.586976639999193
+  },
+  {
+    "update": 12,
+    "steps": 36864,
+    "difficulty": 0.6200000000000001,
+    "episodes": 29,
+    "trainSuccess": 0.4827586206896552,
+    "trainReturn": 49.58988172063498,
+    "loss": 20.25825595855713,
+    "approxKL": 0.00507718177929443,
+    "seconds": 10.064222674998746
+  },
+  {
+    "update": 13,
+    "steps": 39936,
+    "difficulty": 0.655,
+    "episodes": 44,
+    "trainSuccess": 0.5681818181818182,
+    "trainReturn": 55.42800506658641,
+    "loss": 15.702280203501383,
+    "approxKL": 0.0031280109978979453,
+    "seconds": 10.547255341998607
+  },
+  {
+    "update": 14,
+    "steps": 43008,
+    "difficulty": 0.6900000000000001,
+    "episodes": 39,
+    "trainSuccess": 0.2564102564102564,
+    "trainReturn": 35.074648355142294,
+    "loss": 15.990478237469992,
+    "approxKL": 0.005985287799073073,
+    "seconds": 11.041844083998512
+  },
+  {
+    "update": 15,
+    "steps": 46080,
+    "difficulty": 0.7250000000000001,
+    "episodes": 54,
+    "trainSuccess": 0.35185185185185186,
+    "trainReturn": 42.05140583320131,
+    "loss": 11.96088973681132,
+    "approxKL": 0.0031218638808544106,
+    "seconds": 11.520436110999071,
+    "validation": {
+      "success": 0.3125,
+      "meanReturn": 39.812987820328814,
+      "n": 32
+    }
+  },
+  {
+    "update": 16,
+    "steps": 49152,
+    "difficulty": 0.76,
+    "episodes": 44,
+    "trainSuccess": 0.2727272727272727,
+    "trainReturn": 36.943469081508574,
+    "loss": 14.714638590812683,
+    "approxKL": 0.0006066575685205559,
+    "seconds": 13.445593413998722
+  },
+  {
+    "update": 17,
+    "steps": 52224,
+    "difficulty": 0.7950000000000002,
+    "episodes": 44,
+    "trainSuccess": 0.29545454545454547,
+    "trainReturn": 38.58210313961122,
+    "loss": 12.347341378529867,
+    "approxKL": 0.0033005197086216262,
+    "seconds": 13.917291205998481
+  },
+  {
+    "update": 18,
+    "steps": 55296,
+    "difficulty": 0.8300000000000001,
+    "episodes": 41,
+    "trainSuccess": 0.36585365853658536,
+    "trainReturn": 43.28569534911974,
+    "loss": 15.421093225479126,
+    "approxKL": 0.00396041948988568,
+    "seconds": 14.407158297999558
+  },
+  {
+    "update": 19,
+    "steps": 58368,
+    "difficulty": 0.865,
+    "episodes": 50,
+    "trainSuccess": 0.28,
+    "trainReturn": 36.4960609578727,
+    "loss": 11.60664184888204,
+    "approxKL": 0.001801266014808789,
+    "seconds": 14.900990242998887
+  },
+  {
+    "update": 20,
+    "steps": 61440,
+    "difficulty": 0.9000000000000001,
+    "episodes": 44,
+    "trainSuccess": 0.38636363636363635,
+    "trainReturn": 41.60583061592406,
+    "loss": 12.779429395993551,
+    "approxKL": 0.0013613794241488601,
+    "seconds": 15.401563711999188,
+    "validation": {
+      "success": 0.28125,
+      "meanReturn": 38.216949101134325,
+      "n": 32
+    }
+  },
+  {
+    "update": 21,
+    "steps": 64512,
+    "difficulty": 0.935,
+    "episodes": 49,
+    "trainSuccess": 0.1836734693877551,
+    "trainReturn": 28.365502991417653,
+    "loss": 9.098560372988382,
+    "approxKL": 0.0030411952902795747,
+    "seconds": 17.279902919999586
+  },
+  {
+    "update": 22,
+    "steps": 67584,
+    "difficulty": 0.97,
+    "episodes": 52,
+    "trainSuccess": 0.25,
+    "trainReturn": 35.094649406472286,
+    "loss": 10.159084955851236,
+    "approxKL": 0.0010363944262887041,
+    "seconds": 17.752530953999667
+  },
+  {
+    "update": 23,
+    "steps": 70656,
+    "difficulty": 1.0,
+    "episodes": 44,
+    "trainSuccess": 0.11363636363636363,
+    "trainReturn": 27.998561432944076,
+    "loss": 10.528054594993591,
+    "approxKL": 0.0019249475881224498,
+    "seconds": 18.234809623998444
+  },
+  {
+    "update": 24,
+    "steps": 73728,
+    "difficulty": 1.0,
+    "episodes": 46,
+    "trainSuccess": 0.2608695652173913,
+    "trainReturn": 35.540729674287945,
+    "loss": 10.55077083905538,
+    "approxKL": 0.0014206435056015228,
+    "seconds": 18.712941637999393
+  },
+  {
+    "update": 25,
+    "steps": 76800,
+    "difficulty": 1.0,
+    "episodes": 49,
+    "trainSuccess": 0.24489795918367346,
+    "trainReturn": 35.96264222510389,
+    "loss": 9.061672806739807,
+    "approxKL": 0.0020587075099077388,
+    "seconds": 19.18985354799952,
+    "validation": {
+      "success": 0.3125,
+      "meanReturn": 40.23665095062589,
+      "n": 32
+    }
+  },
+  {
+    "update": 26,
+    "steps": 79872,
+    "difficulty": 1.0,
+    "episodes": 51,
+    "trainSuccess": 0.1568627450980392,
+    "trainReturn": 29.438173531484345,
+    "loss": 9.481260418891907,
+    "approxKL": 0.00067458713601809,
+    "seconds": 21.109954400999413
+  },
+  {
+    "update": 27,
+    "steps": 82944,
+    "difficulty": 1.0,
+    "episodes": 49,
+    "trainSuccess": 0.3469387755102041,
+    "trainReturn": 39.82698862015444,
+    "loss": 11.407024701436361,
+    "approxKL": 0.004012236216415961,
+    "seconds": 21.59333424399847
+  },
+  {
+    "update": 28,
+    "steps": 86016,
+    "difficulty": 1.0,
+    "episodes": 47,
+    "trainSuccess": 0.1702127659574468,
+    "trainReturn": 27.728029660400555,
+    "loss": 8.31620854139328,
+    "approxKL": 0.0016261849086731672,
+    "seconds": 22.10016582299977
+  },
+  {
+    "update": 29,
+    "steps": 89088,
+    "difficulty": 1.0,
+    "episodes": 53,
+    "trainSuccess": 0.18867924528301888,
+    "trainReturn": 28.555399398078514,
+    "loss": 8.047345042228699,
+    "approxKL": 0.005535263141306738,
+    "seconds": 22.604655921999438
+  },
+  {
+    "update": 30,
+    "steps": 92160,
+    "difficulty": 1.0,
+    "episodes": 50,
+    "trainSuccess": 0.26,
+    "trainReturn": 35.48972973798332,
+    "loss": 9.857429265975952,
+    "approxKL": 0.0025299739791080356,
+    "seconds": 23.077705288998914,
+    "validation": {
+      "success": 0.3125,
+      "meanReturn": 40.34162669955682,
+      "n": 32
+    }
+  },
+  {
+    "update": 31,
+    "steps": 95232,
+    "difficulty": 1.0,
+    "episodes": 44,
+    "trainSuccess": 0.1590909090909091,
+    "trainReturn": 28.030924083013566,
+    "loss": 8.14019081989924,
+    "approxKL": 0.00292992095152537,
+    "seconds": 25.01178713799891
+  },
+  {
+    "update": 32,
+    "steps": 98304,
+    "difficulty": 1.0,
+    "episodes": 54,
+    "trainSuccess": 0.2222222222222222,
+    "trainReturn": 31.696563721418404,
+    "loss": 7.071256319681804,
+    "approxKL": 0.0023684020634391345,
+    "seconds": 25.488288660999388
+  },
+  {
+    "update": 33,
+    "steps": 101376,
+    "difficulty": 1.0,
+    "episodes": 50,
+    "trainSuccess": 0.22,
+    "trainReturn": 30.885275671892167,
+    "loss": 9.758047421773275,
+    "approxKL": 0.003976732579758391,
+    "seconds": 25.97163011199882
+  },
+  {
+    "update": 34,
+    "steps": 104448,
+    "difficulty": 1.0,
+    "episodes": 41,
+    "trainSuccess": 0.2926829268292683,
+    "trainReturn": 37.85419804397499,
+    "loss": 11.385910550753275,
+    "approxKL": 0.0022760437132092193,
+    "seconds": 26.46652239299874
+  },
+  {
+    "update": 35,
+    "steps": 107520,
+    "difficulty": 1.0,
+    "episodes": 45,
+    "trainSuccess": 0.35555555555555557,
+    "trainReturn": 44.11836383335176,
+    "loss": 11.08950650691986,
+    "approxKL": 0.0022283423750195652,
+    "seconds": 26.921149944999343,
+    "validation": {
+      "success": 0.34375,
+      "meanReturn": 41.25073884759351,
+      "n": 32
+    }
+  },
+  {
+    "update": 36,
+    "steps": 110592,
+    "difficulty": 1.0,
+    "episodes": 46,
+    "trainSuccess": 0.2391304347826087,
+    "trainReturn": 34.46895160886251,
+    "loss": 7.878473440806071,
+    "approxKL": 0.0030607189934623116,
+    "seconds": 28.88746480899863
+  },
+  {
+    "update": 37,
+    "steps": 113664,
+    "difficulty": 1.0,
+    "episodes": 55,
+    "trainSuccess": 0.21818181818181817,
+    "trainReturn": 32.364298478676076,
+    "loss": 8.394029577573141,
+    "approxKL": 0.001860983041600169,
+    "seconds": 29.393396278999717
+  },
+  {
+    "update": 38,
+    "steps": 116736,
+    "difficulty": 1.0,
+    "episodes": 48,
+    "trainSuccess": 0.16666666666666666,
+    "trainReturn": 29.170148603759117,
+    "loss": 7.7441867391268415,
+    "approxKL": 0.0023485940910177305,
+    "seconds": 29.886613048998697
+  },
+  {
+    "update": 39,
+    "steps": 119808,
+    "difficulty": 1.0,
+    "episodes": 46,
+    "trainSuccess": 0.2391304347826087,
+    "trainReturn": 33.600844434722575,
+    "loss": 7.998641928037007,
+    "approxKL": 0.0033346118604337485,
+    "seconds": 30.369277664000037
+  },
+  {
+    "update": 40,
+    "steps": 122880,
+    "difficulty": 1.0,
+    "episodes": 52,
+    "trainSuccess": 0.21153846153846154,
+    "trainReturn": 32.76199718833572,
+    "loss": 8.081321756045023,
+    "approxKL": 0.0017403682577423751,
+    "seconds": 30.837102252999102,
+    "validation": {
+      "success": 0.34375,
+      "meanReturn": 41.249532746758916,
+      "n": 32
+    }
+  },
+  {
+    "update": 41,
+    "steps": 125952,
+    "difficulty": 1.0,
+    "episodes": 43,
+    "trainSuccess": 0.16279069767441862,
+    "trainReturn": 28.902874732653142,
+    "loss": 10.29163638750712,
+    "approxKL": 0.0006847187930058377,
+    "seconds": 32.754489563998504
+  },
+  {
+    "update": 42,
+    "steps": 129024,
+    "difficulty": 1.0,
+    "episodes": 44,
+    "trainSuccess": 0.4090909090909091,
+    "trainReturn": 44.777288098439094,
+    "loss": 10.319551984469095,
+    "approxKL": 0.000953616137849167,
+    "seconds": 33.23121952499969
+  },
+  {
+    "update": 43,
+    "steps": 132096,
+    "difficulty": 1.0,
+    "episodes": 48,
+    "trainSuccess": 0.1875,
+    "trainReturn": 31.925804734915943,
+    "loss": 9.30069899559021,
+    "approxKL": 0.0004940849151656342,
+    "seconds": 33.71825288599939
+  },
+  {
+    "update": 44,
+    "steps": 135168,
+    "difficulty": 1.0,
+    "episodes": 58,
+    "trainSuccess": 0.2413793103448276,
+    "trainReturn": 34.34215425519735,
+    "loss": 6.976797918478648,
+    "approxKL": -0.00017602918281530341,
+    "seconds": 34.19977023299907
+  },
+  {
+    "update": 45,
+    "steps": 138240,
+    "difficulty": 1.0,
+    "episodes": 42,
+    "trainSuccess": 0.19047619047619047,
+    "trainReturn": 29.310590125872654,
+    "loss": 9.45205827554067,
+    "approxKL": 0.0032243524644097,
+    "seconds": 34.73044352999932,
+    "validation": {
+      "success": 0.3125,
+      "meanReturn": 40.282478718241094,
+      "n": 32
+    }
+  },
+  {
+    "update": 46,
+    "steps": 141312,
+    "difficulty": 1.0,
+    "episodes": 46,
+    "trainSuccess": 0.30434782608695654,
+    "trainReturn": 37.093311133827605,
+    "loss": 8.134677728017172,
+    "approxKL": 0.002163945449865423,
+    "seconds": 36.657981766999
+  },
+  {
+    "update": 47,
+    "steps": 144384,
+    "difficulty": 1.0,
+    "episodes": 51,
+    "trainSuccess": 0.21568627450980393,
+    "trainReturn": 31.39945279354293,
+    "loss": 9.25699551900228,
+    "approxKL": 0.002232435227294142,
+    "seconds": 37.144225983998695
+  },
+  {
+    "update": 48,
+    "steps": 147456,
+    "difficulty": 1.0,
+    "episodes": 51,
+    "trainSuccess": 0.27450980392156865,
+    "trainReturn": 38.35132463008318,
+    "loss": 8.288579225540161,
+    "approxKL": 0.0006073443801142275,
+    "seconds": 37.608715968999604
+  },
+  {
+    "update": 49,
+    "steps": 150528,
+    "difficulty": 1.0,
+    "episodes": 39,
+    "trainSuccess": 0.20512820512820512,
+    "trainReturn": 30.62836335720168,
+    "loss": 11.14762282371521,
+    "approxKL": 0.0015491690816512953,
+    "seconds": 38.08887062699978
+  },
+  {
+    "update": 50,
+    "steps": 153600,
+    "difficulty": 1.0,
+    "episodes": 45,
+    "trainSuccess": 0.4,
+    "trainReturn": 42.65879476682374,
+    "loss": 10.581943472226461,
+    "approxKL": 0.002214101938686023,
+    "seconds": 38.58826650499941,
+    "validation": {
+      "success": 0.34375,
+      "meanReturn": 41.20336128508745,
+      "n": 32
+    }
+  },
+  {
+    "update": 51,
+    "steps": 156672,
+    "difficulty": 1.0,
+    "episodes": 46,
+    "trainSuccess": 0.41304347826086957,
+    "trainReturn": 45.88380600994129,
+    "loss": 11.083002408345541,
+    "approxKL": 0.00017218759846097478,
+    "seconds": 40.50315832399974
+  },
+  {
+    "update": 52,
+    "steps": 159744,
+    "difficulty": 1.0,
+    "episodes": 45,
+    "trainSuccess": 0.2222222222222222,
+    "trainReturn": 34.383949451881236,
+    "loss": 8.774095873037973,
+    "approxKL": 0.003473949526475432,
+    "seconds": 40.98276504400019
+  },
+  {
+    "update": 53,
+    "steps": 162816,
+    "difficulty": 1.0,
+    "episodes": 45,
+    "trainSuccess": 0.4,
+    "trainReturn": 42.85690669177162,
+    "loss": 10.47965673605601,
+    "approxKL": 0.0016422668801775824,
+    "seconds": 41.45609382099974
+  },
+  {
+    "update": 54,
+    "steps": 165888,
+    "difficulty": 1.0,
+    "episodes": 43,
+    "trainSuccess": 0.32558139534883723,
+    "trainReturn": 39.75796283830667,
+    "loss": 11.349408427874247,
+    "approxKL": 0.004140874361231302,
+    "seconds": 41.94701347099908
+  },
+  {
+    "update": 55,
+    "steps": 168960,
+    "difficulty": 1.0,
+    "episodes": 42,
+    "trainSuccess": 0.38095238095238093,
+    "trainReturn": 42.41049788963263,
+    "loss": 10.558537522951761,
+    "approxKL": 0.0009134766393496344,
+    "seconds": 42.436332751998634,
+    "validation": {
+      "success": 0.375,
+      "meanReturn": 41.32543293274273,
+      "n": 32
+    }
+  },
+  {
+    "update": 56,
+    "steps": 172032,
+    "difficulty": 1.0,
+    "episodes": 49,
+    "trainSuccess": 0.32653061224489793,
+    "trainReturn": 38.50264546406531,
+    "loss": 9.035652816295624,
+    "approxKL": 0.0036726669689718014,
+    "seconds": 44.331382049998865
+  },
+  {
+    "update": 57,
+    "steps": 175104,
+    "difficulty": 1.0,
+    "episodes": 47,
+    "trainSuccess": 0.2553191489361702,
+    "trainReturn": 36.01976197050769,
+    "loss": 8.8811164299647,
+    "approxKL": 0.0020124896351868906,
+    "seconds": 44.79377894699974
+  },
+  {
+    "update": 58,
+    "steps": 178176,
+    "difficulty": 1.0,
+    "episodes": 53,
+    "trainSuccess": 0.16981132075471697,
+    "trainReturn": 29.82646107499834,
+    "loss": 7.905297180016835,
+    "approxKL": 0.002207059476252956,
+    "seconds": 45.255494129998624
+  },
+  {
+    "update": 59,
+    "steps": 181248,
+    "difficulty": 1.0,
+    "episodes": 40,
+    "trainSuccess": 0.225,
+    "trainReturn": 31.651955675354657,
+    "loss": 11.872898181279501,
+    "approxKL": 0.001711554248079968,
+    "seconds": 45.77780080299999
+  },
+  {
+    "update": 60,
+    "steps": 184320,
+    "difficulty": 1.0,
+    "episodes": 51,
+    "trainSuccess": 0.4117647058823529,
+    "trainReturn": 44.9174824383943,
+    "loss": 8.531803826491037,
+    "approxKL": 0.002610162271594163,
+    "seconds": 46.24166998999863,
+    "validation": {
+      "success": 0.375,
+      "meanReturn": 41.23332528749142,
+      "n": 32
+    }
+  },
+  {
+    "update": 61,
+    "steps": 187392,
+    "difficulty": 1.0,
+    "episodes": 48,
+    "trainSuccess": 0.25,
+    "trainReturn": 34.75533534845988,
+    "loss": 8.769967913627625,
+    "approxKL": 0.003076649011442593,
+    "seconds": 48.141518630000064
+  },
+  {
+    "update": 62,
+    "steps": 190464,
+    "difficulty": 1.0,
+    "episodes": 40,
+    "trainSuccess": 0.225,
+    "trainReturn": 31.731009017448507,
+    "loss": 10.404407739639282,
+    "approxKL": 0.0008944514387015564,
+    "seconds": 48.617919302998416
+  },
+  {
+    "update": 63,
+    "steps": 193536,
+    "difficulty": 1.0,
+    "episodes": 53,
+    "trainSuccess": 0.37735849056603776,
+    "trainReturn": 41.61274031821106,
+    "loss": 8.677099963029226,
+    "approxKL": 0.0019467154973729823,
+    "seconds": 49.07077185199887
+  },
+  {
+    "update": 64,
+    "steps": 196608,
+    "difficulty": 1.0,
+    "episodes": 43,
+    "trainSuccess": 0.2558139534883721,
+    "trainReturn": 35.171954079544186,
+    "loss": 10.882517258326212,
+    "approxKL": 0.0006043669006127553,
+    "seconds": 49.54256738299955
+  },
+  {
+    "update": 65,
+    "steps": 199680,
+    "difficulty": 1.0,
+    "episodes": 53,
+    "trainSuccess": 0.20754716981132076,
+    "trainReturn": 33.08637313850153,
+    "loss": 6.064484039942424,
+    "approxKL": 0.0025214478785831793,
+    "seconds": 50.00693306499852,
+    "validation": {
+      "success": 0.34375,
+      "meanReturn": 41.47001580703552,
+      "n": 32
+    }
+  },
+  {
+    "update": 66,
+    "steps": 202752,
+    "difficulty": 1.0,
+    "episodes": 49,
+    "trainSuccess": 0.16326530612244897,
+    "trainReturn": 28.466426864531616,
+    "loss": 10.003475109736124,
+    "approxKL": 0.002708222804358229,
+    "seconds": 51.93638973299858
+  },
+  {
+    "update": 67,
+    "steps": 205824,
+    "difficulty": 1.0,
+    "episodes": 40,
+    "trainSuccess": 0.225,
+    "trainReturn": 32.76056839304268,
+    "loss": 12.26841402053833,
+    "approxKL": 0.0006547815792146139,
+    "seconds": 52.44373449299928
+  },
+  {
+    "update": 68,
+    "steps": 208896,
+    "difficulty": 1.0,
+    "episodes": 50,
+    "trainSuccess": 0.44,
+    "trainReturn": 46.196477904048464,
+    "loss": 9.614311575889587,
+    "approxKL": 0.0010330912458205905,
+    "seconds": 52.8925609709986
+  },
+  {
+    "update": 69,
+    "steps": 211968,
+    "difficulty": 1.0,
+    "episodes": 45,
+    "trainSuccess": 0.26666666666666666,
+    "trainReturn": 36.07944575412899,
+    "loss": 9.279957135518393,
+    "approxKL": 0.003825197428038033,
+    "seconds": 53.36451595299877
+  },
+  {
+    "update": 70,
+    "steps": 215040,
+    "difficulty": 1.0,
+    "episodes": 48,
+    "trainSuccess": 0.25,
+    "trainReturn": 34.33597572558455,
+    "loss": 10.567628860473633,
+    "approxKL": -0.0002414149591155971,
+    "seconds": 53.829225349998524,
+    "validation": {
+      "success": 0.34375,
+      "meanReturn": 41.87395000544623,
+      "n": 32
+    }
+  },
+  {
+    "update": 71,
+    "steps": 218112,
+    "difficulty": 1.0,
+    "episodes": 42,
+    "trainSuccess": 0.3333333333333333,
+    "trainReturn": 39.65621832958755,
+    "loss": 10.42574413617452,
+    "approxKL": 0.0032337371424849457,
+    "seconds": 55.77184088099966
+  },
+  {
+    "update": 72,
+    "steps": 221184,
+    "difficulty": 1.0,
+    "episodes": 50,
+    "trainSuccess": 0.32,
+    "trainReturn": 38.09086419320149,
+    "loss": 9.917687177658081,
+    "approxKL": 0.0018174680662923492,
+    "seconds": 56.235051157998896
+  },
+  {
+    "update": 73,
+    "steps": 224256,
+    "difficulty": 1.0,
+    "episodes": 46,
+    "trainSuccess": 0.21739130434782608,
+    "trainReturn": 32.29390304923278,
+    "loss": 9.382571617762247,
+    "approxKL": 0.0008523459109710529,
+    "seconds": 56.69257142499919
+  },
+  {
+    "update": 74,
+    "steps": 227328,
+    "difficulty": 1.0,
+    "episodes": 47,
+    "trainSuccess": 0.3191489361702128,
+    "trainReturn": 37.87839201350973,
+    "loss": 10.200031161308289,
+    "approxKL": 0.0031976884298880273,
+    "seconds": 57.158327704999465
+  },
+  {
+    "update": 75,
+    "steps": 230400,
+    "difficulty": 1.0,
+    "episodes": 48,
+    "trainSuccess": 0.2708333333333333,
+    "trainReturn": 36.35195949030021,
+    "loss": 9.951589107513428,
+    "approxKL": 0.0012829110370754886,
+    "seconds": 57.6334199339999,
+    "validation": {
+      "success": 0.34375,
+      "meanReturn": 40.966045816657356,
+      "n": 32
+    }
+  },
+  {
+    "update": 76,
+    "steps": 233472,
+    "difficulty": 1.0,
+    "episodes": 47,
+    "trainSuccess": 0.2978723404255319,
+    "trainReturn": 37.335110473891014,
+    "loss": 8.089998523394266,
+    "approxKL": 0.003698359607369639,
+    "seconds": 59.51964380299978
+  },
+  {
+    "update": 77,
+    "steps": 236544,
+    "difficulty": 1.0,
+    "episodes": 44,
+    "trainSuccess": 0.18181818181818182,
+    "trainReturn": 28.97444600306118,
+    "loss": 10.817145069440206,
+    "approxKL": 0.0022691453317141472,
+    "seconds": 60.01265000999956
+  },
+  {
+    "update": 78,
+    "steps": 239616,
+    "difficulty": 1.0,
+    "episodes": 52,
+    "trainSuccess": 0.3076923076923077,
+    "trainReturn": 37.5150919853032,
+    "loss": 8.85005654891332,
+    "approxKL": 0.0013410103517041232,
+    "seconds": 60.4816578359987
+  },
+  {
+    "update": 79,
+    "steps": 242688,
+    "difficulty": 1.0,
+    "episodes": 41,
+    "trainSuccess": 0.24390243902439024,
+    "trainReturn": 35.099267819285124,
+    "loss": 12.952089627583822,
+    "approxKL": 0.003033976065732228,
+    "seconds": 60.95763300099861
+  },
+  {
+    "update": 80,
+    "steps": 245760,
+    "difficulty": 1.0,
+    "episodes": 49,
+    "trainSuccess": 0.3877551020408163,
+    "trainReturn": 43.00302188459042,
+    "loss": 8.999039192994436,
+    "approxKL": 0.0015845434536458924,
+    "seconds": 61.419190026999786,
+    "validation": {
+      "success": 0.34375,
+      "meanReturn": 42.38566234350876,
+      "n": 32
+    }
+  },
+  {
+    "update": 81,
+    "steps": 248832,
+    "difficulty": 1.0,
+    "episodes": 47,
+    "trainSuccess": 0.23404255319148937,
+    "trainReturn": 33.1394625316094,
+    "loss": 10.478405753771463,
+    "approxKL": 0.00350174116222964,
+    "seconds": 63.35438099400017
+  },
+  {
+    "update": 82,
+    "steps": 251904,
+    "difficulty": 1.0,
+    "episodes": 42,
+    "trainSuccess": 0.2857142857142857,
+    "trainReturn": 36.72672366907371,
+    "loss": 12.046895225842794,
+    "approxKL": 0.00541271789794943,
+    "seconds": 63.823544988999856
+  },
+  {
+    "update": 83,
+    "steps": 254976,
+    "difficulty": 1.0,
+    "episodes": 45,
+    "trainSuccess": 0.35555555555555557,
+    "trainReturn": 45.64909846382426,
+    "loss": 11.438460985819498,
+    "approxKL": 0.0035211289020177596,
+    "seconds": 64.28352088499923
+  },
+  {
+    "update": 84,
+    "steps": 258048,
+    "difficulty": 1.0,
+    "episodes": 49,
+    "trainSuccess": 0.22448979591836735,
+    "trainReturn": 32.17037890644376,
+    "loss": 10.91898504892985,
+    "approxKL": 0.002836550809054946,
+    "seconds": 64.74311522700009
+  },
+  {
+    "update": 85,
+    "steps": 261120,
+    "difficulty": 1.0,
+    "episodes": 49,
+    "trainSuccess": 0.2653061224489796,
+    "trainReturn": 35.628864956135025,
+    "loss": 10.547545035680136,
+    "approxKL": 0.0008601952310224684,
+    "seconds": 65.24173306899866,
+    "validation": {
+      "success": 0.34375,
+      "meanReturn": 42.91002354037164,
+      "n": 32
+    }
+  },
+  {
+    "update": 86,
+    "steps": 264192,
+    "difficulty": 1.0,
+    "episodes": 40,
+    "trainSuccess": 0.3,
+    "trainReturn": 37.40219982949189,
+    "loss": 11.298639615376791,
+    "approxKL": 0.0006093186384532601,
+    "seconds": 67.18352855599915
+  },
+  {
+    "update": 87,
+    "steps": 267264,
+    "difficulty": 1.0,
+    "episodes": 48,
+    "trainSuccess": 0.3125,
+    "trainReturn": 38.56661542295164,
+    "loss": 11.05268665154775,
+    "approxKL": 0.0020718477098853327,
+    "seconds": 67.67907728499995
+  },
+  {
+    "update": 88,
+    "steps": 270336,
+    "difficulty": 1.0,
+    "episodes": 53,
+    "trainSuccess": 0.2830188679245283,
+    "trainReturn": 36.857489067852235,
+    "loss": 9.896270672480265,
+    "approxKL": 0.002731700340518728,
+    "seconds": 68.14421304699863
+  },
+  {
+    "update": 89,
+    "steps": 273408,
+    "difficulty": 1.0,
+    "episodes": 42,
+    "trainSuccess": 0.23809523809523808,
+    "trainReturn": 33.8766438350738,
+    "loss": 10.847798426946005,
+    "approxKL": 0.003835609255474992,
+    "seconds": 68.61881775399888
+  },
+  {
+    "update": 90,
+    "steps": 276480,
+    "difficulty": 1.0,
+    "episodes": 40,
+    "trainSuccess": 0.35,
+    "trainReturn": 40.73935415032011,
+    "loss": 11.807155847549438,
+    "approxKL": 0.000622576839911441,
+    "seconds": 69.09777375299927,
+    "validation": {
+      "success": 0.34375,
+      "meanReturn": 42.957220770362355,
+      "n": 32
+    }
+  },
+  {
+    "update": 91,
+    "steps": 279552,
+    "difficulty": 1.0,
+    "episodes": 52,
+    "trainSuccess": 0.40384615384615385,
+    "trainReturn": 43.967630168256626,
+    "loss": 10.771336634953817,
+    "approxKL": 0.0034410512113633254,
+    "seconds": 71.0502751339991
+  },
+  {
+    "update": 92,
+    "steps": 282624,
+    "difficulty": 1.0,
+    "episodes": 46,
+    "trainSuccess": 0.15217391304347827,
+    "trainReturn": 27.282240572995068,
+    "loss": 8.995392819245657,
+    "approxKL": 0.0031050758140433268,
+    "seconds": 71.5245430799987
+  },
+  {
+    "update": 93,
+    "steps": 285696,
+    "difficulty": 1.0,
+    "episodes": 49,
+    "trainSuccess": 0.20408163265306123,
+    "trainReturn": 32.5276748638135,
+    "loss": 9.743237257003784,
+    "approxKL": 0.0027999240895345188,
+    "seconds": 72.00975840199862
+  },
+  {
+    "update": 94,
+    "steps": 288768,
+    "difficulty": 1.0,
+    "episodes": 43,
+    "trainSuccess": 0.27906976744186046,
+    "trainReturn": 36.117139487715335,
+    "loss": 13.072737693786621,
+    "approxKL": 0.004857590046109787,
+    "seconds": 72.50177159599843
+  },
+  {
+    "update": 95,
+    "steps": 291840,
+    "difficulty": 1.0,
+    "episodes": 52,
+    "trainSuccess": 0.3269230769230769,
+    "trainReturn": 40.0901867286289,
+    "loss": 9.013675888379415,
+    "approxKL": 0.004583421866603506,
+    "seconds": 72.98127624199878,
+    "validation": {
+      "success": 0.40625,
+      "meanReturn": 43.77913068801948,
+      "n": 32
+    }
+  },
+  {
+    "update": 96,
+    "steps": 294912,
+    "difficulty": 1.0,
+    "episodes": 47,
+    "trainSuccess": 0.2127659574468085,
+    "trainReturn": 30.761514600311354,
+    "loss": 9.616142710049948,
+    "approxKL": 0.005732672386026631,
+    "seconds": 74.91661252599988
+  },
+  {
+    "update": 97,
+    "steps": 297984,
+    "difficulty": 1.0,
+    "episodes": 42,
+    "trainSuccess": 0.23809523809523808,
+    "trainReturn": 33.56494479336665,
+    "loss": 11.417083382606506,
+    "approxKL": 0.002081131016893778,
+    "seconds": 75.39529018599933
+  },
+  {
+    "update": 98,
+    "steps": 301056,
+    "difficulty": 1.0,
+    "episodes": 48,
+    "trainSuccess": 0.3958333333333333,
+    "trainReturn": 45.05832411232691,
+    "loss": 11.552510023117065,
+    "approxKL": 0.0031113883887883276,
+    "seconds": 75.8623015639987
+  },
+  {
+    "update": 99,
+    "steps": 304128,
+    "difficulty": 1.0,
+    "episodes": 46,
+    "trainSuccess": 0.21739130434782608,
+    "trainReturn": 31.629668219047723,
+    "loss": 11.264967799186707,
+    "approxKL": 0.004621367695411512,
+    "seconds": 76.31476500799909
+  },
+  {
+    "update": 100,
+    "steps": 307200,
+    "difficulty": 1.0,
+    "episodes": 43,
+    "trainSuccess": 0.3023255813953488,
+    "trainReturn": 38.61451736663833,
+    "loss": 11.17924952507019,
+    "approxKL": 0.005460695416938203,
+    "seconds": 76.78275689600014,
+    "validation": {
+      "success": 0.40625,
+      "meanReturn": 43.971501101301925,
+      "n": 32
+    }
+  },
+  {
+    "update": 101,
+    "steps": 310272,
+    "difficulty": 1.0,
+    "episodes": 48,
+    "trainSuccess": 0.2708333333333333,
+    "trainReturn": 36.31210835385515,
+    "loss": 11.240206082661947,
+    "approxKL": 0.004356818812084384,
+    "seconds": 78.74403467799857
+  },
+  {
+    "update": 102,
+    "steps": 313344,
+    "difficulty": 1.0,
+    "episodes": 49,
+    "trainSuccess": 0.30612244897959184,
+    "trainReturn": 38.73911887734117,
+    "loss": 11.197555581728617,
+    "approxKL": 0.0074950374134156545,
+    "seconds": 79.20004601599976
+  },
+  {
+    "update": 103,
+    "steps": 316416,
+    "difficulty": 1.0,
+    "episodes": 39,
+    "trainSuccess": 0.28205128205128205,
+    "trainReturn": 37.564423685083966,
+    "loss": 12.140028278032938,
+    "approxKL": 0.0053259657433955,
+    "seconds": 79.67290753099951
+  },
+  {
+    "update": 104,
+    "steps": 319488,
+    "difficulty": 1.0,
+    "episodes": 51,
+    "trainSuccess": 0.3137254901960784,
+    "trainReturn": 38.18296569992744,
+    "loss": 9.51461664835612,
+    "approxKL": 0.003929097486737494,
+    "seconds": 80.1599788149997
+  },
+  {
+    "update": 105,
+    "steps": 322560,
+    "difficulty": 1.0,
+    "episodes": 51,
+    "trainSuccess": 0.1568627450980392,
+    "trainReturn": 29.044703572734146,
+    "loss": 10.14716629187266,
+    "approxKL": 0.0031732332693839758,
+    "seconds": 80.65178829700017,
+    "validation": {
+      "success": 0.40625,
+      "meanReturn": 44.08004971658343,
+      "n": 32
+    }
+  },
+  {
+    "update": 106,
+    "steps": 325632,
+    "difficulty": 1.0,
+    "episodes": 43,
+    "trainSuccess": 0.23255813953488372,
+    "trainReturn": 35.204121514030646,
+    "loss": 12.493949731191,
+    "approxKL": 0.004024605681479443,
+    "seconds": 82.60808876899864
+  },
+  {
+    "update": 107,
+    "steps": 328704,
+    "difficulty": 1.0,
+    "episodes": 43,
+    "trainSuccess": 0.3953488372093023,
+    "trainReturn": 44.659842129343765,
+    "loss": 11.741950035095215,
+    "approxKL": 0.002939444336031253,
+    "seconds": 83.07110991199988
+  },
+  {
+    "update": 108,
+    "steps": 331776,
+    "difficulty": 1.0,
+    "episodes": 51,
+    "trainSuccess": 0.3137254901960784,
+    "trainReturn": 37.65385228432504,
+    "loss": 9.008946935335794,
+    "approxKL": 0.0038341338804457337,
+    "seconds": 83.53801146499973
+  },
+  {
+    "update": 109,
+    "steps": 334848,
+    "difficulty": 1.0,
+    "episodes": 46,
+    "trainSuccess": 0.17391304347826086,
+    "trainReturn": 30.241959768574016,
+    "loss": 11.574952363967896,
+    "approxKL": 0.003452814885046488,
+    "seconds": 84.01361620199896
+  },
+  {
+    "update": 110,
+    "steps": 337920,
+    "difficulty": 1.0,
+    "episodes": 48,
+    "trainSuccess": 0.2708333333333333,
+    "trainReturn": 35.80280799403025,
+    "loss": 10.46782898902893,
+    "approxKL": 0.003564041825787475,
+    "seconds": 84.47762789099943,
+    "validation": {
+      "success": 0.375,
+      "meanReturn": 43.85457476164216,
+      "n": 32
+    }
+  },
+  {
+    "update": 111,
+    "steps": 340992,
+    "difficulty": 1.0,
+    "episodes": 45,
+    "trainSuccess": 0.24444444444444444,
+    "trainReturn": 34.63337795344543,
+    "loss": 10.770372152328491,
+    "approxKL": 0.008851667866110802,
+    "seconds": 86.43414478100021
+  },
+  {
+    "update": 112,
+    "steps": 344064,
+    "difficulty": 1.0,
+    "episodes": 45,
+    "trainSuccess": 0.35555555555555557,
+    "trainReturn": 40.50214300283301,
+    "loss": 13.136240681012472,
+    "approxKL": 0.002880811271703957,
+    "seconds": 86.91622978499981
+  },
+  {
+    "update": 113,
+    "steps": 347136,
+    "difficulty": 1.0,
+    "episodes": 52,
+    "trainSuccess": 0.2692307692307692,
+    "trainReturn": 34.79686275519926,
+    "loss": 9.858084559440613,
+    "approxKL": 0.00820309730382481,
+    "seconds": 87.38127287399948
+  },
+  {
+    "update": 114,
+    "steps": 350208,
+    "difficulty": 1.0,
+    "episodes": 42,
+    "trainSuccess": 0.30952380952380953,
+    "trainReturn": 37.499963347164176,
+    "loss": 12.880055030186972,
+    "approxKL": 0.0034490369725972414,
+    "seconds": 87.87144615499892
+  },
+  {
+    "update": 115,
+    "steps": 353280,
+    "difficulty": 1.0,
+    "episodes": 48,
+    "trainSuccess": 0.25,
+    "trainReturn": 35.551001016247945,
+    "loss": 10.436984221140543,
+    "approxKL": 0.002639054636044117,
+    "seconds": 88.38420480099921,
+    "validation": {
+      "success": 0.375,
+      "meanReturn": 44.00214111334433,
+      "n": 32
+    }
+  },
+  {
+    "update": 116,
+    "steps": 356352,
+    "difficulty": 1.0,
+    "episodes": 49,
+    "trainSuccess": 0.22448979591836735,
+    "trainReturn": 32.695584119135475,
+    "loss": 10.337244709332785,
+    "approxKL": 0.003317502824453792,
+    "seconds": 90.37047905599866
+  },
+  {
+    "update": 117,
+    "steps": 359424,
+    "difficulty": 1.0,
+    "episodes": 46,
+    "trainSuccess": 0.2608695652173913,
+    "trainReturn": 36.97986457898736,
+    "loss": 11.992766976356506,
+    "approxKL": 0.0009791660850169137,
+    "seconds": 90.84409719999894
+  },
+  {
+    "update": 118,
+    "steps": 362496,
+    "difficulty": 1.0,
+    "episodes": 43,
+    "trainSuccess": 0.32558139534883723,
+    "trainReturn": 41.174333455307256,
+    "loss": 11.46871534983317,
+    "approxKL": 0.006688757600689617,
+    "seconds": 91.30159873899902
+  },
+  {
+    "update": 119,
+    "steps": 365568,
+    "difficulty": 1.0,
+    "episodes": 46,
+    "trainSuccess": 0.2391304347826087,
+    "trainReturn": 33.49566325348316,
+    "loss": 11.029154102007547,
+    "approxKL": 0.005259671529832606,
+    "seconds": 91.78214756499983
+  },
+  {
+    "update": 120,
+    "steps": 368640,
+    "difficulty": 1.0,
+    "episodes": 50,
+    "trainSuccess": 0.26,
+    "trainReturn": 33.89848949390128,
+    "loss": 11.567875504493713,
+    "approxKL": 0.005414736673022465,
+    "seconds": 92.3074080539991,
+    "validation": {
+      "success": 0.40625,
+      "meanReturn": 44.32237178784628,
+      "n": 32
+    }
+  }
+]

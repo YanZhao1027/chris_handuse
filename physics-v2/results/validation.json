@@ -1,0 +1,410 @@
+{
+  "nominal": {
+    "center": [
+      -0.010796638701868401,
+      0.010689783557224995,
+      0.03668096576355904
+    ],
+    "radius": 0.0236212191625874,
+    "mass": 0.045,
+    "pull": 9.842293821371193,
+    "thumb": 2.822400911653755,
+    "oppose": -27.85275947663132,
+    "friction": 0.8141965816268134,
+    "duration": 6,
+    "releaseAt": null,
+    "initialHeight": 0.21331903423644097,
+    "finalHeight": 0.2813886509230397,
+    "minHoldHeight": 0.27756561119325895,
+    "maxHoldDrift": 0.007865224613905314,
+    "minHoldDigits": 4,
+    "finalDigits": [
+      "index",
+      "middle",
+      "ring",
+      "thumb"
+    ],
+    "finalNormalForce": 1.8545211690875512,
+    "fixture": false,
+    "success": true
+  },
+  "zeroForce": {
+    "center": [
+      -0.010796638701868401,
+      0.010689783557224995,
+      0.03668096576355904
+    ],
+    "radius": 0.0236212191625874,
+    "mass": 0.045,
+    "pull": 0.0,
+    "thumb": 0.0,
+    "oppose": -27.85275947663132,
+    "friction": 0.8141965816268134,
+    "duration": 6,
+    "releaseAt": null,
+    "initialHeight": 0.21331903423644097,
+    "finalHeight": 0.02358917553663398,
+    "minHoldHeight": 0.02358917553663398,
+    "maxHoldDrift": 0.2547200183765802,
+    "minHoldDigits": 0,
+    "finalDigits": [],
+    "finalNormalForce": 0.0,
+    "fixture": false,
+    "success": false
+  },
+  "release": {
+    "center": [
+      -0.010796638701868401,
+      0.010689783557224995,
+      0.03668096576355904
+    ],
+    "radius": 0.0236212191625874,
+    "mass": 0.045,
+    "pull": 9.842293821371193,
+    "thumb": 2.822400911653755,
+    "oppose": -27.85275947663132,
+    "friction": 0.8141965816268134,
+    "duration": 6,
+    "releaseAt": 4,
+    "initialHeight": 0.21331903423644097,
+    "finalHeight": 0.02358917553663398,
+    "minHoldHeight": 0.27756561119325895,
+    "maxHoldDrift": 0.007865224613905314,
+    "minHoldDigits": 4,
+    "finalDigits": [],
+    "finalNormalForce": 0.0,
+    "fixture": false,
+    "success": true
+  },
+  "variants": [
+    {
+      "center": [
+        -0.010796638701868401,
+        0.010689783557224995,
+        0.03668096576355904
+      ],
+      "radius": 0.0236212191625874,
+      "mass": 0.03375,
+      "pull": 9.842293821371193,
+      "thumb": 2.822400911653755,
+      "oppose": -27.85275947663132,
+      "friction": 0.6513572653014508,
+      "duration": 6.0,
+      "releaseAt": null,
+      "initialHeight": 0.21331903423644097,
+      "finalHeight": 0.2814022982916449,
+      "minHoldHeight": 0.27886116062294114,
+      "maxHoldDrift": 0.0077437821724042595,
+      "minHoldDigits": 4,
+      "finalDigits": [
+        "index",
+        "middle",
+        "ring",
+        "thumb"
+      ],
+      "finalNormalForce": 1.957206105033796,
+      "fixture": false,
+      "success": true
+    },
+    {
+      "center": [
+        -0.010796638701868401,
+        0.010689783557224995,
+        0.03668096576355904
+      ],
+      "radius": 0.0236212191625874,
+      "mass": 0.03375,
+      "pull": 9.842293821371193,
+      "thumb": 2.822400911653755,
+      "oppose": -27.85275947663132,
+      "friction": 0.8141965816268134,
+      "duration": 6.0,
+      "releaseAt": null,
+      "initialHeight": 0.21331903423644097,
+      "finalHeight": 0.28140236466019886,
+      "minHoldHeight": 0.277852978592652,
+      "maxHoldDrift": 0.0077899015225244735,
+      "minHoldDigits": 4,
+      "finalDigits": [
+        "index",
+        "middle",
+        "ring",
+        "thumb"
+      ],
+      "finalNormalForce": 1.9590484451401686,
+      "fixture": false,
+      "success": true
+    },
+    {
+      "center": [
+        -0.010796638701868401,
+        0.010689783557224995,
+        0.03668096576355904
+      ],
+      "radius": 0.0236212191625874,
+      "mass": 0.03375,
+      "pull": 9.842293821371193,
+      "thumb": 2.822400911653755,
+      "oppose": -27.85275947663132,
+      "friction": 0.977035897952176,
+      "duration": 6.0,
+      "releaseAt": null,
+      "initialHeight": 0.21331903423644097,
+      "finalHeight": 0.02358917553663398,
+      "minHoldHeight": 0.019513283293798166,
+      "maxHoldDrift": 1.7637173503370729,
+      "minHoldDigits": 0,
+      "finalDigits": [],
+      "finalNormalForce": 0.0,
+      "fixture": false,
+      "success": false
+    },
+    {
+      "center": [
+        -0.010796638701868401,
+        0.010689783557224995,
+        0.03668096576355904
+      ],
+      "radius": 0.0236212191625874,
+      "mass": 0.045,
+      "pull": 9.842293821371193,
+      "thumb": 2.822400911653755,
+      "oppose": -27.85275947663132,
+      "friction": 0.6513572653014508,
+      "duration": 6.0,
+      "releaseAt": null,
+      "initialHeight": 0.21331903423644097,
+      "finalHeight": 0.2813886114197325,
+      "minHoldHeight": 0.2783363811982062,
+      "maxHoldDrift": 0.0077420157259206705,
+      "minHoldDigits": 4,
+      "finalDigits": [
+        "index",
+        "middle",
+        "ring",
+        "thumb"
+      ],
+      "finalNormalForce": 1.853006857645249,
+      "fixture": false,
+      "success": true
+    },
+    {
+      "center": [
+        -0.010796638701868401,
+        0.010689783557224995,
+        0.03668096576355904
+      ],
+      "radius": 0.0236212191625874,
+      "mass": 0.045,
+      "pull": 9.842293821371193,
+      "thumb": 2.822400911653755,
+      "oppose": -27.85275947663132,
+      "friction": 0.8141965816268134,
+      "duration": 6.0,
+      "releaseAt": null,
+      "initialHeight": 0.21331903423644097,
+      "finalHeight": 0.2813886509230397,
+      "minHoldHeight": 0.27756561119325895,
+      "maxHoldDrift": 0.007865224613905314,
+      "minHoldDigits": 4,
+      "finalDigits": [
+        "index",
+        "middle",
+        "ring",
+        "thumb"
+      ],
+      "finalNormalForce": 1.8545211690875512,
+      "fixture": false,
+      "success": true
+    },
+    {
+      "center": [
+        -0.010796638701868401,
+        0.010689783557224995,
+        0.03668096576355904
+      ],
+      "radius": 0.0236212191625874,
+      "mass": 0.045,
+      "pull": 9.842293821371193,
+      "thumb": 2.822400911653755,
+      "oppose": -27.85275947663132,
+      "friction": 0.977035897952176,
+      "duration": 6.0,
+      "releaseAt": null,
+      "initialHeight": 0.21331903423644097,
+      "finalHeight": 0.02358917553663398,
+      "minHoldHeight": 0.020154873756091533,
+      "maxHoldDrift": 1.784764411821728,
+      "minHoldDigits": 0,
+      "finalDigits": [],
+      "finalNormalForce": 0.0,
+      "fixture": false,
+      "success": false
+    },
+    {
+      "center": [
+        -0.010796638701868401,
+        0.010689783557224995,
+        0.03668096576355904
+      ],
+      "radius": 0.0236212191625874,
+      "mass": 0.056249999999999994,
+      "pull": 9.842293821371193,
+      "thumb": 2.822400911653755,
+      "oppose": -27.85275947663132,
+      "friction": 0.6513572653014508,
+      "duration": 6.0,
+      "releaseAt": null,
+      "initialHeight": 0.21331903423644097,
+      "finalHeight": 0.28138039091205574,
+      "minHoldHeight": 0.2778864127875552,
+      "maxHoldDrift": 0.007804065749340148,
+      "minHoldDigits": 4,
+      "finalDigits": [
+        "index",
+        "middle",
+        "ring",
+        "thumb"
+      ],
+      "finalNormalForce": 1.7487158044552151,
+      "fixture": false,
+      "success": true
+    },
+    {
+      "center": [
+        -0.010796638701868401,
+        0.010689783557224995,
+        0.03668096576355904
+      ],
+      "radius": 0.0236212191625874,
+      "mass": 0.056249999999999994,
+      "pull": 9.842293821371193,
+      "thumb": 2.822400911653755,
+      "oppose": -27.85275947663132,
+      "friction": 0.8141965816268134,
+      "duration": 6.0,
+      "releaseAt": null,
+      "initialHeight": 0.21331903423644097,
+      "finalHeight": 0.2813804180727895,
+      "minHoldHeight": 0.2775965568274583,
+      "maxHoldDrift": 0.007872792056829123,
+      "minHoldDigits": 4,
+      "finalDigits": [
+        "index",
+        "middle",
+        "ring",
+        "thumb"
+      ],
+      "finalNormalForce": 1.7500131055360846,
+      "fixture": false,
+      "success": true
+    },
+    {
+      "center": [
+        -0.010796638701868401,
+        0.010689783557224995,
+        0.03668096576355904
+      ],
+      "radius": 0.0236212191625874,
+      "mass": 0.056249999999999994,
+      "pull": 9.842293821371193,
+      "thumb": 2.822400911653755,
+      "oppose": -27.85275947663132,
+      "friction": 0.977035897952176,
+      "duration": 6.0,
+      "releaseAt": null,
+      "initialHeight": 0.21331903423644097,
+      "finalHeight": 0.02358917553663398,
+      "minHoldHeight": 0.020165927623493896,
+      "maxHoldDrift": 1.7574037971135184,
+      "minHoldDigits": 0,
+      "finalDigits": [],
+      "finalNormalForce": 0.0,
+      "fixture": false,
+      "success": false
+    },
+    {
+      "center": [
+        -0.010796638701868401,
+        0.010689783557224995,
+        0.03668096576355904
+      ],
+      "radius": 0.0236212191625874,
+      "mass": 0.0675,
+      "pull": 9.842293821371193,
+      "thumb": 2.822400911653755,
+      "oppose": -27.85275947663132,
+      "friction": 0.6513572653014508,
+      "duration": 6.0,
+      "releaseAt": null,
+      "initialHeight": 0.21331903423644097,
+      "finalHeight": 0.28035178341953704,
+      "minHoldHeight": 0.2775324359260439,
+      "maxHoldDrift": 0.007903265489892628,
+      "minHoldDigits": 4,
+      "finalDigits": [
+        "index",
+        "middle",
+        "ring",
+        "thumb"
+      ],
+      "finalNormalForce": 1.72564097681055,
+      "fixture": false,
+      "success": true
+    },
+    {
+      "center": [
+        -0.010796638701868401,
+        0.010689783557224995,
+        0.03668096576355904
+      ],
+      "radius": 0.0236212191625874,
+      "mass": 0.0675,
+      "pull": 9.842293821371193,
+      "thumb": 2.822400911653755,
+      "oppose": -27.85275947663132,
+      "friction": 0.8141965816268134,
+      "duration": 6.0,
+      "releaseAt": null,
+      "initialHeight": 0.21331903423644097,
+      "finalHeight": 0.28033087002936247,
+      "minHoldHeight": 0.27741491376031996,
+      "maxHoldDrift": 0.007947029784434251,
+      "minHoldDigits": 3,
+      "finalDigits": [
+        "index",
+        "middle",
+        "ring",
+        "thumb"
+      ],
+      "finalNormalForce": 1.7238694511038788,
+      "fixture": false,
+      "success": true
+    },
+    {
+      "center": [
+        -0.010796638701868401,
+        0.010689783557224995,
+        0.03668096576355904
+      ],
+      "radius": 0.0236212191625874,
+      "mass": 0.0675,
+      "pull": 9.842293821371193,
+      "thumb": 2.822400911653755,
+      "oppose": -27.85275947663132,
+      "friction": 0.977035897952176,
+      "duration": 6.0,
+      "releaseAt": null,
+      "initialHeight": 0.21331903423644097,
+      "finalHeight": 0.02358917553663398,
+      "minHoldHeight": 0.020021109180083024,
+      "maxHoldDrift": 1.7210882048610043,
+      "minHoldDigits": 0,
+      "finalDigits": [],
+      "finalNormalForce": 0.0,
+      "fixture": false,
+      "success": false
+    }
+  ],
+  "deterministic": true
+}

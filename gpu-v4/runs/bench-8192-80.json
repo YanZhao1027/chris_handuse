@@ -1,0 +1,13 @@
+{
+  "worlds": 8192,
+  "steps": 110,
+  "seconds": 8.79975333099901,
+  "policy_steps_per_second": 102402.87041065257,
+  "physics_steps_per_second": 4096114.816426103,
+  "done": 12772,
+  "success": 1901,
+  "bad": 0,
+  "maxContacts": 34514,
+  "maxConstraints": 38,
+  "memFreeGiB": 20.7811279296875
+}

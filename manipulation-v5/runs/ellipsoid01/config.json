@@ -1,0 +1,38 @@
+{
+  "worlds": 4096,
+  "variants": 1024,
+  "shape": "ellipsoid",
+  "updates": 120,
+  "rollout": 32,
+  "minibatch": 8192,
+  "epochs": 3,
+  "lr": 0.0002,
+  "seed": 2026112605,
+  "eval_every": 10,
+  "val_n": 48,
+  "out": "runs/ellipsoid01",
+  "warm": "runs/sphere01/best.pt",
+  "obs": 90,
+  "act": 10,
+  "horizon": 150,
+  "baseline": {
+    "n": 48,
+    "grasped": 0.9791666666666666,
+    "retained": 0.9583333333333334,
+    "success": 0.0,
+    "meanErrorRetained": 42.02926854082171,
+    "meanCappedError": 47.77804901828747,
+    "bad": 0
+  },
+  "initial": {
+    "n": 48,
+    "grasped": 0.9791666666666666,
+    "retained": 0.9791666666666666,
+    "success": 0.0,
+    "meanErrorRetained": 40.46099441171486,
+    "meanCappedError": 43.368057028137464,
+    "bad": 0
+  },
+  "goal": "world z, full quaternion error, stable 0.4s within 12 degrees, 25-60 degrees validation",
+  "physics": "mujoco-warp 3.8.1"
+}

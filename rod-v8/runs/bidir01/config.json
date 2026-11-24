@@ -1,0 +1,42 @@
+{
+  "worlds": 8192,
+  "variants": 1024,
+  "shape": "cylinder",
+  "updates": 120,
+  "rollout": 32,
+  "minibatch": 8192,
+  "epochs": 3,
+  "lr": 0.0001,
+  "seed": 2026112408,
+  "eval_every": 10,
+  "val_n": 48,
+  "out": "runs/bidir01",
+  "warm": "runs/bc.pt",
+  "obs": 90,
+  "act": 10,
+  "horizon": 150,
+  "baseline": {
+    "n": 48,
+    "grasped": 1.0,
+    "retained": 1.0,
+    "success": 0.0,
+    "meanErrorRetained": 19.045018662206708,
+    "meanCappedError": 19.045018662206708,
+    "bad": 0,
+    "negative": 0.0,
+    "positive": 0.0
+  },
+  "initial": {
+    "n": 48,
+    "grasped": 1.0,
+    "retained": 0.9791666666666666,
+    "success": 0.1875,
+    "meanErrorRetained": 10.77069973132087,
+    "meanCappedError": 14.296310153585017,
+    "bad": 0,
+    "negative": 0.16666666666666666,
+    "positive": 0.20833333333333334
+  },
+  "goal": "signed +/-15 deg about world Z, full quaternion error <8 deg for last 0.4s; independent CPU validation, balanced directions",
+  "physics": "mujoco-warp 3.8.1"
+}

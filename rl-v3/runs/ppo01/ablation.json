@@ -1,0 +1,4473 @@
+{
+  "checkpointUpdate": 120,
+  "calibrationSeeds": [
+    300000,
+    300001,
+    300002,
+    300003,
+    300004,
+    300005,
+    300006,
+    300007,
+    300008,
+    300009,
+    300010,
+    300011,
+    300012,
+    300013,
+    300014,
+    300015,
+    300016,
+    300017,
+    300018,
+    300019,
+    300020,
+    300021,
+    300022,
+    300023,
+    300024,
+    300025,
+    300026,
+    300027,
+    300028,
+    300029,
+    300030,
+    300031
+  ],
+  "results": {
+    "1.0": {
+      "openLoop": {
+        "success": 0.2916666666666667,
+        "meanReturn": 54.342665589394244,
+        "n": 96
+      },
+      "trials": [
+        {
+          "success": false,
+          "return_": 13.878505434091998,
+          "steps": 48,
+          "dropped": true,
+          "bad": false,
+          "minHoldDigits": 0,
+          "maxHoldDrift": 0.0,
+          "minHoldHeight": 0.0838354010359138,
+          "finalHeight": 0.0838354010359138,
+          "fixture": false,
+          "seed": 20270000,
+          "params": {
+            "center": [
+              -0.012658787336139489,
+              0.013443124546029635,
+              0.03743763582168195
+            ],
+            "radius": 0.02273438050881388,
+            "mass": 0.049306628168253736,
+            "friction": 1.1439120494934334
+          }
+        },
+        {
+          "success": false,
+          "return_": 11.866314258797562,
+          "steps": 44,
+          "dropped": true,
+          "bad": false,
+          "minHoldDigits": 0,
+          "maxHoldDrift": 0.0,
+          "minHoldHeight": 0.12904513318551383,
+          "finalHeight": 0.12904513318551383,
+          "fixture": false,
+          "seed": 20270001,
+          "params": {
+            "center": [
+              -0.007908047554257162,
+              0.00827481152499214,
+              0.03753726763598676
+            ],
+            "radius": 0.024323120003439218,
+            "mass": 0.0626744179088055,
+            "friction": 1.0852598258243886
+          }
+        },
+        {
+          "success": false,
+          "return_": 20.005095736951915,
+          "steps": 55,
+          "dropped": true,
+          "bad": false,
+          "minHoldDigits": 0,
+          "maxHoldDrift": 0.16215574625032703,
+          "minHoldHeight": 0.13171428531534352,
+          "finalHeight": 0.13171428531534352,
+          "fixture": false,
+          "seed": 20270002,
+          "params": {
+            "center": [
+              -0.011034056951622616,
+              0.009172600559620967,
+              0.036518872415865655
+            ],
+            "radius": 0.02389989503601009,
+            "mass": 0.04829154652774157,
+            "friction": 1.0732813433930382
+          }
+        },
+        {
+          "success": false,
+          "return_": 13.532733167506292,
+          "steps": 47,
+          "dropped": true,
+          "bad": false,
+          "minHoldDigits": 0,
+          "maxHoldDrift": 0.0,
+          "minHoldHeight": 0.12488912422765301,
+          "finalHeight": 0.12488912422765301,
+          "fixture": false,
+          "seed": 20270003,
+          "params": {
+            "center": [
+              -0.01169203975136982,
+              0.007878356223370625,
+              0.03947173622218361
+            ],
+            "radius": 0.02247709472291731,
+            "mass": 0.04031677084709422,
+            "friction": 1.0998306483959108
+          }
+        },
+        {
+          "success": false,
+          "return_": 94.01956110808305,
+          "steps": 144,
+          "dropped": true,
+          "bad": false,
+          "minHoldDigits": 0,
+          "maxHoldDrift": 0.19715324958049193,
+          "minHoldHeight": 0.10306492317478194,
+          "finalHeight": 0.10306492317478194,
+          "fixture": false,
+          "seed": 20270004,
+          "params": {
+            "center": [
+              -0.009956316708079211,
+              0.012999416225726066,
+              0.03839630569382002
+            ],
+            "radius": 0.024207533381615465,
+            "mass": 0.06829496949589033,
+            "friction": 0.8272412185982119
+          }
+        },
+        {
+          "success": false,
+          "return_": 13.725717201325848,
+          "steps": 47,
+          "dropped": true,
+          "bad": false,
+          "minHoldDigits": 0,
+          "maxHoldDrift": 0.0,
+          "minHoldHeight": 0.1053852857042287,
+          "finalHeight": 0.1053852857042287,
+          "fixture": false,
+          "seed": 20270005,
+          "params": {
+            "center": [
+              -0.009789273423831684,
+              0.007272973693059599,
+              0.03784978299403623
+            ],
+            "radius": 0.02291089624873386,
+            "mass": 0.04070381893347203,
+            "friction": 0.9584215384119612
+          }
+        },
+        {
+          "success": true,
+          "return_": 115.31110615958394,
+          "steps": 150,
+          "dropped": false,
+          "bad": false,
+          "minHoldDigits": 3,
+          "maxHoldDrift": 0.023158509002343515,
+          "minHoldHeight": 0.2779996142844048,
+          "finalHeight": 0.28068693501110914,
+          "fixture": false,
+          "seed": 20270006,
+          "params": {
+            "center": [
+              -0.011987403194439389,
+              0.011189443050863501,
+              0.03766225366252186
+            ],
+            "radius": 0.024343475850834934,
+            "mass": 0.029341214905245664,
+            "friction": 0.7766385917411478
+          }
+        },
+        {
+          "success": true,
+          "return_": 130.84128994500935,
+          "steps": 150,
+          "dropped": false,
+          "bad": false,
+          "minHoldDigits": 3,
+          "maxHoldDrift": 0.009034078246507302,
+          "minHoldHeight": 0.2781771210580547,
+          "finalHeight": 0.2827834971013065,
+          "fixture": false,
+          "seed": 20270007,
+          "params": {
+            "center": [
+              -0.009009410743451764,
+              0.010939033996748039,
+              0.03719387661404065
+            ],
+            "radius": 0.022231032561309785,
+            "mass": 0.043697847519181016,
+            "friction": 0.6035359745061633
+          }
+        },
+        {
+          "success": false,
+          "return_": 17.54374975182889,
+          "steps": 51,
+          "dropped": true,
+          "bad": false,
+          "minHoldDigits": 0,
+          "maxHoldDrift": 0.15527551177523904,
+          "minHoldHeight": 0.14904998670858005,
+          "finalHeight": 0.14904998670858005,
+          "fixture": false,
+          "seed": 20270008,
+          "params": {
+            "center": [
+              -0.012899156583110956,
+              0.00905413227029243,
+              0.03794639328332405
+            ],
+            "radius": 0.024084876269532287,
+            "mass": 0.05672688625377205,
+            "friction": 0.6800257492649107
+          }
+        },
+        {
+          "success": false,
+          "return_": 14.689695876694962,
+          "steps": 49,
+          "dropped": true,
+          "bad": false,
+          "minHoldDigits": 0,
+          "maxHoldDrift": 0.0,
+          "minHoldHeight": 0.10789486319101932,
+          "finalHeight": 0.10789486319101932,
+          "fixture": false,
+          "seed": 20270009,
+          "params": {
+            "center": [
+              -0.008463898070831973,
+              0.009878369165932073,
+              0.03817151498234193
+            ],
+            "radius": 0.022577472637093362,
+            "mass": 0.03019964841754319,
+            "friction": 0.9853114537543471
+          }
+        },
+        {
+          "success": true,
+          "return_": 134.14399926124364,
+          "steps": 150,
+          "dropped": false,
+          "bad": false,
+          "minHoldDigits": 4,
+          "maxHoldDrift": 0.007832292927913551,
+          "minHoldHeight": 0.27743361196072197,
+          "finalHeight": 0.282138538814184,
+          "fixture": false,
+          "seed": 20270010,
+          "params": {
+            "center": [
+              -0.012896528822206977,
+              0.011745047549983113,
+              0.03964661153056469
+            ],
+            "radius": 0.02267243937733022,
+            "mass": 0.06645178853185685,
+            "friction": 0.8398207899389323
+          }
+        },
+        {
+          "success": true,
+          "return_": 140.7217470878188,
+          "steps": 150,
+          "dropped": false,
+          "bad": false,
+          "minHoldDigits": 4,
+          "maxHoldDrift": 0.004721445566610429,
+          "minHoldHeight": 0.2775205663344827,
+          "finalHeight": 0.2816926301354214,
+          "fixture": false,
+          "seed": 20270011,
+          "params": {
+            "center": [
+              -0.013462048257639506,
+              0.013333188985473764,
+              0.03582080871422862
+            ],
+            "radius": 0.02331860610336484,
+            "mass": 0.05353740520959217,
+            "friction": 0.6861589611119285
+          }
+        },
+        {
+          "success": true,
+          "return_": 139.42121847425716,
+          "steps": 150,
+          "dropped": false,
+          "bad": false,
+          "minHoldDigits": 4,
+          "maxHoldDrift": 0.005362331349951834,
+          "minHoldHeight": 0.27748623525640675,
+          "finalHeight": 0.28122525452314373,
+          "fixture": false,
+          "seed": 20270012,
+          "params": {
+            "center": [
+              -0.013977575040664455,
+              0.0122880556462579,
+              0.037296897660820214
+            ],
+            "radius": 0.023786004911165424,
+            "mass": 0.0556839908479552,
+            "friction": 0.7446095310223918
+          }
+        },
+        {
+          "success": false,
+          "return_": 14.719872821682962,
+          "steps": 48,
+          "dropped": true,
+          "bad": false,
+          "minHoldDigits": 0,
+          "maxHoldDrift": 0.0,
+          "minHoldHeight": 0.087457846980037,
+          "finalHeight": 0.087457846980037,
+          "fixture": false,
+          "seed": 20270013,
+          "params": {
+            "center": [
+              -0.014035034661408118,
+              0.009152590130759546,
+              0.03842724732834784
+            ],
+            "radius": 0.02490236202451775,
+            "mass": 0.05681392808711027,
+            "friction": 0.8628848636653345
+          }
+        },
+        {
+          "success": true,
+          "return_": 140.10705454799606,
+          "steps": 150,
+          "dropped": false,
+          "bad": false,
+          "minHoldDigits": 4,
+          "maxHoldDrift": 0.005326441056439599,
+          "minHoldHeight": 0.2780430450768538,
+          "finalHeight": 0.2814035029677373,
+          "fixture": false,
+          "seed": 20270014,
+          "params": {
+            "center": [
+              -0.014213585314275645,
+              0.014121365050584457,
+              0.036939650789269675
+            ],
+            "radius": 0.023623189169982038,
+            "mass": 0.04068086323268791,
+            "friction": 0.7161659124818665
+          }
+        },
+        {
+          "success": false,
+          "return_": 18.83978052038089,
+          "steps": 53,
+          "dropped": true,
+          "bad": false,
+          "minHoldDigits": 0,
+          "maxHoldDrift": 0.19618866798984635,
+          "minHoldHeight": 0.10855130594707935,
+          "finalHeight": 0.10855130594707935,
+          "fixture": false,
+          "seed": 20270015,
+          "params": {
+            "center": [
+              -0.013858826050190592,
+              0.011187615111184431,
+              0.03373675856214154
+            ],
+            "radius": 0.02466140509716953,
+            "mass": 0.05218556840534061,
+            "friction": 1.1766440297307716
+          }
+        },
+        {
+          "success": false,
+          "return_": 15.521859876058784,
+          "steps": 50,
+          "dropped": true,
+          "bad": false,
+          "minHoldDigits": 0,
+          "maxHoldDrift": 0.1884118978315636,
+          "minHoldHeight": 0.1082767094399252,
+          "finalHeight": 0.1082767094399252,
+          "fixture": false,
+          "seed": 20270016,
+          "params": {
+            "center": [
+              -0.007806117717566273,
+              0.01258933557688949,
+              0.035496885497015414
+            ],
+            "radius": 0.0247998771006841,
+            "mass": 0.048911846804809395,
+            "friction": 1.105681816883784
+          }
+        },
+        {
+          "success": true,
+          "return_": 131.40796531447845,
+          "steps": 150,
+          "dropped": false,
+          "bad": false,
+          "minHoldDigits": 4,
+          "maxHoldDrift": 0.008811324659604394,
+          "minHoldHeight": 0.2777758864147606,
+          "finalHeight": 0.28225759376783366,
+          "fixture": false,
+          "seed": 20270017,
+          "params": {
+            "center": [
+              -0.011734745056168814,
+              0.007645110777010543,
+              0.037152783384437456
+            ],
+            "radius": 0.022744347112376235,
+            "mass": 0.0637329167038776,
+            "friction": 0.8381926500232925
+          }
+        },
+        {
+          "success": false,
+          "return_": 16.59557779175598,
+          "steps": 50,
+          "dropped": true,
+          "bad": false,
+          "minHoldDigits": 0,
+          "maxHoldDrift": 0.20524607707336867,
+          "minHoldHeight": 0.0983134965275868,
+          "finalHeight": 0.0983134965275868,
+          "fixture": false,
+          "seed": 20270018,
+          "params": {
+            "center": [
+              -0.011367997807736917,
+              0.007677821182921199,
+              0.036098389877003575
+            ],
+            "radius": 0.024524769209787276,
+            "mass": 0.06280363539798436,
+            "friction": 0.8701410150612454
+          }
+        },
+        {
+          "success": false,
+          "return_": 11.618352509892809,
+          "steps": 44,
+          "dropped": true,
+          "bad": false,
+          "minHoldDigits": 0,
+          "maxHoldDrift": 0.0,
+          "minHoldHeight": 0.10831827568411459,
+          "finalHeight": 0.10831827568411459,
+          "fixture": false,
+          "seed": 20270019,
+          "params": {
+            "center": [
+              -0.008650345202501727,
+              0.007765133707510358,
+              0.037810197847603026
+            ],
+            "radius": 0.023548207229852708,
+            "mass": 0.06707023463922503,
+            "friction": 0.8429225328785525
+          }
+        },
+        {
+          "success": true,
+          "return_": 136.5127678734365,
+          "steps": 150,
+          "dropped": false,
+          "bad": false,
+          "minHoldDigits": 4,
+          "maxHoldDrift": 0.006832327806066734,
+          "minHoldHeight": 0.27779190476668986,
+          "finalHeight": 0.2823423122698444,
+          "fixture": false,
+          "seed": 20270020,
+          "params": {
+            "center": [
+              -0.011679637721738485,
+              0.010610456954121487,
+              0.03574195512945987
+            ],
+            "radius": 0.022663103834594522,
+            "mass": 0.057319698985578905,
+            "friction": 0.6295418939125217
+          }
+        },
+        {
+          "success": true,
+          "return_": 136.82792375806272,
+          "steps": 150,
+          "dropped": false,
+          "bad": false,
+          "minHoldDigits": 3,
+          "maxHoldDrift": 0.007659949042286631,
+          "minHoldHeight": 0.2776367509079381,
+          "finalHeight": 0.2828130549815059,
+          "fixture": false,
+          "seed": 20270021,
+          "params": {
+            "center": [
+              -0.01146196498243699,
+              0.010351805807451929,
+              0.03419210974838205
+            ],
+            "radius": 0.022198939475996216,
+            "mass": 0.04599652645302856,
+            "friction": 0.7558507996022414
+          }
+        },
+        {
+          "success": true,
+          "return_": 129.54228058898428,
+          "steps": 150,
+          "dropped": false,
+          "bad": false,
+          "minHoldDigits": 4,
+          "maxHoldDrift": 0.009379475510222394,
+          "minHoldHeight": 0.27798901912400464,
+          "finalHeight": 0.28280443914451914,
+          "fixture": false,
+          "seed": 20270022,
+          "params": {
+            "center": [
+              -0.010807224513225414,
+              0.00793169519303298,
+              0.03750188648512854
+            ],
+            "radius": 0.022210718924548897,
+            "mass": 0.042970665417903425,
+            "friction": 0.6738453601169485
+          }
+        },
+        {
+          "success": false,
+          "return_": 11.877568701631159,
+          "steps": 45,
+          "dropped": true,
+          "bad": false,
+          "minHoldDigits": 0,
+          "maxHoldDrift": 0.0,
+          "minHoldHeight": 0.08673121037650648,
+          "finalHeight": 0.08673121037650648,
+          "fixture": false,
+          "seed": 20270023,
+          "params": {
+            "center": [
+              -0.008521111375682571,
+              0.009372381584632524,
+              0.03473015786902384
+            ],
+            "radius": 0.024680210773396365,
+            "mass": 0.06466910549446002,
+            "friction": 1.1948520636678432
+          }
+        },
+        {
+          "success": true,
+          "return_": 140.82086387417988,
+          "steps": 150,
+          "dropped": false,
+          "bad": false,
+          "minHoldDigits": 4,
+          "maxHoldDrift": 0.0047395860567073745,
+          "minHoldHeight": 0.27752639854597483,
+          "finalHeight": 0.28257274593436754,
+          "fixture": false,
+          "seed": 20270024,
+          "params": {
+            "center": [
+              -0.012811682843423565,
+              0.012980020554603783,
+              0.035701093701364775
+            ],
+            "radius": 0.02242888970824764,
+            "mass": 0.06243331311565866,
+            "friction": 0.6655145851724682
+          }
+        },
+        {
+          "success": false,
+          "return_": 99.54315946444046,
+          "steps": 150,
+          "dropped": false,
+          "bad": false,
+          "minHoldDigits": 3,
+          "maxHoldDrift": 0.025756094734630895,
+          "minHoldHeight": 0.2774403087630066,
+          "finalHeight": 0.2806839502180521,
+          "fixture": false,
+          "seed": 20270025,
+          "params": {
+            "center": [
+              -0.01161089102734981,
+              0.013677238750195522,
+              0.03518758918752098
+            ],
+            "radius": 0.024325537922628735,
+            "mass": 0.0408807679585763,
+            "friction": 0.9551689927932429
+          }
+        },
+        {
+          "success": false,
+          "return_": 13.378978825419882,
+          "steps": 47,
+          "dropped": true,
+          "bad": false,
+          "minHoldDigits": 0,
+          "maxHoldDrift": 0.0,
+          "minHoldHeight": 0.10713128459473514,
+          "finalHeight": 0.10713128459473514,
+          "fixture": false,
+          "seed": 20270026,
+          "params": {
+            "center": [
+              -0.009111622539763883,
+              0.012230239367071715,
+              0.034326134489264186
+            ],
+            "radius": 0.022529011649938653,
+            "mass": 0.05997622563547371,
+            "friction": 1.0872167134368644
+          }
+        },
+        {
+          "success": false,
+          "return_": 18.27018488866282,
+          "steps": 52,
+          "dropped": true,
+          "bad": false,
+          "minHoldDigits": 0,
+          "maxHoldDrift": 0.18713380495516263,
+          "minHoldHeight": 0.1151359678108067,
+          "finalHeight": 0.1151359678108067,
+          "fixture": false,
+          "seed": 20270027,
+          "params": {
+            "center": [
+              -0.01415156128121637,
+              0.012564487981304504,
+              0.03839077506292617
+            ],
+            "radius": 0.02450135321649961,
+            "mass": 0.05847965604766191,
+            "friction": 1.172069743048812
+          }
+        },
+        {
+          "success": false,
+          "return_": 17.3030766054618,
+          "steps": 51,
+          "dropped": true,
+          "bad": false,
+          "minHoldDigits": 0,
+          "maxHoldDrift": 0.18012246409162025,
+          "minHoldHeight": 0.12839131962339315,
+          "finalHeight": 0.12839131962339315,
+          "fixture": false,
+          "seed": 20270028,
+          "params": {
+            "center": [
+              -0.011702363330962938,
+              0.0077639607983983755,
+              0.03566824200044236
+            ],
+            "radius": 0.024716655688849388,
+            "mass": 0.051016535280604264,
+            "friction": 0.9942809850716325
+          }
+        },
+        {
+          "success": false,
+          "return_": 13.792316725264442,
+          "steps": 48,
+          "dropped": true,
+          "bad": false,
+          "minHoldDigits": 0,
+          "maxHoldDrift": 0.0,
+          "minHoldHeight": 0.08449338593054108,
+          "finalHeight": 0.08449338593054108,
+          "fixture": false,
+          "seed": 20270029,
+          "params": {
+            "center": [
+              -0.008889028698168265,
+              0.009510371539111518,
+              0.03952079124239323
+            ],
+            "radius": 0.0234934368961783,
+            "mass": 0.03934590022381546,
+            "friction": 0.9154112829414732
+          }
+        },
+        {
+          "success": false,
+          "return_": 17.740192583244358,
+          "steps": 52,
+          "dropped": true,
+          "bad": false,
+          "minHoldDigits": 0,
+          "maxHoldDrift": 0.19206645351398502,
+          "minHoldHeight": 0.10215689954191212,
+          "finalHeight": 0.10215689954191212,
+          "fixture": false,
+          "seed": 20270030,
+          "params": {
+            "center": [
+              -0.00830560231973439,
+              0.00884954232838751,
+              0.037866988511836126
+            ],
+            "radius": 0.025061173987185947,
+            "mass": 0.04069674979453458,
+            "friction": 0.7943580994326507
+          }
+        },
+        {
+          "success": false,
+          "return_": 22.263179854895633,
+          "steps": 58,
+          "dropped": true,
+          "bad": false,
+          "minHoldDigits": 0,
+          "maxHoldDrift": 0.18532176142138523,
+          "minHoldHeight": 0.11779049313913019,
+          "finalHeight": 0.11779049313913019,
+          "fixture": false,
+          "seed": 20270031,
+          "params": {
+            "center": [
+              -0.011760365897997158,
+              0.01158803867827516,
+              0.035263052293621124
+            ],
+            "radius": 0.024116850793088056,
+            "mass": 0.03151073605880315,
+            "friction": 1.0351748943464079
+          }
+        },
+        {
+          "success": true,
+          "return_": 131.42997739953034,
+          "steps": 150,
+          "dropped": false,
+          "bad": false,
+          "minHoldDigits": 4,
+          "maxHoldDrift": 0.008714782435062674,
+          "minHoldHeight": 0.27841713373070476,
+          "finalHeight": 0.2821933311003141,
+          "fixture": false,
+          "seed": 20270032,
+          "params": {
+            "center": [
+              -0.010796920980905915,
+              0.011390544688505434,
+              0.03904781146205447
+            ],
+            "radius": 0.022831324498516745,
+            "mass": 0.03846586611882988,
+            "friction": 0.6313407148953322
+          }
+        },
+        {
+          "success": false,
+          "return_": 15.18657375118104,
+          "steps": 48,
+          "dropped": true,
+          "bad": false,
+          "minHoldDigits": 0,
+          "maxHoldDrift": 0.0,
+          "minHoldHeight": 0.08032094684010789,
+          "finalHeight": 0.08032094684010789,
+          "fixture": false,
+          "seed": 20270033,
+          "params": {
+            "center": [
+              -0.01151196646595512,
+              0.007432870076592917,
+              0.034747464790694224
+            ],
+            "radius": 0.024784006270468478,
+            "mass": 0.06164312015573368,
+            "friction": 1.1982305367444608
+          }
+        },
+        {
+          "success": false,
+          "return_": 12.76927241572794,
+          "steps": 46,
+          "dropped": true,
+          "bad": false,
+          "minHoldDigits": 0,
+          "maxHoldDrift": 0.0,
+          "minHoldHeight": 0.1363250362107985,
+          "finalHeight": 0.1363250362107985,
+          "fixture": false,
+          "seed": 20270034,
+          "params": {
+            "center": [
+              -0.00797104279069704,
+              0.01025799995074075,
+              0.03611697340994379
+            ],
+            "radius": 0.02248669435998216,
+            "mass": 0.06246608487109876,
+            "friction": 1.1460592740632707
+          }
+        },
+        {
+          "success": true,
+          "return_": 135.64061994758697,
+          "steps": 150,
+          "dropped": false,
+          "bad": false,
+          "minHoldDigits": 4,
+          "maxHoldDrift": 0.007467021250310948,
+          "minHoldHeight": 0.2782378490315283,
+          "finalHeight": 0.28288193072952594,
+          "fixture": false,
+          "seed": 20270035,
+          "params": {
+            "center": [
+              -0.007382534920216564,
+              0.012851591012473212,
+              0.036558926473503645
+            ],
+            "radius": 0.022161831335577233,
+            "mass": 0.03167631368364467,
+            "friction": 0.6363736726580341
+          }
+        },
+        {
+          "success": false,
+          "return_": 17.279808931106103,
+          "steps": 51,
+          "dropped": true,
+          "bad": false,
+          "minHoldDigits": 0,
+          "maxHoldDrift": 0.19333012735474983,
+          "minHoldHeight": 0.10264365113788118,
+          "finalHeight": 0.10264365113788118,
+          "fixture": false,
+          "seed": 20270036,
+          "params": {
+            "center": [
+              -0.010127357264263434,
+              0.008410658619260514,
+              0.03528652884286167
+            ],
+            "radius": 0.024363169155121645,
+            "mass": 0.057280388245048844,
+            "friction": 1.1400520112141908
+          }
+        },
+        {
+          "success": false,
+          "return_": 14.884519432788334,
+          "steps": 49,
+          "dropped": true,
+          "bad": false,
+          "minHoldDigits": 0,
+          "maxHoldDrift": 0.0,
+          "minHoldHeight": 0.10641903944464005,
+          "finalHeight": 0.10641903944464005,
+          "fixture": false,
+          "seed": 20270037,
+          "params": {
+            "center": [
+              -0.00848526074438114,
+              0.010119151217016958,
+              0.03949079540363568
+            ],
+            "radius": 0.022933478372193162,
+            "mass": 0.06095024195676742,
+            "friction": 0.8266947797091236
+          }
+        },
+        {
+          "success": false,
+          "return_": 15.223967316065622,
+          "steps": 49,
+          "dropped": true,
+          "bad": false,
+          "minHoldDigits": 0,
+          "maxHoldDrift": 0.0,
+          "minHoldHeight": 0.13253652223504886,
+          "finalHeight": 0.13253652223504886,
+          "fixture": false,
+          "seed": 20270038,
+          "params": {
+            "center": [
+              -0.01195439612118648,
+              0.011182255717402181,
+              0.038129565192086566
+            ],
+            "radius": 0.022523344233436375,
+            "mass": 0.03267269523180082,
+            "friction": 1.19555466969222
+          }
+        },
+        {
+          "success": false,
+          "return_": 13.55057199755362,
+          "steps": 46,
+          "dropped": true,
+          "bad": false,
+          "minHoldDigits": 0,
+          "maxHoldDrift": 0.0,
+          "minHoldHeight": 0.12801492883597054,
+          "finalHeight": 0.12801492883597054,
+          "fixture": false,
+          "seed": 20270039,
+          "params": {
+            "center": [
+              -0.011082427091876403,
+              0.00817256548078253,
+              0.03866296973596747
+            ],
+            "radius": 0.02458113701573827,
+            "mass": 0.06968439909393327,
+            "friction": 1.1529070505515566
+          }
+        },
+        {
+          "success": false,
+          "return_": 53.57275988143728,
+          "steps": 96,
+          "dropped": true,
+          "bad": false,
+          "minHoldDigits": 0,
+          "maxHoldDrift": 0.18577596971995772,
+          "minHoldHeight": 0.11670323720861936,
+          "finalHeight": 0.11670323720861936,
+          "fixture": false,
+          "seed": 20270040,
+          "params": {
+            "center": [
+              -0.010747125013900865,
+              0.01287159971997372,
+              0.03560403170440164
+            ],
+            "radius": 0.024198245800084152,
+            "mass": 0.06764018826551593,
+            "friction": 0.9842831136082455
+          }
+        },
+        {
+          "success": true,
+          "return_": 135.45305730894327,
+          "steps": 150,
+          "dropped": false,
+          "bad": false,
+          "minHoldDigits": 4,
+          "maxHoldDrift": 0.008188527536789213,
+          "minHoldHeight": 0.2776500076584097,
+          "finalHeight": 0.28126314050923373,
+          "fixture": false,
+          "seed": 20270041,
+          "params": {
+            "center": [
+              -0.012127304928099181,
+              0.0089514938739032,
+              0.0347363120471668
+            ],
+            "radius": 0.023755838954168797,
+            "mass": 0.04713884608280857,
+            "friction": 0.7660622824071557
+          }
+        },
+        {
+          "success": true,
+          "return_": 129.34165945196776,
+          "steps": 150,
+          "dropped": false,
+          "bad": false,
+          "minHoldDigits": 4,
+          "maxHoldDrift": 0.009688485034325432,
+          "minHoldHeight": 0.2776605347096712,
+          "finalHeight": 0.2820490718119102,
+          "fixture": false,
+          "seed": 20270042,
+          "params": {
+            "center": [
+              -0.010384893864145156,
+              0.01000369022685546,
+              0.03959731601023635
+            ],
+            "radius": 0.022923088634467192,
+            "mass": 0.06594274235694518,
+            "friction": 0.6120793847551459
+          }
+        },
+        {
+          "success": false,
+          "return_": 13.254237319945842,
+          "steps": 47,
+          "dropped": true,
+          "bad": false,
+          "minHoldDigits": 0,
+          "maxHoldDrift": 0.0,
+          "minHoldHeight": 0.08111287115278407,
+          "finalHeight": 0.08111287115278407,
+          "fixture": false,
+          "seed": 20270043,
+          "params": {
+            "center": [
+              -0.011745649377609796,
+              0.007417437791761482,
+              0.03788284116987479
+            ],
+            "radius": 0.022324640328397732,
+            "mass": 0.046466266193859344,
+            "friction": 1.025067196804812
+          }
+        },
+        {
+          "success": false,
+          "return_": 90.30516436859928,
+          "steps": 144,
+          "dropped": true,
+          "bad": false,
+          "minHoldDigits": 0,
+          "maxHoldDrift": 0.167385196100126,
+          "minHoldHeight": 0.1306884548962092,
+          "finalHeight": 0.1306884548962092,
+          "fixture": false,
+          "seed": 20270044,
+          "params": {
+            "center": [
+              -0.014155615262374641,
+              0.010778421261846558,
+              0.03818395160991489
+            ],
+            "radius": 0.024482263537931526,
+            "mass": 0.039584983448018946,
+            "friction": 1.1174636604782726
+          }
+        },
+        {
+          "success": false,
+          "return_": 15.14169082885051,
+          "steps": 49,
+          "dropped": true,
+          "bad": false,
+          "minHoldDigits": 0,
+          "maxHoldDrift": 0.0,
+          "minHoldHeight": 0.13396240850537736,
+          "finalHeight": 0.13396240850537736,
+          "fixture": false,
+          "seed": 20270045,
+          "params": {
+            "center": [
+              -0.01063926267101434,
+              0.010858493378419395,
+              0.03601776813393545
+            ],
+            "radius": 0.02245888410313309,
+            "mass": 0.030029607098460205,
+            "friction": 1.0433551232886804
+          }
+        },
+        {
+          "success": false,
+          "return_": 18.302475703366092,
+          "steps": 53,
+          "dropped": true,
+          "bad": false,
+          "minHoldDigits": 0,
+          "maxHoldDrift": 0.19236268743582824,
+          "minHoldHeight": 0.1027832522382138,
+          "finalHeight": 0.1027832522382138,
+          "fixture": false,
+          "seed": 20270046,
+          "params": {
+            "center": [
+              -0.011499793791037988,
+              0.012368440851565948,
+              0.038015581313105916
+            ],
+            "radius": 0.024324757034244637,
+            "mass": 0.044243542530279026,
+            "friction": 1.148441788585671
+          }
+        },
+        {
+          "success": false,
+          "return_": 38.716900791187776,
+          "steps": 79,
+          "dropped": true,
+          "bad": false,
+          "minHoldDigits": 0,
+          "maxHoldDrift": 0.2032083773849218,
+          "minHoldHeight": 0.09861815822176367,
+          "finalHeight": 0.09861815822176367,
+          "fixture": false,
+          "seed": 20270047,
+          "params": {
+            "center": [
+              -0.010153955480544673,
+              0.010812405910020743,
+              0.03722509467143827
+            ],
+            "radius": 0.025117241459473503,
+            "mass": 0.05414070830952989,
+            "friction": 0.9261904314080683
+          }
+        },
+        {
+          "success": false,
+          "return_": 16.166494586728298,
+          "steps": 50,
+          "dropped": true,
+          "bad": false,
+          "minHoldDigits": 0,
+          "maxHoldDrift": 0.16369291922943188,
+          "minHoldHeight": 0.12026666434636948,
+          "finalHeight": 0.12026666434636948,
+          "fixture": false,
+          "seed": 20270048,
+          "params": {
+            "center": [
+              -0.008600066879055937,
+              0.010756427138916884,
+              0.03818195778229117
+            ],
+            "radius": 0.02509811659504892,
+            "mass": 0.05255604796796177,
+            "friction": 0.9526813246190206
+          }
+        },
+        {
+          "success": false,
+          "return_": 13.21198475303711,
+          "steps": 46,
+          "dropped": true,
+          "bad": false,
+          "minHoldDigits": 0,
+          "maxHoldDrift": 0.0,
+          "minHoldHeight": 0.13015284555979845,
+          "finalHeight": 0.13015284555979845,
+          "fixture": false,
+          "seed": 20270049,
+          "params": {
+            "center": [
+              -0.008365590888353865,
+              0.009978654805100219,
+              0.03446660567561474
+            ],
+            "radius": 0.022599636185130594,
+            "mass": 0.06522315647138033,
+            "friction": 0.9980596966482963
+          }
+        },
+        {
+          "success": false,
+          "return_": 13.643814127839494,
+          "steps": 47,
+          "dropped": true,
+          "bad": false,
+          "minHoldDigits": 0,
+          "maxHoldDrift": 0.0,
+          "minHoldHeight": 0.08430632736207785,
+          "finalHeight": 0.08430632736207785,
+          "fixture": false,
+          "seed": 20270050,
+          "params": {
+            "center": [
+              -0.00868405535457956,
+              0.007762183448649379,
+              0.037148220450677116
+            ],
+            "radius": 0.023255752531678442,
+            "mass": 0.0519134088299432,
+            "friction": 1.0571084226997611
+          }
+        },
+        {
+          "success": false,
+          "return_": 20.395769482105678,
+          "steps": 56,
+          "dropped": true,
+          "bad": false,
+          "minHoldDigits": 0,
+          "maxHoldDrift": 0.20663331487165226,
+          "minHoldHeight": 0.09263253369065817,
+          "finalHeight": 0.09263253369065817,
+          "fixture": false,
+          "seed": 20270051,
+          "params": {
+            "center": [
+              -0.01293010309118795,
+              0.011801615662501017,
+              0.03561603644020325
+            ],
+            "radius": 0.02354411224266716,
+            "mass": 0.035192212739685064,
+            "friction": 0.9985879763995137
+          }
+        },
+        {
+          "success": true,
+          "return_": 133.16823855183443,
+          "steps": 150,
+          "dropped": false,
+          "bad": false,
+          "minHoldDigits": 4,
+          "maxHoldDrift": 0.008630276508414667,
+          "minHoldHeight": 0.2782650814109437,
+          "finalHeight": 0.2827434006183115,
+          "fixture": false,
+          "seed": 20270052,
+          "params": {
+            "center": [
+              -0.007408167832524191,
+              0.01302643195957063,
+              0.03813410897456327
+            ],
+            "radius": 0.022303163920465996,
+            "mass": 0.031201364216450065,
+            "friction": 0.6257611754698389
+          }
+        },
+        {
+          "success": false,
+          "return_": 16.562842080724877,
+          "steps": 51,
+          "dropped": true,
+          "bad": false,
+          "minHoldDigits": 0,
+          "maxHoldDrift": 0.2127473305408192,
+          "minHoldHeight": 0.0837658845317574,
+          "finalHeight": 0.0837658845317574,
+          "fixture": false,
+          "seed": 20270053,
+          "params": {
+            "center": [
+              -0.011480432237243937,
+              0.013692632355249673,
+              0.03608084629982661
+            ],
+            "radius": 0.024230990355885065,
+            "mass": 0.05067177160264139,
+            "friction": 1.1816830217302976
+          }
+        },
+        {
+          "success": false,
+          "return_": 15.67089868019943,
+          "steps": 49,
+          "dropped": true,
+          "bad": false,
+          "minHoldDigits": 0,
+          "maxHoldDrift": 0.0,
+          "minHoldHeight": 0.16182409875502862,
+          "finalHeight": 0.16182409875502862,
+          "fixture": false,
+          "seed": 20270054,
+          "params": {
+            "center": [
+              -0.008127487801597881,
+              0.01265935901438853,
+              0.033900093968428704
+            ],
+            "radius": 0.024841694736128413,
+            "mass": 0.034261860972276854,
+            "friction": 0.9726365024250191
+          }
+        },
+        {
+          "success": false,
+          "return_": 11.055135430819016,
+          "steps": 44,
+          "dropped": true,
+          "bad": false,
+          "minHoldDigits": 0,
+          "maxHoldDrift": 0.0,
+          "minHoldHeight": 0.11196635265530791,
+          "finalHeight": 0.11196635265530791,
+          "fixture": false,
+          "seed": 20270055,
+          "params": {
+            "center": [
+              -0.008572391527230251,
+              0.008069486962796526,
+              0.03890596329755959
+            ],
+            "radius": 0.023055690589679326,
+            "mass": 0.06476185437331815,
+            "friction": 1.192688568385173
+          }
+        },
+        {
+          "success": false,
+          "return_": 14.069230548309822,
+          "steps": 48,
+          "dropped": true,
+          "bad": false,
+          "minHoldDigits": 0,
+          "maxHoldDrift": 0.0,
+          "minHoldHeight": 0.09001976047848421,
+          "finalHeight": 0.09001976047848421,
+          "fixture": false,
+          "seed": 20270056,
+          "params": {
+            "center": [
+              -0.010596950607151264,
+              0.012289532469270044,
+              0.03783229263107133
+            ],
+            "radius": 0.02259311803448325,
+            "mass": 0.05023796926839652,
+            "friction": 1.1413551763542882
+          }
+        },
+        {
+          "success": true,
+          "return_": 123.21018224254095,
+          "steps": 150,
+          "dropped": false,
+          "bad": false,
+          "minHoldDigits": 3,
+          "maxHoldDrift": 0.01456183740751582,
+          "minHoldHeight": 0.277566893873636,
+          "finalHeight": 0.28124258051928225,
+          "fixture": false,
+          "seed": 20270057,
+          "params": {
+            "center": [
+              -0.01100565317974572,
+              0.014093921168522826,
+              0.03374684481410487
+            ],
+            "radius": 0.023757124932965612,
+            "mass": 0.06471482336462815,
+            "friction": 0.6709687569985587
+          }
+        },
+        {
+          "success": true,
+          "return_": 129.5034954828574,
+          "steps": 150,
+          "dropped": false,
+          "bad": false,
+          "minHoldDigits": 4,
+          "maxHoldDrift": 0.009877772389025326,
+          "minHoldHeight": 0.2778634139754554,
+          "finalHeight": 0.2817813664559577,
+          "fixture": false,
+          "seed": 20270058,
+          "params": {
+            "center": [
+              -0.010329085137628735,
+              0.007441535008204578,
+              0.03685958646662599
+            ],
+            "radius": 0.023255786742715476,
+            "mass": 0.03310433691223735,
+            "friction": 0.7322525708301417
+          }
+        },
+        {
+          "success": false,
+          "return_": 17.138279626349856,
+          "steps": 52,
+          "dropped": true,
+          "bad": false,
+          "minHoldDigits": 0,
+          "maxHoldDrift": 0.2146558835623988,
+          "minHoldHeight": 0.07873150424868859,
+          "finalHeight": 0.07873150424868859,
+          "fixture": false,
+          "seed": 20270059,
+          "params": {
+            "center": [
+              -0.011746399605573488,
+              0.008181850063618714,
+              0.037467458627989614
+            ],
+            "radius": 0.022473315085120654,
+            "mass": 0.04421310354936883,
+            "friction": 0.9356034444995694
+          }
+        },
+        {
+          "success": true,
+          "return_": 130.90990708971634,
+          "steps": 150,
+          "dropped": false,
+          "bad": false,
+          "minHoldDigits": 4,
+          "maxHoldDrift": 0.008627084467167524,
+          "minHoldHeight": 0.27752021607814087,
+          "finalHeight": 0.281546541492571,
+          "fixture": false,
+          "seed": 20270060,
+          "params": {
+            "center": [
+              -0.011332109660572421,
+              0.00914490842196855,
+              0.038609434595855315
+            ],
+            "radius": 0.023465978825027094,
+            "mass": 0.05285404463013618,
+            "friction": 0.8491728554595638
+          }
+        },
+        {
+          "success": true,
+          "return_": 132.24921118945664,
+          "steps": 150,
+          "dropped": false,
+          "bad": false,
+          "minHoldDigits": 5,
+          "maxHoldDrift": 0.008738599595928938,
+          "minHoldHeight": 0.2748158402312403,
+          "finalHeight": 0.28097163348005255,
+          "fixture": false,
+          "seed": 20270061,
+          "params": {
+            "center": [
+              -0.007572678923381421,
+              0.011242831812432115,
+              0.036943919629026725
+            ],
+            "radius": 0.02408517381443643,
+            "mass": 0.034482501825674236,
+            "friction": 0.6186663348382698
+          }
+        },
+        {
+          "success": false,
+          "return_": 16.47337828576157,
+          "steps": 51,
+          "dropped": true,
+          "bad": false,
+          "minHoldDigits": 0,
+          "maxHoldDrift": 0.21443145040434336,
+          "minHoldHeight": 0.07646150970314079,
+          "finalHeight": 0.07646150970314079,
+          "fixture": false,
+          "seed": 20270062,
+          "params": {
+            "center": [
+              -0.011683869064797913,
+              0.011085003622136392,
+              0.03884459022683912
+            ],
+            "radius": 0.022937459839308536,
+            "mass": 0.05517857684807146,
+            "friction": 1.018768048840789
+          }
+        },
+        {
+          "success": false,
+          "return_": 18.151168566219688,
+          "steps": 52,
+          "dropped": true,
+          "bad": false,
+          "minHoldDigits": 0,
+          "maxHoldDrift": 0.1907792177959723,
+          "minHoldHeight": 0.11493111980290482,
+          "finalHeight": 0.11493111980290482,
+          "fixture": false,
+          "seed": 20270063,
+          "params": {
+            "center": [
+              -0.011590205984816842,
+              0.010921310184349197,
+              0.037252458230017875
+            ],
+            "radius": 0.025099133453302457,
+            "mass": 0.05590543802576593,
+            "friction": 0.5880952055465671
+          }
+        },
+        {
+          "success": false,
+          "return_": 15.407467135902003,
+          "steps": 48,
+          "dropped": true,
+          "bad": false,
+          "minHoldDigits": 0,
+          "maxHoldDrift": 0.0,
+          "minHoldHeight": 0.1274952818470602,
+          "finalHeight": 0.1274952818470602,
+          "fixture": false,
+          "seed": 20270064,
+          "params": {
+            "center": [
+              -0.013938514194608674,
+              0.0075497052293915425,
+              0.034549755385846925
+            ],
+            "radius": 0.025102168618192606,
+            "mass": 0.04323354664302406,
+            "friction": 0.9545313226715572
+          }
+        },
+        {
+          "success": false,
+          "return_": 15.799720135160715,
+          "steps": 49,
+          "dropped": true,
+          "bad": false,
+          "minHoldDigits": 0,
+          "maxHoldDrift": 0.0,
+          "minHoldHeight": 0.12205842483116613,
+          "finalHeight": 0.12205842483116613,
+          "fixture": false,
+          "seed": 20270065,
+          "params": {
+            "center": [
+              -0.014167520138131103,
+              0.012527104925052322,
+              0.03742994854203005
+            ],
+            "radius": 0.025050468397426962,
+            "mass": 0.06447296020532761,
+            "friction": 0.6540311148511289
+          }
+        },
+        {
+          "success": false,
+          "return_": 53.78495767119529,
+          "steps": 96,
+          "dropped": true,
+          "bad": false,
+          "minHoldDigits": 0,
+          "maxHoldDrift": 0.18149764816713096,
+          "minHoldHeight": 0.12091361612670896,
+          "finalHeight": 0.12091361612670896,
+          "fixture": false,
+          "seed": 20270066,
+          "params": {
+            "center": [
+              -0.010457985336530968,
+              0.010943586317829953,
+              0.03561083619205619
+            ],
+            "radius": 0.02444186707865231,
+            "mass": 0.06913107054956506,
+            "friction": 1.0649063267363847
+          }
+        },
+        {
+          "success": false,
+          "return_": 12.717716268327937,
+          "steps": 46,
+          "dropped": true,
+          "bad": false,
+          "minHoldDigits": 0,
+          "maxHoldDrift": 0.0,
+          "minHoldHeight": 0.12728329734283644,
+          "finalHeight": 0.12728329734283644,
+          "fixture": false,
+          "seed": 20270067,
+          "params": {
+            "center": [
+              -0.008130691568887268,
+              0.013110792859923557,
+              0.03571572465099507
+            ],
+            "radius": 0.022937765563244103,
+            "mass": 0.06898965012461328,
+            "friction": 1.1246849267555128
+          }
+        },
+        {
+          "success": false,
+          "return_": 73.47811018492264,
+          "steps": 118,
+          "dropped": true,
+          "bad": false,
+          "minHoldDigits": 0,
+          "maxHoldDrift": 0.19787892237614388,
+          "minHoldHeight": 0.0995088956226432,
+          "finalHeight": 0.0995088956226432,
+          "fixture": false,
+          "seed": 20270068,
+          "params": {
+            "center": [
+              -0.013029813172218616,
+              0.009365058078229474,
+              0.03895730802389619
+            ],
+            "radius": 0.023367862678465003,
+            "mass": 0.06382238169108725,
+            "friction": 0.6653724743023774
+          }
+        },
+        {
+          "success": true,
+          "return_": 121.02195467316716,
+          "steps": 150,
+          "dropped": false,
+          "bad": false,
+          "minHoldDigits": 3,
+          "maxHoldDrift": 0.014420262662947584,
+          "minHoldHeight": 0.2788186980214009,
+          "finalHeight": 0.28048136406498025,
+          "fixture": false,
+          "seed": 20270069,
+          "params": {
+            "center": [
+              -0.008692081686953672,
+              0.008922245282163828,
+              0.03377084631231803
+            ],
+            "radius": 0.02453034582621143,
+            "mass": 0.05382895192456705,
+            "friction": 0.6075421628850871
+          }
+        },
+        {
+          "success": false,
+          "return_": 19.156331508916246,
+          "steps": 54,
+          "dropped": true,
+          "bad": false,
+          "minHoldDigits": 0,
+          "maxHoldDrift": 0.18360284848937417,
+          "minHoldHeight": 0.12414896713469936,
+          "finalHeight": 0.12414896713469936,
+          "fixture": false,
+          "seed": 20270070,
+          "params": {
+            "center": [
+              -0.010606906356951948,
+              0.012584566670324503,
+              0.034140139284710415
+            ],
+            "radius": 0.025093766981900856,
+            "mass": 0.06322431823234717,
+            "friction": 0.9922438692200573
+          }
+        },
+        {
+          "success": false,
+          "return_": 20.72055691609265,
+          "steps": 56,
+          "dropped": true,
+          "bad": false,
+          "minHoldDigits": 0,
+          "maxHoldDrift": 0.15303455910016198,
+          "minHoldHeight": 0.13895997533579957,
+          "finalHeight": 0.13895997533579957,
+          "fixture": false,
+          "seed": 20270071,
+          "params": {
+            "center": [
+              -0.010441945989898432,
+              0.01161268493893299,
+              0.03935465706692016
+            ],
+            "radius": 0.023556588954904267,
+            "mass": 0.03145774228875451,
+            "friction": 1.168528684746124
+          }
+        },
+        {
+          "success": false,
+          "return_": 21.764670685203967,
+          "steps": 57,
+          "dropped": true,
+          "bad": false,
+          "minHoldDigits": 0,
+          "maxHoldDrift": 0.20722094793438495,
+          "minHoldHeight": 0.09035960681472434,
+          "finalHeight": 0.09035960681472434,
+          "fixture": false,
+          "seed": 20270072,
+          "params": {
+            "center": [
+              -0.014093376031583964,
+              0.010065393328511812,
+              0.03729203252175921
+            ],
+            "radius": 0.02429060455006301,
+            "mass": 0.03812049127907499,
+            "friction": 0.7923943642839496
+          }
+        },
+        {
+          "success": true,
+          "return_": 126.6496157599673,
+          "steps": 150,
+          "dropped": false,
+          "bad": false,
+          "minHoldDigits": 3,
+          "maxHoldDrift": 0.011520884401480257,
+          "minHoldHeight": 0.278868446639799,
+          "finalHeight": 0.28103182696166323,
+          "fixture": false,
+          "seed": 20270073,
+          "params": {
+            "center": [
+              -0.010092830440035878,
+              0.007805970188798618,
+              0.033707677757166134
+            ],
+            "radius": 0.02400175457699235,
+            "mass": 0.03603843640245532,
+            "friction": 0.6940370804931288
+          }
+        },
+        {
+          "success": true,
+          "return_": 128.67930617957575,
+          "steps": 150,
+          "dropped": false,
+          "bad": false,
+          "minHoldDigits": 3,
+          "maxHoldDrift": 0.010584521972391587,
+          "minHoldHeight": 0.2773803226407527,
+          "finalHeight": 0.2814801118486002,
+          "fixture": false,
+          "seed": 20270074,
+          "params": {
+            "center": [
+              -0.01393678768169462,
+              0.011219783099429817,
+              0.03513228703256508
+            ],
+            "radius": 0.023333473246171167,
+            "mass": 0.06534555318659148,
+            "friction": 0.8522688154571573
+          }
+        },
+        {
+          "success": false,
+          "return_": 15.781469783230683,
+          "steps": 49,
+          "dropped": true,
+          "bad": false,
+          "minHoldDigits": 0,
+          "maxHoldDrift": 0.0,
+          "minHoldHeight": 0.14116158208015953,
+          "finalHeight": 0.14116158208015953,
+          "fixture": false,
+          "seed": 20270075,
+          "params": {
+            "center": [
+              -0.008410487204076193,
+              0.009891368923003015,
+              0.03480750029232214
+            ],
+            "radius": 0.023078834196931568,
+            "mass": 0.03165151927495996,
+            "friction": 0.8783348418133285
+          }
+        },
+        {
+          "success": false,
+          "return_": 20.676690582385667,
+          "steps": 55,
+          "dropped": true,
+          "bad": false,
+          "minHoldDigits": 0,
+          "maxHoldDrift": 0.16846517264409014,
+          "minHoldHeight": 0.12800203823191192,
+          "finalHeight": 0.12800203823191192,
+          "fixture": false,
+          "seed": 20270076,
+          "params": {
+            "center": [
+              -0.011287793734552427,
+              0.011000246281050794,
+              0.03645624970797752
+            ],
+            "radius": 0.02315154571424726,
+            "mass": 0.052055009563336155,
+            "friction": 0.9059055270946125
+          }
+        },
+        {
+          "success": true,
+          "return_": 133.7142594587672,
+          "steps": 150,
+          "dropped": false,
+          "bad": false,
+          "minHoldDigits": 4,
+          "maxHoldDrift": 0.007799004811467936,
+          "minHoldHeight": 0.27939659747206186,
+          "finalHeight": 0.28109487424739915,
+          "fixture": false,
+          "seed": 20270077,
+          "params": {
+            "center": [
+              -0.010856932561349671,
+              0.010460890188666932,
+              0.035867491283647884
+            ],
+            "radius": 0.02393696288105063,
+            "mass": 0.03772257426019536,
+            "friction": 0.640112563467456
+          }
+        },
+        {
+          "success": false,
+          "return_": 16.102422978792944,
+          "steps": 50,
+          "dropped": true,
+          "bad": false,
+          "minHoldDigits": 0,
+          "maxHoldDrift": 0.20808703821956775,
+          "minHoldHeight": 0.09238969672186928,
+          "finalHeight": 0.09238969672186928,
+          "fixture": false,
+          "seed": 20270078,
+          "params": {
+            "center": [
+              -0.011906310002299258,
+              0.007692070398585568,
+              0.03910950578409403
+            ],
+            "radius": 0.02400401035237194,
+            "mass": 0.04999199623588233,
+            "friction": 0.7973773788698755
+          }
+        },
+        {
+          "success": false,
+          "return_": 14.858550489728703,
+          "steps": 48,
+          "dropped": true,
+          "bad": false,
+          "minHoldDigits": 0,
+          "maxHoldDrift": 0.0,
+          "minHoldHeight": 0.1071378646742352,
+          "finalHeight": 0.1071378646742352,
+          "fixture": false,
+          "seed": 20270079,
+          "params": {
+            "center": [
+              -0.008898915248788934,
+              0.010464414617164085,
+              0.035251289089866
+            ],
+            "radius": 0.024762072306753202,
+            "mass": 0.06396392709505544,
+            "friction": 0.9282505329124099
+          }
+        },
+        {
+          "success": false,
+          "return_": 13.433171569415471,
+          "steps": 47,
+          "dropped": true,
+          "bad": false,
+          "minHoldDigits": 0,
+          "maxHoldDrift": 0.0,
+          "minHoldHeight": 0.08692420664402928,
+          "finalHeight": 0.08692420664402928,
+          "fixture": false,
+          "seed": 20270080,
+          "params": {
+            "center": [
+              -0.009973120830220528,
+              0.009141196531747857,
+              0.03424399225275498
+            ],
+            "radius": 0.022574941190862133,
+            "mass": 0.06821772230391254,
+            "friction": 1.0096118609866969
+          }
+        },
+        {
+          "success": false,
+          "return_": 19.82731016031239,
+          "steps": 53,
+          "dropped": true,
+          "bad": false,
+          "minHoldDigits": 0,
+          "maxHoldDrift": 0.16720590484758927,
+          "minHoldHeight": 0.1354731151662704,
+          "finalHeight": 0.1354731151662704,
+          "fixture": false,
+          "seed": 20270081,
+          "params": {
+            "center": [
+              -0.014222762991752562,
+              0.0072546458502035244,
+              0.0341885510651928
+            ],
+            "radius": 0.02387690842271813,
+            "mass": 0.044071858333049885,
+            "friction": 0.8923327812032164
+          }
+        },
+        {
+          "success": true,
+          "return_": 134.96088579205676,
+          "steps": 150,
+          "dropped": false,
+          "bad": false,
+          "minHoldDigits": 4,
+          "maxHoldDrift": 0.007351974984581396,
+          "minHoldHeight": 0.2776132579844099,
+          "finalHeight": 0.2813530207118878,
+          "fixture": false,
+          "seed": 20270082,
+          "params": {
+            "center": [
+              -0.011672564738379044,
+              0.012410791498308957,
+              0.037685940014576653
+            ],
+            "radius": 0.023651375319068104,
+            "mass": 0.06588320199003471,
+            "friction": 0.702346764983408
+          }
+        },
+        {
+          "success": false,
+          "return_": 20.484821620680883,
+          "steps": 55,
+          "dropped": true,
+          "bad": false,
+          "minHoldDigits": 0,
+          "maxHoldDrift": 0.17538047776060536,
+          "minHoldHeight": 0.12510355115692218,
+          "finalHeight": 0.12510355115692218,
+          "fixture": false,
+          "seed": 20270083,
+          "params": {
+            "center": [
+              -0.014109700229577271,
+              0.011454150375635033,
+              0.038424135233959086
+            ],
+            "radius": 0.024539110306341778,
+            "mass": 0.05142602095486693,
+            "friction": 1.1101998421498647
+          }
+        },
+        {
+          "success": true,
+          "return_": 135.6501067591469,
+          "steps": 150,
+          "dropped": false,
+          "bad": false,
+          "minHoldDigits": 3,
+          "maxHoldDrift": 0.006791219615532416,
+          "minHoldHeight": 0.27829686281751964,
+          "finalHeight": 0.2823742416753817,
+          "fixture": false,
+          "seed": 20270084,
+          "params": {
+            "center": [
+              -0.01394912810333222,
+              0.00873289480696168,
+              0.0364022932781144
+            ],
+            "radius": 0.02262067780145294,
+            "mass": 0.0670612715465775,
+            "friction": 0.8128566083297022
+          }
+        },
+        {
+          "success": false,
+          "return_": 17.504563362494164,
+          "steps": 51,
+          "dropped": true,
+          "bad": false,
+          "minHoldDigits": 0,
+          "maxHoldDrift": 0.16178748882807548,
+          "minHoldHeight": 0.13820509297724964,
+          "finalHeight": 0.13820509297724964,
+          "fixture": false,
+          "seed": 20270085,
+          "params": {
+            "center": [
+              -0.007820537845510483,
+              0.010293284167602744,
+              0.038596595577195296
+            ],
+            "radius": 0.024450341290438635,
+            "mass": 0.051440642741289434,
+            "friction": 0.9632547638557021
+          }
+        },
+        {
+          "success": false,
+          "return_": 55.74193813945948,
+          "steps": 99,
+          "dropped": true,
+          "bad": false,
+          "minHoldDigits": 0,
+          "maxHoldDrift": 0.19198101015088342,
+          "minHoldHeight": 0.11050043269314155,
+          "finalHeight": 0.11050043269314155,
+          "fixture": false,
+          "seed": 20270086,
+          "params": {
+            "center": [
+              -0.009812639949930941,
+              0.009799432564751557,
+              0.036259694431394235
+            ],
+            "radius": 0.024798187889344063,
+            "mass": 0.06431913726461091,
+            "friction": 0.9030283223068067
+          }
+        },
+        {
+          "success": false,
+          "return_": 18.338059853802925,
+          "steps": 53,
+          "dropped": true,
+          "bad": false,
+          "minHoldDigits": 0,
+          "maxHoldDrift": 0.19607403349481806,
+          "minHoldHeight": 0.10006557933215096,
+          "finalHeight": 0.10006557933215096,
+          "fixture": false,
+          "seed": 20270087,
+          "params": {
+            "center": [
+              -0.014232781308183923,
+              0.011611562859066955,
+              0.03678272044926266
+            ],
+            "radius": 0.02290622274459364,
+            "mass": 0.039301228732198226,
+            "friction": 0.97569240771169
+          }
+        },
+        {
+          "success": true,
+          "return_": 121.91193139912035,
+          "steps": 150,
+          "dropped": false,
+          "bad": false,
+          "minHoldDigits": 3,
+          "maxHoldDrift": 0.014771515844962863,
+          "minHoldHeight": 0.2792869020201058,
+          "finalHeight": 0.2803658173368799,
+          "fixture": false,
+          "seed": 20270088,
+          "params": {
+            "center": [
+              -0.008934891219541548,
+              0.010089994029578851,
+              0.03576400012715637
+            ],
+            "radius": 0.024671224279775895,
+            "mass": 0.03364947596106098,
+            "friction": 0.6519155766471235
+          }
+        },
+        {
+          "success": true,
+          "return_": 134.6016137888383,
+          "steps": 150,
+          "dropped": false,
+          "bad": false,
+          "minHoldDigits": 4,
+          "maxHoldDrift": 0.0079929150978885,
+          "minHoldHeight": 0.2777973757459589,
+          "finalHeight": 0.28206484712576,
+          "fixture": false,
+          "seed": 20270089,
+          "params": {
+            "center": [
+              -0.007813739268493554,
+              0.012764430444530255,
+              0.03408211521497801
+            ],
+            "radius": 0.02295292834703874,
+            "mass": 0.0535908708271573,
+            "friction": 0.5969003668832362
+          }
+        },
+        {
+          "success": false,
+          "return_": 18.84406855357099,
+          "steps": 52,
+          "dropped": true,
+          "bad": false,
+          "minHoldDigits": 0,
+          "maxHoldDrift": 0.16517685779507782,
+          "minHoldHeight": 0.14285616417900363,
+          "finalHeight": 0.14285616417900363,
+          "fixture": false,
+          "seed": 20270090,
+          "params": {
+            "center": [
+              -0.012057266761997414,
+              0.01154132462912051,
+              0.03545562243297069
+            ],
+            "radius": 0.024913249913764462,
+            "mass": 0.054963369363363455,
+            "friction": 0.5968608387327776
+          }
+        },
+        {
+          "success": false,
+          "return_": 17.23582537420291,
+          "steps": 52,
+          "dropped": true,
+          "bad": false,
+          "minHoldDigits": 0,
+          "maxHoldDrift": 0.1979007317817278,
+          "minHoldHeight": 0.0940170967761555,
+          "finalHeight": 0.0940170967761555,
+          "fixture": false,
+          "seed": 20270091,
+          "params": {
+            "center": [
+              -0.011876803282006361,
+              0.009680897405046405,
+              0.03704773240282825
+            ],
+            "radius": 0.023173090731939197,
+            "mass": 0.05101753903332334,
+            "friction": 1.071993569073238
+          }
+        },
+        {
+          "success": false,
+          "return_": 16.536399660435862,
+          "steps": 50,
+          "dropped": true,
+          "bad": false,
+          "minHoldDigits": 0,
+          "maxHoldDrift": 0.16031364727012526,
+          "minHoldHeight": 0.1315513536624731,
+          "finalHeight": 0.1315513536624731,
+          "fixture": false,
+          "seed": 20270092,
+          "params": {
+            "center": [
+              -0.012931960961928553,
+              0.01251379666613269,
+              0.03942764097636518
+            ],
+            "radius": 0.02373029430830744,
+            "mass": 0.057171913919033486,
+            "friction": 1.1340784958653938
+          }
+        },
+        {
+          "success": false,
+          "return_": 15.414529762686174,
+          "steps": 48,
+          "dropped": true,
+          "bad": false,
+          "minHoldDigits": 0,
+          "maxHoldDrift": 0.0,
+          "minHoldHeight": 0.13444529169097522,
+          "finalHeight": 0.13444529169097522,
+          "fixture": false,
+          "seed": 20270093,
+          "params": {
+            "center": [
+              -0.00969410552753915,
+              0.010974232970260258,
+              0.03428461836040239
+            ],
+            "radius": 0.02422031177850861,
+            "mass": 0.05175474536334507,
+            "friction": 1.1952215840438418
+          }
+        },
+        {
+          "success": false,
+          "return_": 13.466567918812586,
+          "steps": 47,
+          "dropped": true,
+          "bad": false,
+          "minHoldDigits": 0,
+          "maxHoldDrift": 0.0,
+          "minHoldHeight": 0.10593363236945873,
+          "finalHeight": 0.10593363236945873,
+          "fixture": false,
+          "seed": 20270094,
+          "params": {
+            "center": [
+              -0.007664405821673986,
+              0.013923539391291644,
+              0.03589194064754604
+            ],
+            "radius": 0.02272997013104337,
+            "mass": 0.045472712875576506,
+            "friction": 1.0565108373913636
+          }
+        },
+        {
+          "success": false,
+          "return_": 14.613324296012735,
+          "steps": 48,
+          "dropped": true,
+          "bad": false,
+          "minHoldDigits": 0,
+          "maxHoldDrift": 0.0,
+          "minHoldHeight": 0.10807444943344405,
+          "finalHeight": 0.10807444943344405,
+          "fixture": false,
+          "seed": 20270095,
+          "params": {
+            "center": [
+              -0.009261339286659623,
+              0.010543905625837223,
+              0.03642544583147308
+            ],
+            "radius": 0.02430943395722391,
+            "mass": 0.06294554295073804,
+            "friction": 1.0894086948670512
+          }
+        }
+      ]
+    },
+    "1.5": {
+      "openLoop": {
+        "success": 0.14583333333333334,
+        "meanReturn": 35.79802951865094,
+        "n": 96
+      },
+      "trials": [
+        {
+          "success": false,
+          "return_": 12.849412058330696,
+          "steps": 46,
+          "dropped": true,
+          "bad": false,
+          "minHoldDigits": 0,
+          "maxHoldDrift": 0.0,
+          "minHoldHeight": 0.13204543049923986,
+          "finalHeight": 0.13204543049923986,
+          "fixture": false,
+          "seed": 20270000,
+          "params": {
+            "center": [
+              -0.013589861653275033,
+              0.014819795040431957,
+              0.037815970850743404
+            ],
+            "radius": 0.022290961181927117,
+            "mass": 0.051459942252380604,
+            "friction": 1.3087697834267435
+          }
+        },
+        {
+          "success": false,
+          "return_": 8.53558506723485,
+          "steps": 41,
+          "dropped": true,
+          "bad": false,
+          "minHoldDigits": 0,
+          "maxHoldDrift": 0.0,
+          "minHoldHeight": 0.10374014003773531,
+          "finalHeight": 0.10374014003773531,
+          "fixture": false,
+          "seed": 20270001,
+          "params": {
+            "center": [
+              -0.006463751980451542,
+              0.0070673255088757134,
+              0.03796541857220062
+            ],
+            "radius": 0.024674070423865126,
+            "mass": 0.07151162686320825,
+            "friction": 1.2207914479231763
+          }
+        },
+        {
+          "success": false,
+          "return_": 18.23650588481825,
+          "steps": 53,
+          "dropped": true,
+          "bad": false,
+          "minHoldDigits": 0,
+          "maxHoldDrift": 0.18445208052908518,
+          "minHoldHeight": 0.10847076944563455,
+          "finalHeight": 0.10847076944563455,
+          "fixture": false,
+          "seed": 20270002,
+          "params": {
+            "center": [
+              -0.011152766076499725,
+              0.008414009060818954,
+              0.03643782574201897
+            ],
+            "radius": 0.024039232972721435,
+            "mass": 0.049937319791612346,
+            "friction": 1.2028237242761506
+          }
+        },
+        {
+          "success": false,
+          "return_": 12.433819987191445,
+          "steps": 46,
+          "dropped": true,
+          "bad": false,
+          "minHoldDigits": 0,
+          "maxHoldDrift": 0.0,
+          "minHoldHeight": 0.11051527051814994,
+          "finalHeight": 0.11051527051814994,
+          "fixture": false,
+          "seed": 20270003,
+          "params": {
+            "center": [
+              -0.01213974027612053,
+              0.0064726425564434415,
+              0.0408671214514959
+            ],
+            "radius": 0.021905032503082265,
+            "mass": 0.03797515627064134,
+            "friction": 1.2426476817804593
+          }
+        },
+        {
+          "success": false,
+          "return_": 33.36726322860031,
+          "steps": 71,
+          "dropped": true,
+          "bad": false,
+          "minHoldDigits": 0,
+          "maxHoldDrift": 0.178105864527866,
+          "minHoldHeight": 0.12357319282164225,
+          "finalHeight": 0.12357319282164225,
+          "fixture": false,
+          "seed": 20270004,
+          "params": {
+            "center": [
+              -0.009536155711184616,
+              0.014154232559976603,
+              0.03925397565895051
+            ],
+            "radius": 0.0245006904911295,
+            "mass": 0.07994245424383549,
+            "friction": 0.8337635370839112
+          }
+        },
+        {
+          "success": false,
+          "return_": 12.25539247803523,
+          "steps": 46,
+          "dropped": true,
+          "bad": false,
+          "minHoldDigits": 0,
+          "maxHoldDrift": 0.0,
+          "minHoldHeight": 0.08878574674960439,
+          "finalHeight": 0.08878574674960439,
+          "fixture": false,
+          "seed": 20270005,
+          "params": {
+            "center": [
+              -0.009285590784813325,
+              0.0055645687609769,
+              0.03843419160927482
+            ],
+            "radius": 0.022555734791807093,
+            "mass": 0.03855572840020805,
+            "friction": 1.0305340168045352
+          }
+        },
+        {
+          "success": false,
+          "return_": 94.24696560291825,
+          "steps": 150,
+          "dropped": false,
+          "bad": false,
+          "minHoldDigits": 2,
+          "maxHoldDrift": 0.0329238662857359,
+          "minHoldHeight": 0.27791168797220395,
+          "finalHeight": 0.2809312918752035,
+          "fixture": false,
+          "seed": 20270006,
+          "params": {
+            "center": [
+              -0.012582785440724885,
+              0.011439272797682755,
+              0.03815289761200328
+            ],
+            "radius": 0.024704604194958703,
+            "mass": 0.021511822357868495,
+            "friction": 0.7578595967983152
+          }
+        },
+        {
+          "success": true,
+          "return_": 132.72047873760926,
+          "steps": 150,
+          "dropped": false,
+          "bad": false,
+          "minHoldDigits": 4,
+          "maxHoldDrift": 0.008354307094673743,
+          "minHoldHeight": 0.278942626389956,
+          "finalHeight": 0.2834815041069732,
+          "fixture": false,
+          "seed": 20270007,
+          "params": {
+            "center": [
+              -0.008115796764243448,
+              0.01106365921650956,
+              0.03745033203928146
+            ],
+            "radius": 0.021535939260670975,
+            "mass": 0.043046771278771524,
+            "friction": 0.4982056709458381
+          }
+        },
+        {
+          "success": false,
+          "return_": 11.482635910435945,
+          "steps": 44,
+          "dropped": true,
+          "bad": false,
+          "minHoldDigits": 0,
+          "maxHoldDrift": 0.0,
+          "minHoldHeight": 0.11567869235028566,
+          "finalHeight": 0.11567869235028566,
+          "fixture": false,
+          "seed": 20270008,
+          "params": {
+            "center": [
+              -0.013950415523732232,
+              0.008236306626826147,
+              0.038579107043206544
+            ],
+            "radius": 0.02431670482300473,
+            "mass": 0.06259032938065807,
+            "friction": 0.6129403330839592
+          }
+        },
+        {
+          "success": false,
+          "return_": 15.550304810614282,
+          "steps": 50,
+          "dropped": true,
+          "bad": false,
+          "minHoldDigits": 0,
+          "maxHoldDrift": 0.18096560883965962,
+          "minHoldHeight": 0.11861203569491983,
+          "finalHeight": 0.11861203569491983,
+          "fixture": false,
+          "seed": 20270009,
+          "params": {
+            "center": [
+              -0.0072975277553137576,
+              0.009472661970285613,
+              0.038916789591733364
+            ],
+            "radius": 0.02205559937434634,
+            "mass": 0.022799472626314786,
+            "friction": 1.070868889818114
+          }
+        },
+        {
+          "success": false,
+          "return_": 14.032186148050794,
+          "steps": 47,
+          "dropped": true,
+          "bad": false,
+          "minHoldDigits": 0,
+          "maxHoldDrift": 0.0,
+          "minHoldHeight": 0.12058963118853093,
+          "finalHeight": 0.12058963118853093,
+          "fixture": false,
+          "seed": 20270010,
+          "params": {
+            "center": [
+              -0.013946473882376263,
+              0.01227267954636217,
+              0.04112943441406751
+            ],
+            "radius": 0.02219804948470163,
+            "mass": 0.07717768279778528,
+            "friction": 0.8526328940949917
+          }
+        },
+        {
+          "success": true,
+          "return_": 144.05456788987905,
+          "steps": 150,
+          "dropped": false,
+          "bad": false,
+          "minHoldDigits": 4,
+          "maxHoldDrift": 0.003826131791486273,
+          "minHoldHeight": 0.27759752857024544,
+          "finalHeight": 0.2818400546506623,
+          "fixture": false,
+          "seed": 20270011,
+          "params": {
+            "center": [
+              -0.01479475303552506,
+              0.01465489169959815,
+              0.03539073018956341
+            ],
+            "radius": 0.02316729957375356,
+            "mass": 0.057806107814388254,
+            "friction": 0.622140150854486
+          }
+        },
+        {
+          "success": false,
+          "return_": 21.087102980049337,
+          "steps": 54,
+          "dropped": true,
+          "bad": false,
+          "minHoldDigits": 0,
+          "maxHoldDrift": 0.18026371225260804,
+          "minHoldHeight": 0.1214630581156323,
+          "finalHeight": 0.1214630581156323,
+          "fixture": false,
+          "seed": 20270012,
+          "params": {
+            "center": [
+              -0.015568043210062481,
+              0.013087191690774354,
+              0.0376048636094508
+            ],
+            "radius": 0.023868397785454434,
+            "mass": 0.0610259862719328,
+            "friction": 0.7098160057201811
+          }
+        },
+        {
+          "success": false,
+          "return_": 10.095442114319265,
+          "steps": 43,
+          "dropped": true,
+          "bad": false,
+          "minHoldDigits": 0,
+          "maxHoldDrift": 0.0,
+          "minHoldHeight": 0.0771084908375009,
+          "finalHeight": 0.0771084908375009,
+          "fixture": false,
+          "seed": 20270013,
+          "params": {
+            "center": [
+              -0.015654232641177976,
+              0.008383993417526821,
+              0.03930038811074225
+            ],
+            "radius": 0.025542933455482923,
+            "mass": 0.06272089213066541,
+            "friction": 0.887229004684595
+          }
+        },
+        {
+          "success": true,
+          "return_": 140.49984253065966,
+          "steps": 150,
+          "dropped": false,
+          "bad": false,
+          "minHoldDigits": 4,
+          "maxHoldDrift": 0.005522830403191509,
+          "minHoldHeight": 0.2786587871455895,
+          "finalHeight": 0.28140578201708905,
+          "fixture": false,
+          "seed": 20270014,
+          "params": {
+            "center": [
+              -0.015922058620479268,
+              0.01583715579726419,
+              0.03706899330212499
+            ],
+            "radius": 0.023624174173679353,
+            "mass": 0.03852129484903187,
+            "friction": 0.6671505779093929
+          }
+        },
+        {
+          "success": false,
+          "return_": 5.349970681531616,
+          "steps": 48,
+          "dropped": true,
+          "bad": false,
+          "minHoldDigits": 0,
+          "maxHoldDrift": 0.0,
+          "minHoldHeight": 0.1251275653473313,
+          "finalHeight": 0.1251275653473313,
+          "fixture": false,
+          "seed": 20270015,
+          "params": {
+            "center": [
+              -0.015389919724351688,
+              0.01143653088816415,
+              0.03226465496143279
+            ],
+            "radius": 0.025181498064460593,
+            "mass": 0.055778352608010916,
+            "friction": 1.357867753782751
+          }
+        },
+        {
+          "success": false,
+          "return_": 13.59205847304632,
+          "steps": 47,
+          "dropped": true,
+          "bad": false,
+          "minHoldDigits": 0,
+          "maxHoldDrift": 0.0,
+          "minHoldHeight": 0.1164558085146424,
+          "finalHeight": 0.1164558085146424,
+          "fixture": false,
+          "seed": 20270016,
+          "params": {
+            "center": [
+              -0.006310857225415209,
+              0.013539111586721737,
+              0.0349048453637436
+            ],
+            "radius": 0.02538920606973245,
+            "mass": 0.05086777020721408,
+            "friction": 1.2514244345122696
+          }
+        },
+        {
+          "success": false,
+          "return_": 11.806795391332818,
+          "steps": 44,
+          "dropped": true,
+          "bad": false,
+          "minHoldDigits": 0,
+          "maxHoldDrift": 0.0,
+          "minHoldHeight": 0.12251097608796518,
+          "finalHeight": 0.12251097608796518,
+          "fixture": false,
+          "seed": 20270017,
+          "params": {
+            "center": [
+              -0.012203798233319019,
+              0.006122774386903316,
+              0.03738869219487667
+            ],
+            "radius": 0.02230591108727065,
+            "mass": 0.07309937505581639,
+            "friction": 0.8501906842215321
+          }
+        },
+        {
+          "success": false,
+          "return_": 10.635893318040637,
+          "steps": 43,
+          "dropped": true,
+          "bad": false,
+          "minHoldDigits": 0,
+          "maxHoldDrift": 0.0,
+          "minHoldHeight": 0.08135163026384525,
+          "finalHeight": 0.08135163026384525,
+          "fixture": false,
+          "seed": 20270018,
+          "params": {
+            "center": [
+              -0.011653677360671173,
+              0.006171839995769301,
+              0.03580710193372584
+            ],
+            "radius": 0.024976544233387212,
+            "mass": 0.07170545309697655,
+            "friction": 0.8981132317784614
+          }
+        },
+        {
+          "success": false,
+          "return_": 8.449882448155439,
+          "steps": 41,
+          "dropped": true,
+          "bad": false,
+          "minHoldDigits": 0,
+          "maxHoldDrift": 0.0,
+          "minHoldHeight": 0.11579337596350434,
+          "finalHeight": 0.11579337596350434,
+          "fixture": false,
+          "seed": 20270019,
+          "params": {
+            "center": [
+              -0.007577198452818392,
+              0.006302808782653039,
+              0.03837481388962502
+            ],
+            "radius": 0.023511701263485358,
+            "mass": 0.07810535195883753,
+            "friction": 0.8572855085044218
+          }
+        },
+        {
+          "success": true,
+          "return_": 137.46922745486833,
+          "steps": 150,
+          "dropped": false,
+          "bad": false,
+          "minHoldDigits": 4,
+          "maxHoldDrift": 0.006582664636035524,
+          "minHoldHeight": 0.27781331128373254,
+          "finalHeight": 0.2826165913289028,
+          "fixture": false,
+          "seed": 20270020,
+          "params": {
+            "center": [
+              -0.012121137231673525,
+              0.010570793652569735,
+              0.035272449812410296
+            ],
+            "radius": 0.022184046170598083,
+            "mass": 0.06347954847836834,
+            "friction": 0.5372145500553759
+          }
+        },
+        {
+          "success": true,
+          "return_": 137.7330553308108,
+          "steps": 150,
+          "dropped": false,
+          "bad": false,
+          "minHoldDigits": 3,
+          "maxHoldDrift": 0.008692813863622032,
+          "minHoldHeight": 0.2771843152753969,
+          "finalHeight": 0.283518736615005,
+          "fixture": false,
+          "seed": 20270021,
+          "params": {
+            "center": [
+              -0.011794628122721282,
+              0.010182816932565395,
+              0.03294768174079356
+            ],
+            "radius": 0.021487799632700623,
+            "mass": 0.04649478967954284,
+            "friction": 0.7266779085899555
+          }
+        },
+        {
+          "success": true,
+          "return_": 127.4488936906501,
+          "steps": 150,
+          "dropped": false,
+          "bad": false,
+          "minHoldDigits": 4,
+          "maxHoldDrift": 0.010659982032974975,
+          "minHoldHeight": 0.27806535430390683,
+          "finalHeight": 0.2835053526007991,
+          "fixture": false,
+          "seed": 20270022,
+          "params": {
+            "center": [
+              -0.01081251741890392,
+              0.0065526510109369706,
+              0.03791234684591329
+            ],
+            "radius": 0.021505468805529643,
+            "mass": 0.041955998126855146,
+            "friction": 0.603669749362016
+          }
+        },
+        {
+          "success": false,
+          "return_": 7.079130468487367,
+          "steps": 42,
+          "dropped": true,
+          "bad": false,
+          "minHoldDigits": 0,
+          "maxHoldDrift": 0.0,
+          "minHoldHeight": 0.1315241564874061,
+          "finalHeight": 0.1315241564874061,
+          "fixture": false,
+          "seed": 20270023,
+          "params": {
+            "center": [
+              -0.007383347712589657,
+              0.008713680598336288,
+              0.03375475392175623
+            ],
+            "radius": 0.02520970657880085,
+            "mass": 0.07450365824169003,
+            "friction": 1.3851798046883586
+          }
+        },
+        {
+          "success": true,
+          "return_": 145.89762061719114,
+          "steps": 150,
+          "dropped": false,
+          "bad": false,
+          "minHoldDigits": 3,
+          "maxHoldDrift": 0.003963638724994931,
+          "minHoldHeight": 0.27701001192084523,
+          "finalHeight": 0.28181208101348826,
+          "fixture": false,
+          "seed": 20270024,
+          "params": {
+            "center": [
+              -0.013819204914201147,
+              0.014125139053293177,
+              0.03521115767026764
+            ],
+            "radius": 0.021832724981077762,
+            "mass": 0.07114996967348798,
+            "friction": 0.5911735869452955
+          }
+        },
+        {
+          "success": false,
+          "return_": 68.19801396837674,
+          "steps": 118,
+          "dropped": true,
+          "bad": false,
+          "minHoldDigits": 0,
+          "maxHoldDrift": 0.1758172530261095,
+          "minHoldHeight": 0.12706040189886744,
+          "finalHeight": 0.12706040189886744,
+          "fixture": false,
+          "seed": 20270025,
+          "params": {
+            "center": [
+              -0.012018017190090513,
+              0.015170966346680784,
+              0.034440900899501956
+            ],
+            "radius": 0.024677697302649404,
+            "mass": 0.03882115193786446,
+            "friction": 1.0256551983764575
+          }
+        },
+        {
+          "success": false,
+          "return_": 11.851042944280831,
+          "steps": 45,
+          "dropped": true,
+          "bad": false,
+          "minHoldDigits": 0,
+          "maxHoldDrift": 0.0,
+          "minHoldHeight": 0.13589743072155003,
+          "finalHeight": 0.13589743072155003,
+          "fixture": false,
+          "seed": 20270026,
+          "params": {
+            "center": [
+              -0.008269114458711622,
+              0.013000467271995077,
+              0.03314871885211676
+            ],
+            "radius": 0.02198290789361428,
+            "mass": 0.06746433845321056,
+            "friction": 1.22372677934189
+          }
+        },
+        {
+          "success": false,
+          "return_": 15.108343320625707,
+          "steps": 48,
+          "dropped": true,
+          "bad": false,
+          "minHoldDigits": 0,
+          "maxHoldDrift": 0.0,
+          "minHoldHeight": 0.12206976869396013,
+          "finalHeight": 0.12206976869396013,
+          "fixture": false,
+          "seed": 20270027,
+          "params": {
+            "center": [
+              -0.015829022570890354,
+              0.013501840193344258,
+              0.03924567971260974
+            ],
+            "radius": 0.024941420243455716,
+            "mass": 0.06521948407149286,
+            "friction": 1.3510063237598116
+          }
+        },
+        {
+          "success": false,
+          "return_": 12.652538763698274,
+          "steps": 45,
+          "dropped": true,
+          "bad": false,
+          "minHoldDigits": 0,
+          "maxHoldDrift": 0.0,
+          "minHoldHeight": 0.11727289731639502,
+          "finalHeight": 0.11727289731639502,
+          "fixture": false,
+          "seed": 20270028,
+          "params": {
+            "center": [
+              -0.012155225645510208,
+              0.006301049418985067,
+              0.03516188011888401
+            ],
+            "radius": 0.02526437395198038,
+            "mass": 0.054024802920906397,
+            "friction": 1.084323186794042
+          }
+        },
+        {
+          "success": false,
+          "return_": 13.303728390860673,
+          "steps": 48,
+          "dropped": true,
+          "bad": false,
+          "minHoldDigits": 0,
+          "maxHoldDrift": 0.0,
+          "minHoldHeight": 0.07694664710502575,
+          "finalHeight": 0.07694664710502575,
+          "fixture": false,
+          "seed": 20270029,
+          "params": {
+            "center": [
+              -0.007935223696318196,
+              0.008920665530054779,
+              0.04094070398181032
+            ],
+            "radius": 0.02342954576297375,
+            "mass": 0.03651885033572319,
+            "friction": 0.966018633598803
+          }
+        },
+        {
+          "success": false,
+          "return_": 12.123254801510505,
+          "steps": 45,
+          "dropped": true,
+          "bad": false,
+          "minHoldDigits": 0,
+          "maxHoldDrift": 0.0,
+          "minHoldHeight": 0.11291576506735679,
+          "finalHeight": 0.11291576506735679,
+          "fixture": false,
+          "seed": 20270030,
+          "params": {
+            "center": [
+              -0.007060084128667387,
+              0.007929421713968769,
+              0.03845999988597467
+            ],
+            "radius": 0.025781151399485218,
+            "mass": 0.038545124691801866,
+            "friction": 0.7844388583355693
+          }
+        },
+        {
+          "success": false,
+          "return_": 23.10877473236291,
+          "steps": 59,
+          "dropped": true,
+          "bad": false,
+          "minHoldDigits": 0,
+          "maxHoldDrift": 0.18058988334790863,
+          "minHoldHeight": 0.12322229776985047,
+          "finalHeight": 0.12322229776985047,
+          "fixture": false,
+          "seed": 20270031,
+          "params": {
+            "center": [
+              -0.012242229496061536,
+              0.012037166238800244,
+              0.03455409555865216
+            ],
+            "radius": 0.024364666608338383,
+            "mass": 0.024766104088204722,
+            "friction": 1.145664050706205
+          }
+        },
+        {
+          "success": true,
+          "return_": 129.74187872941636,
+          "steps": 150,
+          "dropped": false,
+          "bad": false,
+          "minHoldDigits": 3,
+          "maxHoldDrift": 0.009702775270956282,
+          "minHoldHeight": 0.27930444615666666,
+          "finalHeight": 0.28259115588525,
+          "fixture": false,
+          "seed": 20270032,
+          "params": {
+            "center": [
+              -0.010797062120424673,
+              0.011740925254145652,
+              0.04023123431130218
+            ],
+            "radius": 0.02243637716648142,
+            "mass": 0.03519879917824482,
+            "friction": 0.5399127815295917
+          }
+        },
+        {
+          "success": false,
+          "return_": 6.57786545683703,
+          "steps": 42,
+          "dropped": true,
+          "bad": false,
+          "minHoldDigits": 0,
+          "maxHoldDrift": 0.0,
+          "minHoldHeight": 0.09320832792903698,
+          "finalHeight": 0.09320832792903698,
+          "fixture": false,
+          "seed": 20270033,
+          "params": {
+            "center": [
+              -0.01186963034799848,
+              0.005804413336276879,
+              0.03378071430426182
+            ],
+            "radius": 0.025365399824409014,
+            "mass": 0.06996468023360053,
+            "friction": 1.3902475143032846
+          }
+        },
+        {
+          "success": false,
+          "return_": 11.418606710051574,
+          "steps": 45,
+          "dropped": true,
+          "bad": false,
+          "minHoldDigits": 0,
+          "maxHoldDrift": 0.0,
+          "minHoldHeight": 0.08378484939449236,
+          "finalHeight": 0.08378484939449236,
+          "fixture": false,
+          "seed": 20270034,
+          "params": {
+            "center": [
+              -0.0065582448351113615,
+              0.010042108147498629,
+              0.03583497723313616
+            ],
+            "radius": 0.021919431958679538,
+            "mass": 0.07119912730664814,
+            "friction": 1.3119906202814995
+          }
+        },
+        {
+          "success": true,
+          "return_": 139.41565832568443,
+          "steps": 150,
+          "dropped": false,
+          "bad": false,
+          "minHoldDigits": 4,
+          "maxHoldDrift": 0.00608669134947962,
+          "minHoldHeight": 0.2792846913930579,
+          "finalHeight": 0.2836208969112616,
+          "fixture": false,
+          "seed": 20270035,
+          "params": {
+            "center": [
+              -0.0056754830293906456,
+              0.01393249474009732,
+              0.036497906828475944
+            ],
+            "radius": 0.02143213742207215,
+            "mass": 0.025014470525467,
+            "friction": 0.5474622181736445
+          }
+        },
+        {
+          "success": false,
+          "return_": 12.004683534203092,
+          "steps": 44,
+          "dropped": true,
+          "bad": false,
+          "minHoldDigits": 0,
+          "maxHoldDrift": 0.0,
+          "minHoldHeight": 0.12795113659713478,
+          "finalHeight": 0.12795113659713478,
+          "fixture": false,
+          "seed": 20270036,
+          "params": {
+            "center": [
+              -0.00979271654546095,
+              0.007271096150278273,
+              0.03458931038251298
+            ],
+            "radius": 0.024734144151388766,
+            "mass": 0.06342058236757327,
+            "friction": 1.3029797260078795
+          }
+        },
+        {
+          "success": false,
+          "return_": 12.301365882031927,
+          "steps": 46,
+          "dropped": true,
+          "bad": false,
+          "minHoldDigits": 0,
+          "maxHoldDrift": 0.0,
+          "minHoldHeight": 0.10399596486021372,
+          "finalHeight": 0.10399596486021372,
+          "fixture": false,
+          "seed": 20270037,
+          "params": {
+            "center": [
+              -0.007329571765637508,
+              0.00983383504691294,
+              0.040895710223674005
+            ],
+            "radius": 0.02258960797699604,
+            "mass": 0.06892536293515111,
+            "friction": 0.8329438787502788
+          }
+        },
+        {
+          "success": false,
+          "return_": 14.880519851736842,
+          "steps": 49,
+          "dropped": true,
+          "bad": false,
+          "minHoldDigits": 0,
+          "maxHoldDrift": 0.0,
+          "minHoldHeight": 0.13422532538541493,
+          "finalHeight": 0.13422532538541493,
+          "fixture": false,
+          "seed": 20270038,
+          "params": {
+            "center": [
+              -0.01253327483084552,
+              0.011428491797490774,
+              0.03885386490635033
+            ],
+            "radius": 0.02197440676886086,
+            "mass": 0.026509042847701232,
+            "friction": 1.386233713724923
+          }
+        },
+        {
+          "success": false,
+          "return_": 8.997687497553198,
+          "steps": 41,
+          "dropped": true,
+          "bad": false,
+          "minHoldDigits": 0,
+          "maxHoldDrift": 0.0,
+          "minHoldHeight": 0.11318327990116842,
+          "finalHeight": 0.11318327990116842,
+          "fixture": false,
+          "seed": 20270039,
+          "params": {
+            "center": [
+              -0.011225321286880405,
+              0.006913956442561296,
+              0.039653971722171694
+            ],
+            "radius": 0.025061095942313708,
+            "mass": 0.08202659864089992,
+            "friction": 1.3222622850139285
+          }
+        },
+        {
+          "success": false,
+          "return_": 16.734622869067596,
+          "steps": 50,
+          "dropped": true,
+          "bad": false,
+          "minHoldDigits": 0,
+          "maxHoldDrift": 0.16365027630743162,
+          "minHoldHeight": 0.13941326005357482,
+          "finalHeight": 0.13941326005357482,
+          "fixture": false,
+          "seed": 20270040,
+          "params": {
+            "center": [
+              -0.010722368169917097,
+              0.013962507801348084,
+              0.03506556467482295
+            ],
+            "radius": 0.024486759118832527,
+            "mass": 0.07896028239827389,
+            "friction": 1.0693263795989616
+          }
+        },
+        {
+          "success": false,
+          "return_": 41.78726656081751,
+          "steps": 81,
+          "dropped": true,
+          "bad": false,
+          "minHoldDigits": 0,
+          "maxHoldDrift": 0.1627593156682095,
+          "minHoldHeight": 0.14170113697048536,
+          "finalHeight": 0.14170113697048536,
+          "fixture": false,
+          "seed": 20270041,
+          "params": {
+            "center": [
+              -0.01279263804121457,
+              0.008082349032242302,
+              0.03376398518897068
+            ],
+            "radius": 0.023823148849959494,
+            "mass": 0.04820826912421285,
+            "friction": 0.7419951327973268
+          }
+        },
+        {
+          "success": true,
+          "return_": 127.76680538499447,
+          "steps": 150,
+          "dropped": false,
+          "bad": false,
+          "minHoldDigits": 4,
+          "maxHoldDrift": 0.010560888989891534,
+          "minHoldHeight": 0.2775840116745437,
+          "finalHeight": 0.28140068173069055,
+          "fixture": false,
+          "seed": 20270042,
+          "params": {
+            "center": [
+              -0.010179021445283532,
+              0.009660643561670694,
+              0.041055491133575
+            ],
+            "radius": 0.022574023370407086,
+            "mass": 0.07641411353541776,
+            "friction": 0.5110207863193121
+          }
+        },
+        {
+          "success": false,
+          "return_": 11.838619466304252,
+          "steps": 45,
+          "dropped": true,
+          "bad": false,
+          "minHoldDigits": 0,
+          "maxHoldDrift": 0.0,
+          "minHoldHeight": 0.09489181275306066,
+          "finalHeight": 0.09489181275306066,
+          "fixture": false,
+          "seed": 20270043,
+          "params": {
+            "center": [
+              -0.012220154715480493,
+              0.005781264909029724,
+              0.03848377887303266
+            ],
+            "radius": 0.021676350911302898,
+            "mass": 0.04719939929078902,
+            "friction": 1.1305025043938113
+          }
+        },
+        {
+          "success": false,
+          "return_": 21.50446229208481,
+          "steps": 56,
+          "dropped": true,
+          "bad": false,
+          "minHoldDigits": 0,
+          "maxHoldDrift": 0.17779397312420128,
+          "minHoldHeight": 0.11590786084742763,
+          "finalHeight": 0.11590786084742763,
+          "fixture": false,
+          "seed": 20270044,
+          "params": {
+            "center": [
+              -0.015835103542627762,
+              0.01082274011415734,
+              0.03893544453309282
+            ],
+            "radius": 0.024912785725603587,
+            "mass": 0.03687747517202841,
+            "friction": 1.269097199904002
+          }
+        },
+        {
+          "success": false,
+          "return_": 15.583024771596495,
+          "steps": 50,
+          "dropped": true,
+          "bad": false,
+          "minHoldDigits": 0,
+          "maxHoldDrift": 0.205224539416215,
+          "minHoldHeight": 0.09575433225553072,
+          "finalHeight": 0.09575433225553072,
+          "fixture": false,
+          "seed": 20270045,
+          "params": {
+            "center": [
+              -0.010560574655587308,
+              0.010942848289016595,
+              0.035686169319123655
+            ],
+            "radius": 0.021877716573405932,
+            "mass": 0.022544410647690315,
+            "friction": 1.1579343941196143
+          }
+        },
+        {
+          "success": false,
+          "return_": 18.869764477551087,
+          "steps": 53,
+          "dropped": true,
+          "bad": false,
+          "minHoldDigits": 0,
+          "maxHoldDrift": 0.16775932265851687,
+          "minHoldHeight": 0.1245974088061012,
+          "finalHeight": 0.1245974088061012,
+          "fixture": false,
+          "seed": 20270046,
+          "params": {
+            "center": [
+              -0.011851371335622782,
+              0.013207769498736423,
+              0.03868288908787936
+            ],
+            "radius": 0.024676525970073256,
+            "mass": 0.04386531379541854,
+            "friction": 1.3155643920651
+          }
+        },
+        {
+          "success": false,
+          "return_": 19.79368588869052,
+          "steps": 54,
+          "dropped": true,
+          "bad": false,
+          "minHoldDigits": 0,
+          "maxHoldDrift": 0.17228663228695104,
+          "minHoldHeight": 0.13428071137359296,
+          "finalHeight": 0.13428071137359296,
+          "fixture": false,
+          "seed": 20270047,
+          "params": {
+            "center": [
+              -0.009832613869882809,
+              0.010873717086418617,
+              0.03749715912537789
+            ],
+            "radius": 0.025865252607916552,
+            "mass": 0.05871106246429485,
+            "friction": 0.9821873562986958
+          }
+        },
+        {
+          "success": false,
+          "return_": 13.756163449212146,
+          "steps": 47,
+          "dropped": true,
+          "bad": false,
+          "minHoldDigits": 0,
+          "maxHoldDrift": 0.0,
+          "minHoldHeight": 0.1266254640809573,
+          "finalHeight": 0.1266254640809573,
+          "fixture": false,
+          "seed": 20270048,
+          "params": {
+            "center": [
+              -0.0075017809676497064,
+              0.010789748929762828,
+              0.03893245379165724
+            ],
+            "radius": 0.025836565311279678,
+            "mass": 0.05633407195194265,
+            "friction": 1.0219236961151241
+          }
+        },
+        {
+          "success": false,
+          "return_": 11.216388597843885,
+          "steps": 44,
+          "dropped": true,
+          "bad": false,
+          "minHoldDigits": 0,
+          "maxHoldDrift": 0.0,
+          "minHoldHeight": 0.12839554214769341,
+          "finalHeight": 0.12839554214769341,
+          "fixture": false,
+          "seed": 20270049,
+          "params": {
+            "center": [
+              -0.007150066981596599,
+              0.009623090429037832,
+              0.03335942563164259
+            ],
+            "radius": 0.022088844696402193,
+            "mass": 0.07533473470707049,
+            "friction": 1.0899912541590375
+          }
+        },
+        {
+          "success": false,
+          "return_": 10.041537884315922,
+          "steps": 43,
+          "dropped": true,
+          "bad": false,
+          "minHoldDigits": 0,
+          "maxHoldDrift": 0.0,
+          "minHoldHeight": 0.10060119538377972,
+          "finalHeight": 0.10060119538377972,
+          "fixture": false,
+          "seed": 20270050,
+          "params": {
+            "center": [
+              -0.00762776368093514,
+              0.00629838339436157,
+              0.03738184779423616
+            ],
+            "radius": 0.023073019216223963,
+            "mass": 0.055370113244914816,
+            "friction": 1.1785643432362352
+          }
+        },
+        {
+          "success": false,
+          "return_": 19.477027641373617,
+          "steps": 54,
+          "dropped": true,
+          "bad": false,
+          "minHoldDigits": 0,
+          "maxHoldDrift": 0.1530918192806577,
+          "minHoldHeight": 0.14613979244284891,
+          "finalHeight": 0.14613979244284891,
+          "fixture": false,
+          "seed": 20270051,
+          "params": {
+            "center": [
+              -0.013996835285847723,
+              0.012357531715139028,
+              0.03508357177852536
+            ],
+            "radius": 0.023505558782707037,
+            "mass": 0.03028831910952759,
+            "friction": 1.0907836737858636
+          }
+        },
+        {
+          "success": true,
+          "return_": 134.08897386355068,
+          "steps": 150,
+          "dropped": false,
+          "bad": false,
+          "minHoldDigits": 4,
+          "maxHoldDrift": 0.008262121376143088,
+          "minHoldHeight": 0.2792669245447691,
+          "finalHeight": 0.2834151068723733,
+          "fixture": false,
+          "seed": 20270052,
+          "params": {
+            "center": [
+              -0.005713932397852086,
+              0.014194756160743446,
+              0.03886068058006539
+            ],
+            "radius": 0.021644136299405294,
+            "mass": 0.0243020463246751,
+            "friction": 0.5315434723913515
+          }
+        },
+        {
+          "success": false,
+          "return_": 16.695727222165345,
+          "steps": 50,
+          "dropped": true,
+          "bad": false,
+          "minHoldDigits": 0,
+          "maxHoldDrift": 0.15666856654134528,
+          "minHoldHeight": 0.13915517838051947,
+          "finalHeight": 0.13915517838051947,
+          "fixture": false,
+          "seed": 20270053,
+          "params": {
+            "center": [
+              -0.011822329004931704,
+              0.015194056754262013,
+              0.03578078656796039
+            ],
+            "radius": 0.024535875952533898,
+            "mass": 0.05350765740396209,
+            "friction": 1.3654262417820398
+          }
+        },
+        {
+          "success": false,
+          "return_": 9.851975239726787,
+          "steps": 49,
+          "dropped": true,
+          "bad": false,
+          "minHoldDigits": 0,
+          "maxHoldDrift": 0.0,
+          "minHoldHeight": 0.1038210565728562,
+          "finalHeight": 0.1038210565728562,
+          "fixture": false,
+          "seed": 20270054,
+          "params": {
+            "center": [
+              -0.00679291235146262,
+              0.013644146742970297,
+              0.032509658070863534
+            ],
+            "radius": 0.02545193252289892,
+            "mass": 0.028892791458415282,
+            "friction": 1.0518564628241218
+          }
+        },
+        {
+          "success": false,
+          "return_": 7.583689574836311,
+          "steps": 41,
+          "dropped": true,
+          "bad": false,
+          "minHoldDigits": 0,
+          "maxHoldDrift": 0.0,
+          "minHoldHeight": 0.07329857018405729,
+          "finalHeight": 0.07329857018405729,
+          "fixture": false,
+          "seed": 20270055,
+          "params": {
+            "center": [
+              -0.007460267939911175,
+              0.006759338665582292,
+              0.04001846206455986
+            ],
+            "radius": 0.022772926303225288,
+            "mass": 0.07464278155997724,
+            "friction": 1.3819345617643524
+          }
+        },
+        {
+          "success": false,
+          "return_": 13.754263749380726,
+          "steps": 47,
+          "dropped": true,
+          "bad": false,
+          "minHoldDigits": 0,
+          "maxHoldDrift": 0.0,
+          "minHoldHeight": 0.12406186870325549,
+          "finalHeight": 0.12406186870325549,
+          "fixture": false,
+          "seed": 20270056,
+          "params": {
+            "center": [
+              -0.010497106559792697,
+              0.01308940692529257,
+              0.03840795606482748
+            ],
+            "radius": 0.022079067470431174,
+            "mass": 0.05285695390259479,
+            "friction": 1.3049344737180253
+          }
+        },
+        {
+          "success": false,
+          "return_": 23.882072595208882,
+          "steps": 62,
+          "dropped": true,
+          "bad": false,
+          "minHoldDigits": 0,
+          "maxHoldDrift": 0.1542263203574677,
+          "minHoldHeight": 0.1539339851804292,
+          "finalHeight": 0.1539339851804292,
+          "fixture": false,
+          "seed": 20270057,
+          "params": {
+            "center": [
+              -0.011110160418684381,
+              0.015795989974171743,
+              0.03227978433937778
+            ],
+            "radius": 0.023825077818154718,
+            "mass": 0.07457223504694223,
+            "friction": 0.5993548446844313
+          }
+        },
+        {
+          "success": false,
+          "return_": 22.238873393184953,
+          "steps": 56,
+          "dropped": true,
+          "bad": false,
+          "minHoldDigits": 0,
+          "maxHoldDrift": 0.18206569480694942,
+          "minHoldHeight": 0.1090315706354065,
+          "finalHeight": 0.1090315706354065,
+          "fixture": false,
+          "seed": 20270058,
+          "params": {
+            "center": [
+              -0.010095308355508903,
+              0.0058174107336943694,
+              0.036948896818159466
+            ],
+            "radius": 0.023073070532779513,
+            "mass": 0.027156505368356027,
+            "friction": 0.6912805654318059
+          }
+        },
+        {
+          "success": false,
+          "return_": 12.467822293566243,
+          "steps": 46,
+          "dropped": true,
+          "bad": false,
+          "minHoldDigits": 0,
+          "maxHoldDrift": 0.0,
+          "minHoldHeight": 0.10679733788714368,
+          "finalHeight": 0.10679733788714368,
+          "fixture": false,
+          "seed": 20270059,
+          "params": {
+            "center": [
+              -0.012221280057426032,
+              0.006927883316815572,
+              0.0378607050602049
+            ],
+            "radius": 0.02189936304638728,
+            "mass": 0.04381965532405325,
+            "friction": 0.9963068759359474
+          }
+        },
+        {
+          "success": false,
+          "return_": 63.59522608756483,
+          "steps": 110,
+          "dropped": true,
+          "bad": false,
+          "minHoldDigits": 0,
+          "maxHoldDrift": 0.18967645852466386,
+          "minHoldHeight": 0.10737307891311551,
+          "finalHeight": 0.10737307891311551,
+          "fixture": false,
+          "seed": 20270060,
+          "params": {
+            "center": [
+              -0.01159984513992443,
+              0.008372470854340328,
+              0.039573669012003446
+            ],
+            "radius": 0.02338835865624694,
+            "mass": 0.05678106694520427,
+            "friction": 0.8666609923759392
+          }
+        },
+        {
+          "success": false,
+          "return_": 42.41102959735364,
+          "steps": 82,
+          "dropped": true,
+          "bad": false,
+          "minHoldDigits": 0,
+          "maxHoldDrift": 0.1691839095937346,
+          "minHoldHeight": 0.12883620870419438,
+          "finalHeight": 0.12883620870419438,
+          "fixture": false,
+          "seed": 20270061,
+          "params": {
+            "center": [
+              -0.00596069903413793,
+              0.011519355940035675,
+              0.037075396561760565
+            ],
+            "radius": 0.024317151140360944,
+            "mass": 0.029223752738511355,
+            "friction": 0.5209012114439979
+          }
+        },
+        {
+          "success": false,
+          "return_": 13.781394758312626,
+          "steps": 47,
+          "dropped": true,
+          "bad": false,
+          "minHoldDigits": 0,
+          "maxHoldDrift": 0.0,
+          "minHoldHeight": 0.12068853095401197,
+          "finalHeight": 0.12068853095401197,
+          "fixture": false,
+          "seed": 20270062,
+          "params": {
+            "center": [
+              -0.01212748424626267,
+              0.011282613654592091,
+              0.039926402458479164
+            ],
+            "radius": 0.022595580177669106,
+            "mass": 0.0602678652721072,
+            "friction": 1.1210537824477769
+          }
+        },
+        {
+          "success": false,
+          "return_": 16.229072352188375,
+          "steps": 49,
+          "dropped": true,
+          "bad": false,
+          "minHoldDigits": 0,
+          "maxHoldDrift": 0.0,
+          "minHoldHeight": 0.14806075009988445,
+          "finalHeight": 0.14806075009988445,
+          "fixture": false,
+          "seed": 20270063,
+          "params": {
+            "center": [
+              -0.011986989626291064,
+              0.011037073497911299,
+              0.03753820446324729
+            ],
+            "radius": 0.025838090598659984,
+            "mass": 0.061358157038648914,
+            "friction": 0.47504451750644394
+          }
+        },
+        {
+          "success": false,
+          "return_": 6.889208918219774,
+          "steps": 44,
+          "dropped": true,
+          "bad": false,
+          "minHoldDigits": 0,
+          "maxHoldDrift": 0.0,
+          "minHoldHeight": 0.08542480627653704,
+          "finalHeight": 0.08542480627653704,
+          "fixture": false,
+          "seed": 20270064,
+          "params": {
+            "center": [
+              -0.01550945194097881,
+              0.005979666065474817,
+              0.033484150196990865
+            ],
+            "radius": 0.025842643345995207,
+            "mass": 0.04235031996453609,
+            "friction": 1.0246986931939288
+          }
+        },
+        {
+          "success": false,
+          "return_": 13.351882612920427,
+          "steps": 46,
+          "dropped": true,
+          "bad": false,
+          "minHoldDigits": 0,
+          "maxHoldDrift": 0.0,
+          "minHoldHeight": 0.11087331514803125,
+          "finalHeight": 0.11087331514803125,
+          "fixture": false,
+          "seed": 20270065,
+          "params": {
+            "center": [
+              -0.015852960856262456,
+              0.013445765608965985,
+              0.03780443993126556
+            ],
+            "radius": 0.025765093014846745,
+            "mass": 0.07420944030799143,
+            "friction": 0.5739483814632866
+          }
+        },
+        {
+          "success": false,
+          "return_": 14.395870063846376,
+          "steps": 47,
+          "dropped": true,
+          "bad": false,
+          "minHoldDigits": 0,
+          "maxHoldDrift": 0.0,
+          "minHoldHeight": 0.08989554598613823,
+          "finalHeight": 0.08989554598613823,
+          "fixture": false,
+          "seed": 20270066,
+          "params": {
+            "center": [
+              -0.010288658653862252,
+              0.011070487698132432,
+              0.035075771406304766
+            ],
+            "radius": 0.024852191036684766,
+            "mass": 0.08119660582434761,
+            "friction": 1.1902611992911702
+          }
+        },
+        {
+          "success": false,
+          "return_": 11.492780879195774,
+          "steps": 45,
+          "dropped": true,
+          "bad": false,
+          "minHoldDigits": 0,
+          "maxHoldDrift": 0.0,
+          "minHoldHeight": 0.10518078118953263,
+          "finalHeight": 0.10518078118953263,
+          "fixture": false,
+          "seed": 20270067,
+          "params": {
+            "center": [
+              -0.006797718002396702,
+              0.014321297511272838,
+              0.035233104094713086
+            ],
+            "radius": 0.022596038763572454,
+            "mass": 0.08098447518691992,
+            "friction": 1.2799290993198627
+          }
+        },
+        {
+          "success": false,
+          "return_": 9.566225373785308,
+          "steps": 42,
+          "dropped": true,
+          "bad": false,
+          "minHoldDigits": 0,
+          "maxHoldDrift": 0.0,
+          "minHoldHeight": 0.1078205113465907,
+          "finalHeight": 0.1078205113465907,
+          "fixture": false,
+          "seed": 20270068,
+          "params": {
+            "center": [
+              -0.014146400407393723,
+              0.008702695338731714,
+              0.040095479154064764
+            ],
+            "radius": 0.023241184436403804,
+            "mass": 0.0732335725366309,
+            "friction": 0.5909604206401594
+          }
+        },
+        {
+          "success": false,
+          "return_": 7.182601804074613,
+          "steps": 48,
+          "dropped": true,
+          "bad": false,
+          "minHoldDigits": 0,
+          "maxHoldDrift": 0.0,
+          "minHoldHeight": 0.13571053598004088,
+          "finalHeight": 0.13571053598004088,
+          "fixture": false,
+          "seed": 20270069,
+          "params": {
+            "center": [
+              -0.007639803179496306,
+              0.008038476144633242,
+              0.03231578658669753
+            ],
+            "radius": 0.024984909158023448,
+            "mass": 0.058243427886850586,
+            "friction": 0.5042149535142239
+          }
+        },
+        {
+          "success": false,
+          "return_": 4.4762285108017315,
+          "steps": 51,
+          "dropped": true,
+          "bad": false,
+          "minHoldDigits": 0,
+          "maxHoldDrift": 0.1844592773418062,
+          "minHoldHeight": 0.12434180082568752,
+          "finalHeight": 0.12434180082568752,
+          "fixture": false,
+          "seed": 20270070,
+          "params": {
+            "center": [
+              -0.010512040184493723,
+              0.013531958226874256,
+              0.0328697260452861
+            ],
+            "radius": 0.025830040891557583,
+            "mass": 0.07233647734852076,
+            "friction": 1.0812675130166793
+          }
+        },
+        {
+          "success": false,
+          "return_": 20.9790647468434,
+          "steps": 57,
+          "dropped": true,
+          "bad": false,
+          "minHoldDigits": 0,
+          "maxHoldDrift": 0.16350058001121218,
+          "minHoldHeight": 0.12563531949720777,
+          "finalHeight": 0.12563531949720777,
+          "fixture": false,
+          "seed": 20270071,
+          "params": {
+            "center": [
+              -0.010264599633913447,
+              0.012074135629786988,
+              0.04069150271860072
+            ],
+            "radius": 0.023524273851062698,
+            "mass": 0.024686613433131756,
+            "friction": 1.3456947363057794
+          }
+        },
+        {
+          "success": false,
+          "return_": 17.256346031966054,
+          "steps": 51,
+          "dropped": true,
+          "bad": false,
+          "minHoldDigits": 0,
+          "maxHoldDrift": 0.21195490793457022,
+          "minHoldHeight": 0.08835621694160663,
+          "finalHeight": 0.08835621694160663,
+          "fixture": false,
+          "seed": 20270072,
+          "params": {
+            "center": [
+              -0.015741744696441747,
+              0.00975319821415522,
+              0.037597565900859296
+            ],
+            "radius": 0.024625297243800817,
+            "mass": 0.03468073691861249,
+            "friction": 0.7814932556125177
+          }
+        },
+        {
+          "success": false,
+          "return_": 66.84655513809608,
+          "steps": 114,
+          "dropped": true,
+          "bad": false,
+          "minHoldDigits": 0,
+          "maxHoldDrift": 0.18692113516416933,
+          "minHoldHeight": 0.1190611267373693,
+          "finalHeight": 0.1190611267373693,
+          "fixture": false,
+          "seed": 20270073,
+          "params": {
+            "center": [
+              -0.009740926309119616,
+              0.00636406350458543,
+              0.032221033753969675
+            ],
+            "radius": 0.024192022284194828,
+            "mass": 0.03155765460368298,
+            "friction": 0.6339573299262866
+          }
+        },
+        {
+          "success": false,
+          "return_": 28.69543373327085,
+          "steps": 64,
+          "dropped": true,
+          "bad": false,
+          "minHoldDigits": 0,
+          "maxHoldDrift": 0.17186480033438117,
+          "minHoldHeight": 0.1299643779448254,
+          "finalHeight": 0.1299643779448254,
+          "fixture": false,
+          "seed": 20270074,
+          "params": {
+            "center": [
+              -0.015506862171607731,
+              0.011484782870532229,
+              0.0343579476670681
+            ],
+            "radius": 0.02318960028796305,
+            "mass": 0.07551832977988722,
+            "friction": 0.8713049323723293
+          }
+        },
+        {
+          "success": false,
+          "return_": 18.303699807644932,
+          "steps": 53,
+          "dropped": true,
+          "bad": false,
+          "minHoldDigits": 0,
+          "maxHoldDrift": 0.1866891676862775,
+          "minHoldHeight": 0.10963104804945488,
+          "finalHeight": 0.10963104804945488,
+          "fixture": false,
+          "seed": 20270075,
+          "params": {
+            "center": [
+              -0.007217411455180089,
+              0.009492161605892025,
+              0.033870767556703686
+            ],
+            "radius": 0.02280764171410365,
+            "mass": 0.024977278912439938,
+            "friction": 0.910403971906586
+          }
+        },
+        {
+          "success": false,
+          "return_": 16.854855635543878,
+          "steps": 51,
+          "dropped": true,
+          "bad": false,
+          "minHoldDigits": 0,
+          "maxHoldDrift": 0.20849649529209005,
+          "minHoldHeight": 0.08497345018459401,
+          "finalHeight": 0.08497345018459401,
+          "fixture": false,
+          "seed": 20270076,
+          "params": {
+            "center": [
+              -0.011533371250894438,
+              0.011155477642963693,
+              0.03634389168018676
+            ],
+            "radius": 0.02291670899007719,
+            "mass": 0.055582514345004226,
+            "friction": 0.951759999828512
+          }
+        },
+        {
+          "success": true,
+          "return_": 133.59360940170083,
+          "steps": 150,
+          "dropped": false,
+          "bad": false,
+          "minHoldDigits": 4,
+          "maxHoldDrift": 0.007839578637721292,
+          "minHoldHeight": 0.28049446729079164,
+          "finalHeight": 0.2809438734041995,
+          "fixture": false,
+          "seed": 20270077,
+          "params": {
+            "center": [
+              -0.010887079491090306,
+              0.0103464435043879,
+              0.035460754043692304
+            ],
+            "radius": 0.024094834740282248,
+            "mass": 0.034083861390293034,
+            "friction": 0.5530705543877774
+          }
+        },
+        {
+          "success": false,
+          "return_": 9.675347963473408,
+          "steps": 43,
+          "dropped": true,
+          "bad": false,
+          "minHoldDigits": 0,
+          "maxHoldDrift": 0.0,
+          "minHoldHeight": 0.07454682995806801,
+          "finalHeight": 0.07454682995806801,
+          "fixture": false,
+          "seed": 20270078,
+          "params": {
+            "center": [
+              -0.012461145652514688,
+              0.006193213819265855,
+              0.04032377579436153
+            ],
+            "radius": 0.02419540594726421,
+            "mass": 0.052487994353823494,
+            "friction": 0.7889677774914067
+          }
+        },
+        {
+          "success": false,
+          "return_": 14.48928564978803,
+          "steps": 48,
+          "dropped": true,
+          "bad": false,
+          "minHoldDigits": 0,
+          "maxHoldDrift": 0.0,
+          "minHoldHeight": 0.12110575116143042,
+          "finalHeight": 0.12110575116143042,
+          "fixture": false,
+          "seed": 20270079,
+          "params": {
+            "center": [
+              -0.0079500535222492,
+              0.010351730147133632,
+              0.034536450753019476
+            ],
+            "radius": 0.025332498878836103,
+            "mass": 0.07344589064258315,
+            "friction": 0.9852775085552082
+          }
+        },
+        {
+          "success": false,
+          "return_": 11.210878938767156,
+          "steps": 44,
+          "dropped": true,
+          "bad": false,
+          "minHoldDigits": 0,
+          "maxHoldDrift": 0.0,
+          "minHoldHeight": 0.09810532917851193,
+          "finalHeight": 0.09810532917851193,
+          "fixture": false,
+          "seed": 20270080,
+          "params": {
+            "center": [
+              -0.009561361894396592,
+              0.008366903019009286,
+              0.03302550549735295
+            ],
+            "radius": 0.0220518022049995,
+            "mass": 0.07982658345586881,
+            "friction": 1.1073195006666383
+          }
+        },
+        {
+          "success": false,
+          "return_": 12.763137857930133,
+          "steps": 45,
+          "dropped": true,
+          "bad": false,
+          "minHoldDigits": 0,
+          "maxHoldDrift": 0.0,
+          "minHoldHeight": 0.08629452926407977,
+          "finalHeight": 0.08629452926407977,
+          "fixture": false,
+          "seed": 20270081,
+          "params": {
+            "center": [
+              -0.015935825136694642,
+              0.005537076996692789,
+              0.03294234371600968
+            ],
+            "radius": 0.024004753052783497,
+            "mass": 0.04360778749957483,
+            "friction": 0.9314008809914177
+          }
+        },
+        {
+          "success": false,
+          "return_": 107.21126893100917,
+          "steps": 150,
+          "dropped": false,
+          "bad": false,
+          "minHoldDigits": 0,
+          "maxHoldDrift": 0.046479270896812606,
+          "minHoldHeight": 0.26614653293501744,
+          "finalHeight": 0.26614653293501744,
+          "fixture": false,
+          "seed": 20270082,
+          "params": {
+            "center": [
+              -0.012110527756634366,
+              0.01327129546885094,
+              0.03818842714008546
+            ],
+            "radius": 0.023666453397308457,
+            "mass": 0.07632480298505206,
+            "friction": 0.6464218566617054
+          }
+        },
+        {
+          "success": false,
+          "return_": 15.43738589456676,
+          "steps": 49,
+          "dropped": true,
+          "bad": false,
+          "minHoldDigits": 0,
+          "maxHoldDrift": 0.0,
+          "minHoldHeight": 0.10144650602117529,
+          "finalHeight": 0.10144650602117529,
+          "fixture": false,
+          "seed": 20270083,
+          "params": {
+            "center": [
+              -0.015766230993431708,
+              0.011836333784840053,
+              0.039295719969159114
+            ],
+            "radius": 0.024998055878218968,
+            "mass": 0.05463903143230041,
+            "friction": 1.2582014724113901
+          }
+        },
+        {
+          "success": false,
+          "return_": 9.007204507744222,
+          "steps": 41,
+          "dropped": true,
+          "bad": false,
+          "minHoldDigits": 0,
+          "maxHoldDrift": 0.0,
+          "minHoldHeight": 0.09735429776767163,
+          "finalHeight": 0.09735429776767163,
+          "fixture": false,
+          "seed": 20270084,
+          "params": {
+            "center": [
+              -0.015525372804064129,
+              0.007754450431830023,
+              0.03626295703539208
+            ],
+            "radius": 0.022120407120885713,
+            "mass": 0.07809190731986626,
+            "friction": 0.8121866216811466
+          }
+        },
+        {
+          "success": false,
+          "return_": 12.824247410517419,
+          "steps": 46,
+          "dropped": true,
+          "bad": false,
+          "minHoldDigits": 0,
+          "maxHoldDrift": 0.0,
+          "minHoldHeight": 0.11469966795221703,
+          "finalHeight": 0.11469966795221703,
+          "fixture": false,
+          "seed": 20270085,
+          "params": {
+            "center": [
+              -0.006332487417331523,
+              0.010095034472791618,
+              0.039554410484013425
+            ],
+            "radius": 0.024864902354364254,
+            "mass": 0.05466096411193414,
+            "friction": 1.0377838549701464
+          }
+        },
+        {
+          "success": false,
+          "return_": 19.503885825377182,
+          "steps": 54,
+          "dropped": true,
+          "bad": false,
+          "minHoldDigits": 0,
+          "maxHoldDrift": 0.20858927404995325,
+          "minHoldHeight": 0.09473676613737005,
+          "finalHeight": 0.09473676613737005,
+          "fixture": false,
+          "seed": 20270086,
+          "params": {
+            "center": [
+              -0.00932064057396221,
+              0.009354257068514837,
+              0.03604905876531184
+            ],
+            "radius": 0.02538667225272239,
+            "mass": 0.07397870589691637,
+            "friction": 0.9474441926468035
+          }
+        },
+        {
+          "success": false,
+          "return_": 14.972057478396001,
+          "steps": 49,
+          "dropped": true,
+          "bad": false,
+          "minHoldDigits": 0,
+          "maxHoldDrift": 0.0,
+          "minHoldHeight": 0.0900821650546815,
+          "finalHeight": 0.0900821650546815,
+          "fixture": false,
+          "seed": 20270087,
+          "params": {
+            "center": [
+              -0.01595085261134168,
+              0.012072452509987935,
+              0.03683359779211447
+            ],
+            "radius": 0.022548724535596764,
+            "mass": 0.03645184309829733,
+            "friction": 1.0564403207541282
+          }
+        },
+        {
+          "success": true,
+          "return_": 133.77514035960763,
+          "steps": 150,
+          "dropped": false,
+          "bad": false,
+          "minHoldDigits": 5,
+          "maxHoldDrift": 0.011412541983465746,
+          "minHoldHeight": 0.27275182339370313,
+          "finalHeight": 0.2799058902928958,
+          "fixture": false,
+          "seed": 20270088,
+          "params": {
+            "center": [
+              -0.008004017478378122,
+              0.009790099265755779,
+              0.035305517308955044
+            ],
+            "radius": 0.025196226838370143,
+            "mass": 0.027974213941591462,
+            "friction": 0.5707750741572787
+          }
+        },
+        {
+          "success": true,
+          "return_": 138.87842717426082,
+          "steps": 150,
+          "dropped": false,
+          "bad": false,
+          "minHoldDigits": 4,
+          "maxHoldDrift": 0.00635733393647939,
+          "minHoldHeight": 0.27859265131302435,
+          "finalHeight": 0.2823932560966323,
+          "fixture": false,
+          "seed": 20270089,
+          "params": {
+            "center": [
+              -0.00632228955180613,
+              0.013801753888182885,
+              0.0327826899406875
+            ],
+            "radius": 0.02261878293926441,
+            "mass": 0.057886306240735944,
+            "friction": 0.4882522595114478
+          }
+        },
+        {
+          "success": false,
+          "return_": 16.527990475713068,
+          "steps": 49,
+          "dropped": true,
+          "bad": false,
+          "minHoldDigits": 0,
+          "maxHoldDrift": 0.0,
+          "minHoldHeight": 0.1381048605790871,
+          "finalHeight": 0.1381048605790871,
+          "fixture": false,
+          "seed": 20270090,
+          "params": {
+            "center": [
+              -0.012687580792061922,
+              0.011967095165068267,
+              0.03484295076767652
+            ],
+            "radius": 0.025559265289352994,
+            "mass": 0.059945054045045174,
+            "friction": 0.48819296728575984
+          }
+        },
+        {
+          "success": false,
+          "return_": 14.38062639435809,
+          "steps": 48,
+          "dropped": true,
+          "bad": false,
+          "minHoldDigits": 0,
+          "maxHoldDrift": 0.0,
+          "minHoldHeight": 0.09529266464170791,
+          "finalHeight": 0.09529266464170791,
+          "fixture": false,
+          "seed": 20270091,
+          "params": {
+            "center": [
+              -0.012416885572075341,
+              0.009176454328957112,
+              0.037231115722462856
+            ],
+            "radius": 0.022949026516615095,
+            "mass": 0.05402630854998501,
+            "friction": 1.2008920627964503
+          }
+        },
+        {
+          "success": false,
+          "return_": 15.006233756063484,
+          "steps": 49,
+          "dropped": true,
+          "bad": false,
+          "minHoldDigits": 0,
+          "maxHoldDrift": 0.0,
+          "minHoldHeight": 0.09655087431131082,
+          "finalHeight": 0.09655087431131082,
+          "fixture": false,
+          "seed": 20270092,
+          "params": {
+            "center": [
+              -0.013999622091958628,
+              0.013425803220586539,
+              0.04080097858276826
+            ],
+            "radius": 0.02378483188116746,
+            "mass": 0.06325787087855023,
+            "friction": 1.294019452984684
+          }
+        },
+        {
+          "success": false,
+          "return_": 13.811037251000927,
+          "steps": 49,
+          "dropped": true,
+          "bad": false,
+          "minHoldDigits": 0,
+          "maxHoldDrift": 0.0,
+          "minHoldHeight": 0.14178290311582376,
+          "finalHeight": 0.14178290311582376,
+          "fixture": false,
+          "seed": 20270093,
+          "params": {
+            "center": [
+              -0.009142838940374523,
+              0.01111645767677789,
+              0.03308644465882407
+            ],
+            "radius": 0.024519858086469212,
+            "mass": 0.05513211804501761,
+            "friction": 1.385734085252356
+          }
+        },
+        {
+          "success": false,
+          "return_": 12.07362575715744,
+          "steps": 46,
+          "dropped": true,
+          "bad": false,
+          "minHoldDigits": 0,
+          "maxHoldDrift": 0.0,
+          "minHoldHeight": 0.11547798715164281,
+          "finalHeight": 0.11547798715164281,
+          "fixture": false,
+          "seed": 20270094,
+          "params": {
+            "center": [
+              -0.006098289381576779,
+              0.015540417308324967,
+              0.03549742808953954
+            ],
+            "radius": 0.022284345615271352,
+            "mass": 0.04570906931336476,
+            "friction": 1.1776679652736388
+          }
+        },
+        {
+          "success": false,
+          "return_": 11.63520328386646,
+          "steps": 45,
+          "dropped": true,
+          "bad": false,
+          "minHoldDigits": 0,
+          "maxHoldDrift": 0.0,
+          "minHoldHeight": 0.08101628257198136,
+          "finalHeight": 0.08101628257198136,
+          "fixture": false,
+          "seed": 20270095,
+          "params": {
+            "center": [
+              -0.008493689579055236,
+              0.010470966660143338,
+              0.0362976858654301
+            ],
+            "radius": 0.024653541354542167,
+            "mass": 0.07191831442610705,
+            "friction": 1.2270147514871697
+          }
+        }
+      ]
+    }
+  }
+}

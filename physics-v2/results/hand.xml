@@ -1,0 +1,170 @@
+<mujoco model="TENDON_01_physics">
+  <compiler angle="degree" autolimits="true" />
+  <option timestep=".001" gravity="0 0 -9.81" integrator="implicitfast" solver="Newton" iterations="80" cone="elliptic" />
+  <size njmax="2000" nconmax="600" />
+  <visual>
+    <global offwidth="1280" offheight="720" />
+    <quality shadowsize="2048" />
+  </visual>
+  <default>
+    <joint damping=".002" armature=".000015" limited="true" />
+    <geom friction="0.8141965816268134 .008 .0005" condim="4" solref=".006 1" solimp=".92 .98 .002" density="1100" contype="1" conaffinity="2" rgba=".64 .72 .75 1" />
+  </default>
+  <worldbody>
+    <light pos="0 -.35 .6" dir="0 .5 -1" diffuse=".9 .9 .9" castshadow="true" />
+    <light pos=".4 .4 .5" dir="-1 -1 -1" diffuse=".6 .65 .7" />
+    <geom name="floor" type="plane" size="1 1 .02" contype="4" conaffinity="2" rgba=".18 .23 .26 1" />
+    <body name="wrist" mocap="true" pos="0 0 .25" quat="0 0 1 0">
+      <geom name="palm" type="box" size=".0395 .038 .010" pos="0 -.009 0" rgba=".35 .43 .49 1" />
+      <geom name="drive" type="box" size=".0375 .021 .012" pos="0 -.069 0" rgba=".22 .29 .33 1" />
+      <site name="palm_frame" pos="0 0 0" size=".002" rgba="1 1 1 0" />
+      <body name="index_yaw" pos="-0.029 0.027 0">
+        <joint name="index_yaw" axis="0 0 1" range="-22 22" stiffness="0" damping=".004" />
+        <geom name="index_base" type="sphere" size=".005" mass=".008" contype="0" conaffinity="0" />
+        <body name="index_link0" pos="0 0 0">
+          <joint name="index_flex0" axis="1 0 0" range="-2 65" stiffness="0.03666930" springref="0" />
+          <geom name="index_segment0" type="capsule" fromto="0 0 0 0 0.043 0" size="0.0064500" rgba=".73 .81 .82 1" />
+          <site name="index_joint0" size=".0017" rgba="0 .75 .68 1" />
+          <body name="index_link1" pos="0 0.043 0">
+            <joint name="index_flex1" axis="1 0 0" range="-2 95" stiffness="0.02026461" springref="0" />
+            <geom name="index_segment1" type="capsule" fromto="0 0 0 0 0.026 0" size="0.0057750" rgba=".73 .81 .82 1" />
+            <site name="index_joint1" size=".0017" rgba="0 .75 .68 1" />
+            <body name="index_link2" pos="0 0.026 0">
+              <joint name="index_flex2" axis="1 0 0" range="-2 65" stiffness="0.02256572" springref="0" />
+              <geom name="index_segment2" type="capsule" fromto="0 0 0 0 0.02 0" size="0.0051000" rgba=".29 .43 .44 1" />
+              <site name="index_joint2" size=".0017" rgba="0 .75 .68 1" />
+              <site name="index_tip" pos="0 0.02 0" size=".0028" rgba="0 .8 .7 1" />
+            </body>
+          </body>
+        </body>
+      </body>
+      <body name="middle_yaw" pos="-0.009 0.032 0">
+        <joint name="middle_yaw" axis="0 0 1" range="-22 22" stiffness="0" damping=".004" />
+        <geom name="middle_base" type="sphere" size=".005" mass=".008" contype="0" conaffinity="0" />
+        <body name="middle_link0" pos="0 0 0">
+          <joint name="middle_flex0" axis="1 0 0" range="-2 70" stiffness="0.03601449" springref="0" />
+          <geom name="middle_segment0" type="capsule" fromto="0 0 0 0 0.047 0" size="0.0068800" rgba=".73 .81 .82 1" />
+          <site name="middle_joint0" size=".0017" rgba="0 .75 .68 1" />
+          <body name="middle_link1" pos="0 0.047 0">
+            <joint name="middle_flex1" axis="1 0 0" range="-2 100" stiffness="0.02016811" springref="0" />
+            <geom name="middle_segment1" type="capsule" fromto="0 0 0 0 0.029 0" size="0.0061600" rgba=".73 .81 .82 1" />
+            <site name="middle_joint1" size=".0017" rgba="0 .75 .68 1" />
+            <body name="middle_link2" pos="0 0.029 0">
+              <joint name="middle_flex2" axis="1 0 0" range="-2 68" stiffness="0.02291831" springref="0" />
+              <geom name="middle_segment2" type="capsule" fromto="0 0 0 0 0.021 0" size="0.0054400" rgba=".29 .43 .44 1" />
+              <site name="middle_joint2" size=".0017" rgba="0 .75 .68 1" />
+              <site name="middle_tip" pos="0 0.021 0" size=".0028" rgba="0 .8 .7 1" />
+            </body>
+          </body>
+        </body>
+      </body>
+      <body name="ring_yaw" pos="0.011 0.028 0">
+        <joint name="ring_yaw" axis="0 0 1" range="-22 22" stiffness="0" damping=".004" />
+        <geom name="ring_base" type="sphere" size=".005" mass=".008" contype="0" conaffinity="0" />
+        <body name="ring_link0" pos="0 0 0">
+          <joint name="ring_flex0" axis="1 0 0" range="-2 72" stiffness="0.03310423" springref="0" />
+          <geom name="ring_segment0" type="capsule" fromto="0 0 0 0 0.044 0" size="0.0064500" rgba=".73 .81 .82 1" />
+          <site name="ring_joint0" size=".0017" rgba="0 .75 .68 1" />
+          <body name="ring_link1" pos="0 0.044 0">
+            <joint name="ring_flex1" axis="1 0 0" range="-2 100" stiffness="0.01925138" springref="0" />
+            <geom name="ring_segment1" type="capsule" fromto="0 0 0 0 0.027 0" size="0.0057750" rgba=".73 .81 .82 1" />
+            <site name="ring_joint1" size=".0017" rgba="0 .75 .68 1" />
+            <body name="ring_link2" pos="0 0.027 0">
+              <joint name="ring_flex2" axis="1 0 0" range="-2 68" stiffness="0.02157018" springref="0" />
+              <geom name="ring_segment2" type="capsule" fromto="0 0 0 0 0.019 0" size="0.0051000" rgba=".29 .43 .44 1" />
+              <site name="ring_joint2" size=".0017" rgba="0 .75 .68 1" />
+              <site name="ring_tip" pos="0 0.019 0" size=".0028" rgba="0 .8 .7 1" />
+            </body>
+          </body>
+        </body>
+      </body>
+      <body name="little_yaw" pos="0.029 0.018 0">
+        <joint name="little_yaw" axis="0 0 1" range="-22 22" stiffness="0" damping=".004" />
+        <geom name="little_base" type="sphere" size=".005" mass=".008" contype="0" conaffinity="0" />
+        <body name="little_link0" pos="0 0 0">
+          <joint name="little_flex0" axis="1 0 0" range="-2 75" stiffness="0.02811313" springref="0" />
+          <geom name="little_segment0" type="capsule" fromto="0 0 0 0 0.034 0" size="0.0053750" rgba=".73 .81 .82 1" />
+          <site name="little_joint0" size=".0017" rgba="0 .75 .68 1" />
+          <body name="little_link1" pos="0 0.034 0">
+            <joint name="little_flex1" axis="1 0 0" range="-2 95" stiffness="0.01688718" springref="0" />
+            <geom name="little_segment1" type="capsule" fromto="0 0 0 0 0.021 0" size="0.0048125" rgba=".73 .81 .82 1" />
+            <site name="little_joint1" size=".0017" rgba="0 .75 .68 1" />
+            <body name="little_link2" pos="0 0.021 0">
+              <joint name="little_flex2" axis="1 0 0" range="-2 62" stiffness="0.02070041" springref="0" />
+              <geom name="little_segment2" type="capsule" fromto="0 0 0 0 0.016 0" size="0.0042500" rgba=".29 .43 .44 1" />
+              <site name="little_joint2" size=".0017" rgba="0 .75 .68 1" />
+              <site name="little_tip" pos="0 0.016 0" size=".0028" rgba="0 .8 .7 1" />
+            </body>
+          </body>
+        </body>
+      </body>
+      <body name="thumb_yaw" pos="-0.04 -0.021 0">
+        <joint name="thumb_yaw" axis="0 0 1" range="-95 65" stiffness="0" damping=".004" />
+        <geom name="thumb_base" type="sphere" size=".005" mass=".008" contype="0" conaffinity="0" />
+        <body name="thumb_link0" pos="0 0 0">
+          <joint name="thumb_flex0" axis="1 0 0" range="-2 36" stiffness="0.07639437" springref="0" />
+          <geom name="thumb_segment0" type="capsule" fromto="0 0 0 0 0.034 0" size="0.0081700" rgba=".73 .81 .82 1" />
+          <site name="thumb_joint0" size=".0017" rgba="0 .75 .68 1" />
+          <body name="thumb_link1" pos="0 0.034 0">
+            <joint name="thumb_flex1" axis="1 0 0" range="-2 60" stiffness="0.03819719" springref="0" />
+            <geom name="thumb_segment1" type="capsule" fromto="0 0 0 0 0.027 0" size="0.0073150" rgba=".73 .81 .82 1" />
+            <site name="thumb_joint1" size=".0017" rgba="0 .75 .68 1" />
+            <body name="thumb_link2" pos="0 0.027 0">
+              <joint name="thumb_flex2" axis="1 0 0" range="-2 65" stiffness="0.02679680" springref="0" />
+              <geom name="thumb_segment2" type="capsule" fromto="0 0 0 0 0.022 0" size="0.0064600" rgba=".29 .43 .44 1" />
+              <site name="thumb_joint2" size=".0017" rgba="0 .75 .68 1" />
+              <site name="thumb_tip" pos="0 0.022 0" size=".0028" rgba="0 .8 .7 1" />
+            </body>
+          </body>
+        </body>
+      </body>
+    </body>
+    <body name="fixture" mocap="true" pos="0.010796639 0.010689784 0.21331903" />
+    <body name="object" pos="0.010796639 0.010689784 0.21331903">
+      <freejoint name="object_free" />
+      <geom name="ball" type="sphere" size="0.0236212191625874" mass="0.045" friction="0.8141965816268134 .008 .0005" condim="4" contype="2" conaffinity="5" rgba=".89 .46 .12 1" />
+    </body>
+  </worldbody>
+  <tendon>
+    <fixed name="index_flexor" limited="false">
+      <joint joint="index_flex0" coef="0.0052000" />
+      <joint joint="index_flex1" coef="0.0042000" />
+      <joint joint="index_flex2" coef="0.0032000" />
+    </fixed>
+    <fixed name="middle_flexor" limited="false">
+      <joint joint="middle_flex0" coef="0.0055000" />
+      <joint joint="middle_flex1" coef="0.0044000" />
+      <joint joint="middle_flex2" coef="0.0034000" />
+    </fixed>
+    <fixed name="ring_flexor" limited="false">
+      <joint joint="ring_flex0" coef="0.0052000" />
+      <joint joint="ring_flex1" coef="0.0042000" />
+      <joint joint="ring_flex2" coef="0.0032000" />
+    </fixed>
+    <fixed name="little_flexor" limited="false">
+      <joint joint="little_flex0" coef="0.0046000" />
+      <joint joint="little_flex1" coef="0.0035000" />
+      <joint joint="little_flex2" coef="0.0028000" />
+    </fixed>
+    <fixed name="thumb_flexor" limited="false">
+      <joint joint="thumb_flex0" coef="0.0060000" />
+      <joint joint="thumb_flex1" coef="0.0050000" />
+      <joint joint="thumb_flex2" coef="0.0038000" />
+    </fixed>
+  </tendon>
+  <actuator>
+    <position name="index_yaw_servo" joint="index_yaw" kp=".65" kv=".025" ctrlrange="-.383972 .383972" forcerange="-.35 .35" />
+    <motor name="index_pull" tendon="index_flexor" gear="1" ctrlrange="0 25" forcerange="0 25" />
+    <position name="middle_yaw_servo" joint="middle_yaw" kp=".65" kv=".025" ctrlrange="-.383972 .383972" forcerange="-.35 .35" />
+    <motor name="middle_pull" tendon="middle_flexor" gear="1" ctrlrange="0 25" forcerange="0 25" />
+    <position name="ring_yaw_servo" joint="ring_yaw" kp=".65" kv=".025" ctrlrange="-.383972 .383972" forcerange="-.35 .35" />
+    <motor name="ring_pull" tendon="ring_flexor" gear="1" ctrlrange="0 25" forcerange="0 25" />
+    <position name="little_yaw_servo" joint="little_yaw" kp=".65" kv=".025" ctrlrange="-.383972 .383972" forcerange="-.35 .35" />
+    <motor name="little_pull" tendon="little_flexor" gear="1" ctrlrange="0 25" forcerange="0 25" />
+    <position name="thumb_yaw_servo" joint="thumb_yaw" kp=".65" kv=".025" ctrlrange="-1.658063 1.134464" forcerange="-.35 .35" />
+    <motor name="thumb_pull" tendon="thumb_flexor" gear="1" ctrlrange="0 25" forcerange="0 25" />
+  </actuator>
+  <equality>
+    <weld name="fixture_hold" body1="fixture" body2="object" relpose="0 0 0 1 0 0 0" solref=".003 1" />
+  </equality>
+</mujoco>

@@ -1,0 +1,42 @@
+[
+  {
+    "name": "fixed",
+    "seed": 921000,
+    "target": -15,
+    "selfGeometryPenetrationMM": 0.008851925372170208,
+    "rodGeometryPenetrationMM": 0.7497414344938246,
+    "retained": true,
+    "success": false,
+    "error": 20.787657782252857
+  },
+  {
+    "name": "rotated",
+    "seed": 921000,
+    "target": -15,
+    "selfGeometryPenetrationMM": 0.008851925372170208,
+    "rodGeometryPenetrationMM": 0.7497414344938246,
+    "retained": true,
+    "success": true,
+    "error": 4.984301297041361
+  },
+  {
+    "name": "positiveHold",
+    "seed": 921001,
+    "target": 15,
+    "selfGeometryPenetrationMM": 0.008734768070645105,
+    "rodGeometryPenetrationMM": 0.7639969970245621,
+    "retained": true,
+    "success": false,
+    "error": 14.309906067820398
+  },
+  {
+    "name": "positive",
+    "seed": 921001,
+    "target": 15,
+    "selfGeometryPenetrationMM": 0.11482626004639777,
+    "rodGeometryPenetrationMM": 0.7639969970245621,
+    "retained": false,
+    "success": false,
+    "error": 5.121372426678369
+  }
+]

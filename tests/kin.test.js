@@ -1,0 +1,6 @@
+import {test} from 'node:test'; import assert from 'node:assert/strict';
+import {controls,solve,forward,pinchGap,FINGERS,PRESETS,RAD} from '../tendonhand-shared/kin.js';
+test('open zero curl and zero stroke',()=>{for(const f of solve(controls())){assert.deepEqual(f.angles,[0,0,0]);assert.equal(f.stroke,0);}});
+test('link lengths remain invariant for every preset and sampled curl',()=>{for(const k of Object.keys(PRESETS))for(let i=0;i<=100;i++){const c=controls(k);c.grip=i/100;for(const f of solve(c)){const p=forward(f);for(let j=0;j<3;j++)assert.ok(Math.abs(Math.hypot(...p[j+1].map((v,k)=>v-p[j][k]))-f.lengths[j])<1e-9);}}});
+test('stroke, spool and spring telemetry are coherent',()=>{let prev=0;for(let i=0;i<=100;i++){const c=controls();c.grip=i/100;for(const f of solve(c)){assert.ok(f.angles.every((v,j)=>v>=0&&v<=f.max[j]));assert.ok(Math.abs(f.stroke-f.angles.reduce((a,v,j)=>a+v*RAD*f.r[j],0))<1e-9);assert.equal(f.spool,f.stroke/8);assert.equal(f.tension,1.2+.38*f.stroke);}const s=solve(c)[0].stroke;assert.ok(s>=prev);prev=s;}});
+test('20 modeled axes and finite tip distance',()=>{assert.equal(FINGERS.length*4,20);for(const k of Object.keys(PRESETS))assert.ok(Number.isFinite(pinchGap(solve(controls(k)))));});

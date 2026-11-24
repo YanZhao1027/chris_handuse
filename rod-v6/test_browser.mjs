@@ -1,0 +1,30 @@
+import {createRequire} from 'node:module';
+import {pathToFileURL} from 'node:url';
+import path from 'node:path';
+import assert from 'node:assert/strict';
+const req=createRequire(process.env.HOME+'/.agents/skills/teardown/package.json');
+const {chromium}=req('playwright');
+const b=await chromium.launch({args:['--enable-webgl','--ignore-gpu-blocklist']});
+try{
+ const p=await b.newPage({viewport:{width:1600,height:900},deviceScaleFactor:1});
+ const errors=[],external=[];
+ p.on('pageerror',e=>errors.push(e.message));
+ p.on('request',r=>{if(/^https?:/.test(r.url()))external.push(r.url());});
+ await p.goto(pathToFileURL(path.resolve('teardown-out/dist/tendonhand-rod-live.html')).href);
+ await p.waitForFunction(()=>window.ROD?.ready);
+ await p.locator('#timeline').fill('6');
+ await p.waitForFunction(()=>window.ROD.frame.t>=5.96);
+ const controlled=await p.evaluate(()=>({summary:window.ROD.summary,rotation:document.querySelector('#rotation').textContent,error:document.querySelector('#error').textContent}));
+ console.log('CONTROLLED',controlled.rotation,controlled.error,controlled.summary.actualRotation);
+ assert.equal(controlled.summary.success,true);
+ assert.ok(controlled.summary.actualRotation.angleDegrees>12);
+ assert.ok(controlled.summary.actualRotation.axis[2]<-.8);
+ await p.screenshot({path:'runs/demo/rod-rotated.png'});
+ await p.locator('[data-case=fixed]').click();await p.locator('#timeline').fill('6');
+ await p.waitForFunction(()=>window.ROD.active==='fixed'&&window.ROD.frame.t>=5.96);
+ const fixed=await p.evaluate(()=>({success:window.ROD.summary.success,rotation:document.querySelector('#rotation').textContent,error:document.querySelector('#error').textContent}));
+ console.log('FIXED',fixed);assert.equal(fixed.success,false);
+ await p.screenshot({path:'runs/demo/rod-fixed.png'});
+ assert.deepEqual(errors,[]);assert.deepEqual(external,[]);
+ console.log('PASS paired rod replay, 3D render, timeline, no JS errors, no external requests');
+}finally{await b.close();}

@@ -1,0 +1,38 @@
+{
+  "worlds": 8192,
+  "variants": 1024,
+  "shape": "sphere",
+  "updates": 180,
+  "rollout": 32,
+  "minibatch": 8192,
+  "epochs": 3,
+  "lr": 0.0002,
+  "seed": 2026112505,
+  "eval_every": 10,
+  "val_n": 48,
+  "out": "runs/sphere01",
+  "warm": null,
+  "obs": 90,
+  "act": 10,
+  "horizon": 150,
+  "baseline": {
+    "n": 48,
+    "grasped": 0.9375,
+    "retained": 0.875,
+    "success": 0.0,
+    "meanErrorRetained": 40.47984051169959,
+    "meanCappedError": 57.91986044773714,
+    "bad": 0
+  },
+  "initial": {
+    "n": 48,
+    "grasped": 0.9375,
+    "retained": 0.875,
+    "success": 0.0,
+    "meanErrorRetained": 40.489209895439025,
+    "meanCappedError": 57.92805865850915,
+    "bad": 0
+  },
+  "goal": "world z, full quaternion error, stable 0.4s within 12 degrees, 25-60 degrees validation",
+  "physics": "mujoco-warp 3.8.1"
+}

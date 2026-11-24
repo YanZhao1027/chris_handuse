@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+.venv/
+.env
+.env.*
+node_modules/
+teardown-out/
+*.log
+**/latest.pt
+**/initial.pt
+**/runs/smoke/
